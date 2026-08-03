@@ -13,7 +13,10 @@
     "encyclopedia": "Enciclopédia de Peixes",
     "glossary": "Glossário",
     "import": "Importar",
-    "settings": "Configurações"
+    "settings": "Configurações",
+    "menu": "Abrir menu de navegação",
+    "expand": "Expandir barra lateral",
+    "collapse": "Recolher barra lateral"
   },
   "theme": { "toggle": "Alternar tema", "light": "Claro", "dark": "Escuro" },
   "lang": { "label": "Idioma" },

@@ -13,7 +13,10 @@
     "encyclopedia": "Fish Encyclopedia",
     "glossary": "Glossary",
     "import": "Import",
-    "settings": "Settings"
+    "settings": "Settings",
+    "menu": "Open navigation menu",
+    "expand": "Expand sidebar",
+    "collapse": "Collapse sidebar"
   },
   "theme": { "toggle": "Toggle theme", "light": "Light", "dark": "Dark" },
   "lang": { "label": "Language" },

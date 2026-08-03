@@ -13,7 +13,10 @@
     "encyclopedia": "Fischlexikon",
     "glossary": "Glossar",
     "import": "Import",
-    "settings": "Einstellungen"
+    "settings": "Einstellungen",
+    "menu": "Navigationsmenü öffnen",
+    "expand": "Seitenleiste erweitern",
+    "collapse": "Seitenleiste einklappen"
   },
   "theme": { "toggle": "Design wechseln", "light": "Hell", "dark": "Dunkel" },
   "lang": { "label": "Sprache" },

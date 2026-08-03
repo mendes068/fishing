@@ -25,6 +25,9 @@ export interface CommonResources {
     glossary: string
     import: string
     settings: string
+    menu: string
+    expand: string
+    collapse: string
   }
   theme: { toggle: string; light: string; dark: string }
   lang: { label: string }
