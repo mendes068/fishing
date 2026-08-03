@@ -1,0 +1,1641 @@
+{
+  "aal": {
+    "id": "aal",
+    "scientificName": "Anguilla anguilla",
+    "commonNames": {
+      "de": "Aal",
+      "en": "European Eel",
+      "pt-BR": "Enguia-europeia"
+    },
+    "habitat": {
+      "de": "Flüsse, Seen, Teiche und Kanäle; nachts aktiv, tagsüber im Schlamm oder zwischen Steinen verborgen.",
+      "en": "Rivers, lakes, ponds and canals; active at night, hiding in mud or among stones during the day.",
+      "pt-BR": "Rios, lagos, lagoas e canais; ativo à noite, escondido na lama ou entre pedras durante o dia."
+    },
+    "maxSize": 130,
+    "minCatchSize": 50,
+    "closedSeason": {
+      "start": "10-01",
+      "end": "03-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Schlangenartig langgestreckter Körper mit kleinen Schuppen, lange Rücken- und Afterflosse, heller Bauch und dunkler Rücken.",
+      "en": "Snake-like elongated body with small scales, long dorsal and anal fins, pale belly and dark back.",
+      "pt-BR": "Corpo alongado como o de uma serpente, com escamas pequenas, nadadeiras dorsal e anal longas, ventre claro e dorso escuro."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "aland": {
+    "id": "aland",
+    "scientificName": "Leuciscus idus",
+    "commonNames": {
+      "de": "Aland",
+      "en": "Ide",
+      "pt-BR": "Ide"
+    },
+    "habitat": {
+      "de": "Größere Flüsse und Seen mit klarem Wasser; hält sich in Schwärmen im Freiwasser auf.",
+      "en": "Larger rivers and lakes with clear water; lives in schools in open water.",
+      "pt-BR": "Rios e lagos maiores com água clara; vive em cardumes em águas abertas."
+    },
+    "maxSize": 60,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, rötliche bis orangerote Brust- und Bauchflossen, grünlich glänzender Rücken, endständiges Maul.",
+      "en": "Deep-bodied, reddish to orange-red pectoral and pelvic fins, greenish shining back, terminal mouth.",
+      "pt-BR": "Corpo alto, nadadeiras peitorais e pélvicas avermelhadas a laranja-avermelhadas, dorso brilhante esverdeado, boca terminal."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "aesche": {
+    "id": "aesche",
+    "scientificName": "Thymallus thymallus",
+    "commonNames": {
+      "de": "Äsche",
+      "en": "Grayling",
+      "pt-BR": "Timalo"
+    },
+    "habitat": {
+      "de": "Schnell fließende, sauerstoffreiche Flüsse und Bäche mit kiesigem Grund.",
+      "en": "Fast-flowing, oxygen-rich rivers and streams with gravel bottom.",
+      "pt-BR": "Rios e riachos de fluxo rápido e ricos em oxigênio, com fundo de cascalho."
+    },
+    "maxSize": 55,
+    "minCatchSize": 30,
+    "closedSeason": {
+      "start": "05-01",
+      "end": "04-30"
+    },
+    "distinguishingFeatures": {
+      "de": "Große, bunte, segelartige Rückenflosse, schlanker silbriger Körper, kleine unterständige Mundöffnung.",
+      "en": "Large, colourful, sail-like dorsal fin, slender silvery body, small inferior mouth.",
+      "pt-BR": "Nadadeira dorsal grande, colorida e em forma de vela, corpo esguio prateado, boca pequena e inferior."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "bachforelle": {
+    "id": "bachforelle",
+    "scientificName": "Salmo trutta fario",
+    "commonNames": {
+      "de": "Bachforelle",
+      "en": "Brown Trout",
+      "pt-BR": "Truta-marrom"
+    },
+    "habitat": {
+      "de": "Sauerstoffreiche, kühle Bäche und Flüsse mit kiesigem Untergrund.",
+      "en": "Oxygen-rich, cool streams and rivers with gravel substrate.",
+      "pt-BR": "Riachos e rios frios e ricos em oxigênio, com substrato de cascalho."
+    },
+    "maxSize": 80,
+    "minCatchSize": 25,
+    "closedSeason": {
+      "start": "10-01",
+      "end": "03-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Rotbraune Punkte mit hellem Hof auf den Flanken, vorhandene Fettflosse, dunkler Rücken, rotbraune Färbung.",
+      "en": "Red-brown spots with pale halos on the flanks, adipose fin present, dark back, red-brown colouring.",
+      "pt-BR": "Pintas castanho-avermelhadas com halo claro nos flancos, nadadeira adiposa presente, dorso escuro, coloração castanho-avermelhada."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "bachneunauge": {
+    "id": "bachneunauge",
+    "scientificName": "Lampetra planeri",
+    "commonNames": {
+      "de": "Bachneunauge",
+      "en": "Brook Lamprey",
+      "pt-BR": "Lampreia-de-riacho"
+    },
+    "habitat": {
+      "de": "Sauerstoffreiche Bäche und Flüsse; Larven leben jahrelang im Schlamm.",
+      "en": "Oxygen-rich streams and rivers; larvae live for years buried in mud.",
+      "pt-BR": "Riachos e rios ricos em oxigênio; as larvas vivem por anos enterradas na lama."
+    },
+    "maxSize": 18,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Aalartig, schuppenlos, sieben Kiemenöffnungen, trichterförmiger Saugmund ohne funktionelle Zähne (Erwachsene fressen nicht).",
+      "en": "Eel-like, scaleless, seven gill openings, funnel-shaped sucking mouth without functional teeth (adults do not feed).",
+      "pt-BR": "Semelhante a enguia, sem escamas, sete aberturas branquiais, boca sugadora em funil sem dentes funcionais (os adultos não se alimentam)."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "barbe": {
+    "id": "barbe",
+    "scientificName": "Barbus barbus",
+    "commonNames": {
+      "de": "Barbe",
+      "en": "Barbel",
+      "pt-BR": "Barbo"
+    },
+    "habitat": {
+      "de": "Schnell strömende Flussabschnitte mit kiesigem Grund, bodenlebend.",
+      "en": "Fast-flowing river sections with gravel bottom, bottom-dwelling.",
+      "pt-BR": "Trechos de rio de correnteza rápida com fundo de cascalho, vive no fundo."
+    },
+    "maxSize": 90,
+    "minCatchSize": 40,
+    "closedSeason": {
+      "start": "05-01",
+      "end": "06-30"
+    },
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, vier Barteln am Maul, unterständiges Maul, rötliche Flossen.",
+      "en": "Elongated body, four barbels at the mouth, inferior mouth, reddish fins.",
+      "pt-BR": "Corpo alongado, quatro barbilhões na boca, boca inferior, nadadeiras avermelhadas."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "bitterling": {
+    "id": "bitterling",
+    "scientificName": "Rhodeus amarus",
+    "commonNames": {
+      "de": "Bitterling",
+      "en": "Bitterling",
+      "pt-BR": "Bitterling-europeu"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer mit Muschelbeständen; laicht in Teichmuscheln ab.",
+      "en": "Standing and slowly flowing waters with mussel beds; spawns into freshwater mussels.",
+      "pt-BR": "Águas paradas e de fluxo lento com populações de mexilhões; desova dentro de mexilhões de água doce."
+    },
+    "maxSize": 10,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kleiner hochrückiger Fisch, laichbereite Männchen mit bunten Farben, unvollständige Seitenlinie.",
+      "en": "Small deep-bodied fish; spawning males display bright colours, incomplete lateral line.",
+      "pt-BR": "Peixe pequeno de corpo alto; machos em desova exibem cores vivas, linha lateral incompleta."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "elritze": {
+    "id": "elritze",
+    "scientificName": "Phoxinus phoxinus",
+    "commonNames": {
+      "de": "Elritze",
+      "en": "European Minnow",
+      "pt-BR": "Vairão"
+    },
+    "habitat": {
+      "de": "Klare, kühle Bäche und Flüsse mit kiesigem Grund, oft in dichten Schwärmen.",
+      "en": "Clear, cool streams and rivers with gravel bottom, often in dense schools.",
+      "pt-BR": "Riachos e rios claros e frios com fundo de cascalho, frequentemente em cardumes densos."
+    },
+    "maxSize": 12,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kleiner gestreckter Fisch, sehr kleine Schuppen, unvollständige Seitenlinie, Laichmännchen mit roten Flanken.",
+      "en": "Small slender fish, very small scales, incomplete lateral line, breeding males with red flanks.",
+      "pt-BR": "Peixe pequeno e esguio, escamas muito pequenas, linha lateral incompleta, machos em reprodução com flancos vermelhos."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "finte": {
+    "id": "finte",
+    "scientificName": "Alosa fallax",
+    "commonNames": {
+      "de": "Finte",
+      "en": "Twaite Shad",
+      "pt-BR": "Sável-falaz"
+    },
+    "habitat": {
+      "de": "Küstennahe Meeresgewässer, zum Laichen in Flüsse aufsteigend.",
+      "en": "Coastal marine waters; migrates into rivers to spawn.",
+      "pt-BR": "Águas marinhas costeiras; sobe aos rios para desovar."
+    },
+    "maxSize": 50,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Seitlich abgeflachter Körper, gesägter Bauchkiel, große Mundspalte, dunkle Fleckenreihe an den Flanken.",
+      "en": "Laterally compressed body, serrated belly keel, large mouth, row of dark spots on the flanks.",
+      "pt-BR": "Corpo comprimido lateralmente, quilha ventral serrilhada, boca grande, fileira de manchas escuras nos flancos."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "flussneunauge": {
+    "id": "flussneunauge",
+    "scientificName": "Lampetra fluviatilis",
+    "commonNames": {
+      "de": "Flussneunauge",
+      "en": "River Lamprey",
+      "pt-BR": "Lampreia-de-rio"
+    },
+    "habitat": {
+      "de": "Flüsse und küstennahe Meeresgewässer; Laichwanderung in die Flüsse.",
+      "en": "Rivers and coastal marine waters; spawning migration into rivers.",
+      "pt-BR": "Rios e águas marinhas costeiras; migração de desova para os rios."
+    },
+    "maxSize": 45,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Aalartig, schuppenlos, sieben Kiemenöffnungen, trichterförmiger Saugmund mit Zähnen.",
+      "en": "Eel-like, scaleless, seven gill openings, funnel-shaped sucking mouth with teeth.",
+      "pt-BR": "Semelhante a enguia, sem escamas, sete aberturas branquiais, boca sugadora em funil com dentes."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "goldsteinbeisser": {
+    "id": "goldsteinbeisser",
+    "scientificName": "Sabanejewia baltica",
+    "commonNames": {
+      "de": "Goldsteinbeißer",
+      "en": "Golden Spined Loach",
+      "pt-BR": "Botia-dourada-do-Báltico"
+    },
+    "habitat": {
+      "de": "Flüsse und Bäche mit sandigem Grund, meist in Ufernähe.",
+      "en": "Rivers and streams with sandy bottom, usually near the banks.",
+      "pt-BR": "Rios e riachos com fundo arenoso, geralmente perto das margens."
+    },
+    "maxSize": 12,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langer, seitlich abgeflachter Körper, sechs Barteln, unterständiges Maul, dunkle Fleckenreihe.",
+      "en": "Long, laterally compressed body, six barbels, inferior mouth, row of dark spots.",
+      "pt-BR": "Corpo longo e comprimido lateralmente, seis barbilhões, boca inferior, fileira de manchas escuras."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "grosse-maraene": {
+    "id": "grosse-maraene",
+    "scientificName": "Coregonus lavaretus",
+    "commonNames": {
+      "de": "Große Maräne",
+      "en": "European Whitefish",
+      "pt-BR": "Coregono-branco"
+    },
+    "habitat": {
+      "de": "Große, tiefe Seen und Brackwasser; Freiwasserregion, Schwarmfisch.",
+      "en": "Large deep lakes and brackish water; open-water zone, schooling fish.",
+      "pt-BR": "Lagos grandes e profundos e águas salobras; zona de águas abertas, peixe de cardume."
+    },
+    "maxSize": 70,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, oberständiges Maul, Fettflosse, dunkle Flossenränder.",
+      "en": "Slender silvery body, superior mouth, adipose fin, dark fin margins.",
+      "pt-BR": "Corpo esguio prateado, boca superior, nadadeira adiposa, margens das nadadeiras escuras."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "groppe": {
+    "id": "groppe",
+    "scientificName": "Cottus gobio",
+    "commonNames": {
+      "de": "Groppe",
+      "en": "European Bullhead",
+      "pt-BR": "Escultor-europeu"
+    },
+    "habitat": {
+      "de": "Steinige Bäche und Flüsse, versteckt unter Steinen.",
+      "en": "Stony streams and rivers, hiding under stones.",
+      "pt-BR": "Riachos e rios pedregosos, escondido sob pedras."
+    },
+    "maxSize": 15,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Großer, breiter Kopf, stachelige Kiemendeckel, zwei Rückenflossen, schuppenlos.",
+      "en": "Large broad head, spiny gill covers, two dorsal fins, scaleless body.",
+      "pt-BR": "Cabeça grande e larga, opérculos espinhosos, duas nadadeiras dorsais, corpo sem escamas."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "gruendling": {
+    "id": "gruendling",
+    "scientificName": "Gobio gobio",
+    "commonNames": {
+      "de": "Gründling",
+      "en": "Gudgeon",
+      "pt-BR": "Góbio"
+    },
+    "habitat": {
+      "de": "Fließende und stehende Gewässer mit sandigem Grund.",
+      "en": "Flowing and standing waters with sandy bottom.",
+      "pt-BR": "Águas correntes e paradas com fundo arenoso."
+    },
+    "maxSize": 20,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, zwei Barteln, unterständiges Maul, kleine dunkle Flecken auf Rücken und Flanken.",
+      "en": "Elongated body, two barbels, inferior mouth, small dark spots on back and flanks.",
+      "pt-BR": "Corpo alongado, dois barbilhões, boca inferior, pequenas manchas escuras no dorso e nos flancos."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "hasel": {
+    "id": "hasel",
+    "scientificName": "Leuciscus leuciscus",
+    "commonNames": {
+      "de": "Hasel",
+      "en": "Dace",
+      "pt-BR": "Escarcho"
+    },
+    "habitat": {
+      "de": "Fließende Gewässer, Ober- und Mittelläufe, in Schwärmen.",
+      "en": "Flowing waters, upper and middle reaches, in schools.",
+      "pt-BR": "Águas correntes, trechos superiores e médios, em cardumes."
+    },
+    "maxSize": 35,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker Körper, kleine Schuppen, gelblich-weiße Flossen, endständiges Maul.",
+      "en": "Slender body, small scales, yellowish-white fins, terminal mouth.",
+      "pt-BR": "Corpo esguio, escamas pequenas, nadadeiras amarelo-esbranquiçadas, boca terminal."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "hecht": {
+    "id": "hecht",
+    "scientificName": "Esox lucius",
+    "commonNames": {
+      "de": "Hecht",
+      "en": "Northern Pike",
+      "pt-BR": "Lúcio"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer mit Wasserpflanzen.",
+      "en": "Standing and slowly flowing waters with aquatic plants.",
+      "pt-BR": "Águas paradas e de fluxo lento com plantas aquáticas."
+    },
+    "maxSize": 150,
+    "minCatchSize": 45,
+    "closedSeason": {
+      "start": "02-01",
+      "end": "03-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, Rückenflosse weit hinten, entenartig abgeflachte Schnauze, grünlich gefärbt mit hellen Flecken.",
+      "en": "Elongated body, dorsal fin far back, duckbill-shaped flattened snout, greenish colouring with pale spots.",
+      "pt-BR": "Corpo alongado, nadadeira dorsal bem recuada, focinho achatado como bico de pato, coloração esverdeada com manchas claras."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "karpfen": {
+    "id": "karpfen",
+    "scientificName": "Cyprinus carpio",
+    "commonNames": {
+      "de": "Karpfen",
+      "en": "Common Carp",
+      "pt-BR": "Carpa-comum"
+    },
+    "habitat": {
+      "de": "Warme, stehende und langsam fließende Gewässer mit schlammigem Grund und dichter Vegetation.",
+      "en": "Warm, standing and slowly flowing waters with muddy bottom and dense vegetation.",
+      "pt-BR": "Águas quentes, paradas e de fluxo lento, com fundo lodoso e vegetação densa."
+    },
+    "maxSize": 120,
+    "minCatchSize": 35,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, große Schuppen, zwei Barteln am Maul, lange Rückenflosse.",
+      "en": "Deep-bodied, large scales, two barbels at the mouth, long dorsal fin.",
+      "pt-BR": "Corpo alto, escamas grandes, dois barbilhões na boca, nadadeira dorsal longa."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "kleine-maraene": {
+    "id": "kleine-maraene",
+    "scientificName": "Coregonus albula",
+    "commonNames": {
+      "de": "Kleine Maräne",
+      "en": "Vendace",
+      "pt-BR": "Vendácea"
+    },
+    "habitat": {
+      "de": "Tiefe, klare Seen, Freiwasserregion, Schwarmfisch.",
+      "en": "Deep clear lakes, open-water zone, schooling fish.",
+      "pt-BR": "Lagos profundos e claros, zona de águas abertas, peixe de cardume."
+    },
+    "maxSize": 40,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, oberständiges Maul, Fettflosse, relativ große Augen.",
+      "en": "Slender silvery body, superior mouth, adipose fin, relatively large eyes.",
+      "pt-BR": "Corpo esguio prateado, boca superior, nadadeira adiposa, olhos relativamente grandes."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "kleiner-stichling": {
+    "id": "kleiner-stichling",
+    "scientificName": "Pungitius pungitius",
+    "commonNames": {
+      "de": "Kleiner Stichling",
+      "en": "Ninespine Stickleback",
+      "pt-BR": "Esgana-gata-de-nove-espinhos"
+    },
+    "habitat": {
+      "de": "Pflanzenreiche stehende und langsam fließende Gewässer.",
+      "en": "Weedy standing and slowly flowing waters.",
+      "pt-BR": "Águas paradas e de fluxo lento, ricas em vegetação."
+    },
+    "maxSize": 8,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Seitlich abgeflachter Körper, 8 bis 11 kleine Rückenstacheln, zwei Bauchstacheln.",
+      "en": "Laterally compressed body, 8 to 11 small dorsal spines, two pelvic spines.",
+      "pt-BR": "Corpo comprimido lateralmente, de 8 a 11 espinhos dorsais pequenos, dois espinhos pélvicos."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "lachs": {
+    "id": "lachs",
+    "scientificName": "Salmo salar",
+    "commonNames": {
+      "de": "Lachs",
+      "en": "Atlantic Salmon",
+      "pt-BR": "Salmão-do-Atlântico"
+    },
+    "habitat": {
+      "de": "Meer, zum Laichen weit in die Flüsse aufsteigend (anadrom).",
+      "en": "Sea; migrates far up rivers to spawn (anadromous).",
+      "pt-BR": "Mar; sobe longos trechos de rios para desovar (anádromo)."
+    },
+    "maxSize": 150,
+    "minCatchSize": 60,
+    "closedSeason": {
+      "start": "10-01",
+      "end": "12-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, schwarze X-förmige Flecken, Fettflosse, tief gegabelte Schwanzflosse.",
+      "en": "Slender silvery body, black X-shaped spots, adipose fin, deeply forked tail fin.",
+      "pt-BR": "Corpo esguio prateado, manchas pretas em forma de X, nadadeira adiposa, nadadeira caudal profundamente bifurcada."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "maifisch": {
+    "id": "maifisch",
+    "scientificName": "Alosa alosa",
+    "commonNames": {
+      "de": "Maifisch",
+      "en": "Allis Shad",
+      "pt-BR": "Sável"
+    },
+    "habitat": {
+      "de": "Küstennahe Meeresgewässer, zum Laichen weit in die Flüsse aufsteigend.",
+      "en": "Coastal marine waters; migrates far up rivers to spawn.",
+      "pt-BR": "Águas marinhas costeiras; sobe longos trechos de rios para desovar."
+    },
+    "maxSize": 60,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger, seitlich abgeflachter Körper, gesägter Bauchkiel, dunkle Flecken an den Flanken.",
+      "en": "Deep, laterally compressed body, serrated belly keel, dark spots on the flanks.",
+      "pt-BR": "Corpo alto e comprimido lateralmente, quilha ventral serrilhada, manchas escuras nos flancos."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "meerforelle": {
+    "id": "meerforelle",
+    "scientificName": "Salmo trutta trutta",
+    "commonNames": {
+      "de": "Meerforelle",
+      "en": "Sea Trout",
+      "pt-BR": "Truta-marisca"
+    },
+    "habitat": {
+      "de": "Meer und Küstengewässer, zum Laichen in Flüsse aufsteigend; Jungfische in Bächen.",
+      "en": "Sea and coastal waters, ascending rivers to spawn; juveniles in streams.",
+      "pt-BR": "Mar e águas costeiras, sobe os rios para desovar; os juvenis vivem em riachos."
+    },
+    "maxSize": 110,
+    "minCatchSize": 60,
+    "closedSeason": {
+      "start": "10-01",
+      "end": "01-15"
+    },
+    "distinguishingFeatures": {
+      "de": "Silbriger Körper mit dunklen Flecken, Fettflosse, kräftige Schwanzflosse, meist schlanker als die Bachforelle.",
+      "en": "Silvery body with dark spots, adipose fin, strong tail fin, usually slimmer than brown trout.",
+      "pt-BR": "Corpo prateado com manchas escuras, nadadeira adiposa, nadadeira caudal forte, geralmente mais esguia que a truta-marrom."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "meerneunauge": {
+    "id": "meerneunauge",
+    "scientificName": "Petromyzon marinus",
+    "commonNames": {
+      "de": "Meerneunauge",
+      "en": "Sea Lamprey",
+      "pt-BR": "Lampreia-marinha"
+    },
+    "habitat": {
+      "de": "Meer, zum Laichen in Flüsse aufsteigend.",
+      "en": "Sea; ascends rivers to spawn.",
+      "pt-BR": "Mar; sobe os rios para desovar."
+    },
+    "maxSize": 100,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Groß, aalartig, schuppenlos, sieben Kiemenöffnungen, großer Saugmund mit Zähnen, dunkle Marmorierung.",
+      "en": "Large, eel-like, scaleless, seven gill openings, large sucking mouth with teeth, dark marbling.",
+      "pt-BR": "Grande, semelhante a enguia, sem escamas, sete aberturas branquiais, grande boca sugadora com dentes, marmoreado escuro."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "moderlieschen": {
+    "id": "moderlieschen",
+    "scientificName": "Leucaspius delineatus",
+    "commonNames": {
+      "de": "Moderlieschen",
+      "en": "Sunbleak",
+      "pt-BR": "Vairão-delineado"
+    },
+    "habitat": {
+      "de": "Kleine, pflanzenreiche stehende Gewässer, Gräben und Teiche.",
+      "en": "Small, weedy standing waters, ditches and ponds.",
+      "pt-BR": "Pequenas águas paradas com vegetação, valas e tanques."
+    },
+    "maxSize": 9,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kleiner gestreckter Fisch, blaue Längsbinde, Seitenlinie nur über wenige Schuppen.",
+      "en": "Small slender fish, bluish longitudinal stripe, lateral line over only a few scales.",
+      "pt-BR": "Peixe pequeno e esguio, faixa longitudinal azulada, linha lateral apenas sobre poucas escamas."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "nase": {
+    "id": "nase",
+    "scientificName": "Chondrostoma nasus",
+    "commonNames": {
+      "de": "Nase",
+      "en": "Common Nase",
+      "pt-BR": "Nase-comum"
+    },
+    "habitat": {
+      "de": "Mittlere und untere Flussabschnitte mit kiesigem Grund.",
+      "en": "Middle and lower river sections with gravel bottom.",
+      "pt-BR": "Trechos médios e baixos dos rios com fundo de cascalho."
+    },
+    "maxSize": 50,
+    "minCatchSize": 25,
+    "closedSeason": {
+      "start": "05-01",
+      "end": "06-30"
+    },
+    "distinguishingFeatures": {
+      "de": "Kräftige knorpelige Schnauze (Nase), unterständiges Maul, silbriger Körper, dunkle Flossen.",
+      "en": "Strong cartilaginous snout (nose), inferior mouth, silvery body, dark fins.",
+      "pt-BR": "Focinho cartilaginoso e saliente (nariz), boca inferior, corpo prateado, nadadeiras escuras."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "nordseeschnaepel": {
+    "id": "nordseeschnaepel",
+    "scientificName": "Coregonus oxyrinchus",
+    "commonNames": {
+      "de": "Nordseeschnäpel",
+      "en": "Houting",
+      "pt-BR": "Houting"
+    },
+    "habitat": {
+      "de": "Küstennahe Brackwasserregionen, zum Laichen in Flüsse aufsteigend.",
+      "en": "Coastal brackish-water regions, ascending rivers to spawn.",
+      "pt-BR": "Regiões costeiras de água salobra, sobe os rios para desovar."
+    },
+    "maxSize": 55,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, längere Schnauze als andere Maränen, Fettflosse.",
+      "en": "Slender silvery body, longer snout than other whitefish, adipose fin.",
+      "pt-BR": "Corpo esguio prateado, focinho mais longo que o de outros coregonídeos, nadadeira adiposa."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "quappe": {
+    "id": "quappe",
+    "scientificName": "Lota lota",
+    "commonNames": {
+      "de": "Quappe",
+      "en": "Burbot",
+      "pt-BR": "Lota"
+    },
+    "habitat": {
+      "de": "Kalte, tiefe Seen und Flüsse, tagsüber verborgen, nachts aktiv.",
+      "en": "Cold deep lakes and rivers, hidden by day, active at night.",
+      "pt-BR": "Lagos e rios frios e profundos, escondido durante o dia, ativo à noite."
+    },
+    "maxSize": 120,
+    "minCatchSize": 30,
+    "closedSeason": {
+      "start": "12-01",
+      "end": "03-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Aalartig gestreckter Körper, eine Bartel am Kinn, zwei Rückenflossen, marmorierte Färbung, einziger dorschartiger Süßwasserfisch.",
+      "en": "Eel-like elongated body, single chin barbel, two dorsal fins, marbled colouring, only cod-like freshwater fish.",
+      "pt-BR": "Corpo alongado como enguia, um barbilhão no queixo, duas nadadeiras dorsais, coloração marmoreada, único peixe de água doce semelhante ao bacalhau."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "rapfen": {
+    "id": "rapfen",
+    "scientificName": "Aspius aspius",
+    "commonNames": {
+      "de": "Rapfen",
+      "en": "Asp",
+      "pt-BR": "Asp"
+    },
+    "habitat": {
+      "de": "Große Flüsse und Seen, räuberisch im Freiwasser.",
+      "en": "Large rivers and lakes, predatory in open water.",
+      "pt-BR": "Grandes rios e lagos, predador em águas abertas."
+    },
+    "maxSize": 100,
+    "minCatchSize": 50,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, vorstehender Unterkiefer, kleine Schuppen, rötliche Brust- und Bauchflossen.",
+      "en": "Elongated body, protruding lower jaw, small scales, reddish pectoral and pelvic fins.",
+      "pt-BR": "Corpo alongado, mandíbula inferior saliente, escamas pequenas, nadadeiras peitorais e pélvicas avermelhadas."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "schlammpeitzger": {
+    "id": "schlammpeitzger",
+    "scientificName": "Misgurnus fossilis",
+    "commonNames": {
+      "de": "Schlammpeitzger",
+      "en": "European Weatherfish",
+      "pt-BR": "Peixe-meteoro"
+    },
+    "habitat": {
+      "de": "Schlammige Gräben, Teiche und Altwässer mit dichtem Pflanzenwuchs.",
+      "en": "Muddy ditches, ponds and backwaters with dense vegetation.",
+      "pt-BR": "Valas lodosa, tanques e águas remansadas com vegetação densa."
+    },
+    "maxSize": 30,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, zehn Barteln, kleine Flossen, wird bei Luftdruckabfall unruhig.",
+      "en": "Elongated body, ten barbels, small fins, becomes restless when air pressure drops.",
+      "pt-BR": "Corpo alongado, dez barbilhões, nadadeiras pequenas, fica inquieto quando a pressão do ar cai."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "schleie": {
+    "id": "schleie",
+    "scientificName": "Tinca tinca",
+    "commonNames": {
+      "de": "Schleie",
+      "en": "Tench",
+      "pt-BR": "Tenca"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer mit weichem Grund und Wasserpflanzen.",
+      "en": "Standing and slowly flowing waters with soft bottom and aquatic plants.",
+      "pt-BR": "Águas paradas e de fluxo lento com fundo macio e plantas aquáticas."
+    },
+    "maxSize": 70,
+    "minCatchSize": 25,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kräftiger hochrückiger Körper, sehr kleine, von Schleim überzogene Schuppen, eine Bartel an jeder Maulseite, rötliche Augen.",
+      "en": "Stout deep body, very small mucus-covered scales, one barbel at each corner of the mouth, reddish eyes.",
+      "pt-BR": "Corpo robusto e alto, escamas muito pequenas cobertas de muco, um barbilhão em cada canto da boca, olhos avermelhados."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "schmerle": {
+    "id": "schmerle",
+    "scientificName": "Barbatula barbatula",
+    "commonNames": {
+      "de": "Schmerle",
+      "en": "Stone Loach",
+      "pt-BR": "Botia-de-pedra"
+    },
+    "habitat": {
+      "de": "Fließende Gewässer mit steinigem Grund.",
+      "en": "Flowing waters with stony bottom.",
+      "pt-BR": "Águas correntes com fundo pedregoso."
+    },
+    "maxSize": 15,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, sechs Barteln, unterständiges Maul, unregelmäßige Fleckung.",
+      "en": "Elongated body, six barbels, inferior mouth, irregular spotting.",
+      "pt-BR": "Corpo alongado, seis barbilhões, boca inferior, manchas irregulares."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "schneider": {
+    "id": "schneider",
+    "scientificName": "Alburnoides bipunctatus",
+    "commonNames": {
+      "de": "Schneider",
+      "en": "Riffle Minnow",
+      "pt-BR": "Bordalo-de-ribeira"
+    },
+    "habitat": {
+      "de": "Sauerstoffreiche Flüsse und Bäche mit kiesigem Grund, in Schwärmen.",
+      "en": "Oxygen-rich rivers and streams with gravel bottom, in schools.",
+      "pt-BR": "Rios e riachos ricos em oxigênio com fundo de cascalho, em cardumes."
+    },
+    "maxSize": 15,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, zwei dunkle Punktreihen entlang der Flanken, oberständiges Maul.",
+      "en": "Slender silvery body, two rows of dark dots along the flanks, superior mouth.",
+      "pt-BR": "Corpo esguio prateado, duas fileiras de pontos escuros ao longo dos flancos, boca superior."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "seeforelle": {
+    "id": "seeforelle",
+    "scientificName": "Salmo trutta lacustris",
+    "commonNames": {
+      "de": "Seeforelle",
+      "en": "Lake Trout",
+      "pt-BR": "Truta-lacustre"
+    },
+    "habitat": {
+      "de": "Große, tiefe Seen, zum Laichen in die Zuflüsse aufsteigend.",
+      "en": "Large deep lakes, ascending tributaries to spawn.",
+      "pt-BR": "Lagos grandes e profundos, sobe os afluentes para desovar."
+    },
+    "maxSize": 130,
+    "minCatchSize": 50,
+    "closedSeason": {
+      "start": "10-01",
+      "end": "01-15"
+    },
+    "distinguishingFeatures": {
+      "de": "Silbriger Körper mit wenigen dunklen Flecken, Fettflosse, tief gegabelte Schwanzflosse.",
+      "en": "Silvery body with few dark spots, adipose fin, deeply forked tail fin.",
+      "pt-BR": "Corpo prateado com poucas manchas escuras, nadadeira adiposa, nadadeira caudal profundamente bifurcada."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "steinbeisser": {
+    "id": "steinbeisser",
+    "scientificName": "Cobitis taenia",
+    "commonNames": {
+      "de": "Steinbeißer",
+      "en": "Spined Loach",
+      "pt-BR": "Botia-espinhosa"
+    },
+    "habitat": {
+      "de": "Sandige oder schlammige Gewässer, gräbt sich tagsüber ein.",
+      "en": "Sandy or muddy waters, buries itself during the day.",
+      "pt-BR": "Águas arenosas ou lodosa, enterra-se durante o dia."
+    },
+    "maxSize": 12,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter, seitlich abgeflachter Körper, sechs Barteln, kleiner beweglicher Dorn unter dem Auge.",
+      "en": "Elongated, laterally compressed body, six barbels, small movable spine below the eye.",
+      "pt-BR": "Corpo alongado e comprimido lateralmente, seis barbilhões, pequeno espinho móvel sob o olho."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "stint": {
+    "id": "stint",
+    "scientificName": "Osmerus eperlanus",
+    "commonNames": {
+      "de": "Stint",
+      "en": "European Smelt",
+      "pt-BR": "Eperlano"
+    },
+    "habitat": {
+      "de": "Küstennahe Gewässer und große Flüsse, zur Laichzeit in den Flüssen.",
+      "en": "Coastal waters and large rivers, in rivers during the spawning season.",
+      "pt-BR": "Águas costeiras e grandes rios, nos rios durante a época de desova."
+    },
+    "maxSize": 30,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, große Schuppen, große Augen, frisch gefangen mit gurkenähnlichem Geruch.",
+      "en": "Slender silvery body, large scales, large eyes, fresh-caught fish smell like cucumber.",
+      "pt-BR": "Corpo esguio prateado, escamas grandes, olhos grandes, peixes recém-capturados cheiram a pepino."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "stoer": {
+    "id": "stoer",
+    "scientificName": "Acipenser sturio",
+    "commonNames": {
+      "de": "Stör",
+      "en": "European Sea Sturgeon",
+      "pt-BR": "Esturjão-europeu"
+    },
+    "habitat": {
+      "de": "Meer, zum Laichen in große Flüsse aufsteigend (anadrom), heute in Deutschland extrem selten.",
+      "en": "Sea, ascending large rivers to spawn (anadromous), today extremely rare in Germany.",
+      "pt-BR": "Mar, sobe grandes rios para desovar (anádromo), hoje extremamente raro na Alemanha."
+    },
+    "maxSize": 350,
+    "minCatchSize": null,
+    "closedSeason": {
+      "start": "01-01",
+      "end": "12-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Haifischartiger Körper, fünf Längsreihen aus Knochenplatten, unterständiges Maul mit Barteln, heterozerke Schwanzflosse.",
+      "en": "Shark-like body, five longitudinal rows of bony plates, inferior mouth with barbels, heterocercal tail fin.",
+      "pt-BR": "Corpo semelhante ao de tubarão, cinco fileiras longitudinais de placas ósseas, boca inferior com barbilhões, nadadeira caudal heterocerca."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "weissflossengruendling": {
+    "id": "weissflossengruendling",
+    "scientificName": "Romanogobio albipinnatus",
+    "commonNames": {
+      "de": "Weißflossengründling",
+      "en": "Whitefin Gudgeon",
+      "pt-BR": "Góbio-de-barbatana-branca"
+    },
+    "habitat": {
+      "de": "Große Flüsse mit sandigem oder kiesigem Grund.",
+      "en": "Large rivers with sandy or gravel bottom.",
+      "pt-BR": "Grandes rios com fundo arenoso ou de cascalho."
+    },
+    "maxSize": 15,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, zwei Barteln, hell gerandete Flossen, unterständiges Maul.",
+      "en": "Elongated body, two barbels, fins with pale margins, inferior mouth.",
+      "pt-BR": "Corpo alongado, dois barbilhões, nadadeiras com margens claras, boca inferior."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "zander": {
+    "id": "zander",
+    "scientificName": "Sander lucioperca",
+    "commonNames": {
+      "de": "Zander",
+      "en": "Pike-perch (Zander)",
+      "pt-BR": "Lucíoperca"
+    },
+    "habitat": {
+      "de": "Größere Seen und Flüsse mit trübem Wasser, nachts aktiv.",
+      "en": "Larger lakes and rivers with turbid water, active at night.",
+      "pt-BR": "Lagos e rios maiores com água turva, ativo à noite."
+    },
+    "maxSize": 130,
+    "minCatchSize": 45,
+    "closedSeason": {
+      "start": "04-01",
+      "end": "05-31"
+    },
+    "distinguishingFeatures": {
+      "de": "Langgestreckter Körper, zwei Rückenflossen mit Stacheln, große Augen, dunkle Streifen auf den Flanken.",
+      "en": "Elongated body, two dorsal fins with spines, large eyes, dark stripes on the flanks.",
+      "pt-BR": "Corpo alongado, duas nadadeiras dorsais com espinhos, olhos grandes, faixas escuras nos flancos."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "zaehrte": {
+    "id": "zaehrte",
+    "scientificName": "Vimba vimba",
+    "commonNames": {
+      "de": "Zährte",
+      "en": "Vimba Bream",
+      "pt-BR": "Vimba"
+    },
+    "habitat": {
+      "de": "Fließende Gewässer, Laichwanderung flussaufwärts.",
+      "en": "Flowing waters, spawning migration upstream.",
+      "pt-BR": "Águas correntes, migração de desova rio acima."
+    },
+    "maxSize": 50,
+    "minCatchSize": 25,
+    "closedSeason": {
+      "start": "05-01",
+      "end": "06-30"
+    },
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, deutlich verlängerte Afterflosse, unterständiges Maul, Laichmännchen dunkel gefärbt.",
+      "en": "Deep-bodied, distinctly elongated anal fin, inferior mouth, spawning males darkly coloured.",
+      "pt-BR": "Corpo alto, nadadeira anal nitidamente alongada, boca inferior, machos em desova com coloração escura."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "ziege": {
+    "id": "ziege",
+    "scientificName": "Pelecus cultratus",
+    "commonNames": {
+      "de": "Ziege",
+      "en": "Razor Fish (Sichel)",
+      "pt-BR": "Sichel"
+    },
+    "habitat": {
+      "de": "Große Flüsse und Seen, Freiwasserregion.",
+      "en": "Large rivers and lakes, open-water zone.",
+      "pt-BR": "Grandes rios e lagos, zona de águas abertas."
+    },
+    "maxSize": 60,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter, stark abgeflachter Körper, deutlich oberständiges Maul, gesägter Bauchkiel.",
+      "en": "Elongated, strongly compressed body, clearly superior mouth, serrated belly keel.",
+      "pt-BR": "Corpo alongado e fortemente comprimido, boca nitidamente superior, quilha ventral serrilhada."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "zope": {
+    "id": "zope",
+    "scientificName": "Abramis ballerus",
+    "commonNames": {
+      "de": "Zope",
+      "en": "Blue Bream",
+      "pt-BR": "Brema-azul"
+    },
+    "habitat": {
+      "de": "Größere Flüsse und Seen, Freiwasser, in Schwärmen.",
+      "en": "Larger rivers and lakes, open water, in schools.",
+      "pt-BR": "Rios e lagos maiores, águas abertas, em cardumes."
+    },
+    "maxSize": 40,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger, seitlich abgeflachter Körper, kleine Schuppen, kleines oberständiges Maul, lange Afterflosse.",
+      "en": "Deep, laterally compressed body, small scales, small superior mouth, long anal fin.",
+      "pt-BR": "Corpo alto e comprimido lateralmente, escamas pequenas, boca pequena e superior, nadadeira anal longa."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "hundsfisch": {
+    "id": "hundsfisch",
+    "scientificName": "Umbra krameri",
+    "commonNames": {
+      "de": "Hundsfisch",
+      "en": "European Mudminnow",
+      "pt-BR": "Umbra-europeia"
+    },
+    "habitat": {
+      "de": "Kleine, verkrautete stehende Gewässer und Gräben.",
+      "en": "Small, weedy standing waters and ditches.",
+      "pt-BR": "Pequenas águas paradas com vegetação densa e valas."
+    },
+    "maxSize": 15,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kleiner gedrungener Körper, große runde Schwanzflosse, dunkle Querstreifen, kann Luftsauerstoff über die Schwimmblase aufnehmen.",
+      "en": "Small stocky body, large rounded tail fin, dark cross bars, can absorb oxygen from the air via its swim bladder.",
+      "pt-BR": "Corpo pequeno e robusto, nadadeira caudal grande e arredondada, faixas transversais escuras, pode absorver oxigênio do ar pela bexiga natatória."
+    },
+    "imagePath": "",
+    "protectedStatus": true,
+    "category": "bbgfischo"
+  },
+  "barsch": {
+    "id": "barsch",
+    "scientificName": "Perca fluviatilis",
+    "commonNames": {
+      "de": "Barsch",
+      "en": "European Perch",
+      "pt-BR": "Perca"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer, in Schwärmen.",
+      "en": "Standing and slowly flowing waters, in schools.",
+      "pt-BR": "Águas paradas e de fluxo lento, em cardumes."
+    },
+    "maxSize": 50,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, zwei Rückenflossen (erste mit Stacheln), dunkle Querbalken, rote Bauch-, After- und Schwanzflosse.",
+      "en": "Deep body, two dorsal fins (first with spines), dark vertical bars, red pelvic, anal and tail fins.",
+      "pt-BR": "Corpo alto, duas nadadeiras dorsais (a primeira com espinhos), barras verticais escuras, nadadeiras pélvicas, anal e caudal vermelhas."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "ploetze": {
+    "id": "ploetze",
+    "scientificName": "Rutilus rutilus",
+    "commonNames": {
+      "de": "Plötze (Rotauge)",
+      "en": "Roach",
+      "pt-BR": "Barata (Rutilo)"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer, in großen Schwärmen.",
+      "en": "Standing and slowly flowing waters, in large schools.",
+      "pt-BR": "Águas paradas e de fluxo lento, em grandes cardumes."
+    },
+    "maxSize": 45,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kompakter Körper, rote Iris, rote Bauch- und Afterflossen, kleine Schuppen, endständiges Maul.",
+      "en": "Compact body, red iris, red pelvic and anal fins, small scales, terminal mouth.",
+      "pt-BR": "Corpo compacto, íris vermelha, nadadeiras pélvicas e anal vermelhas, escamas pequenas, boca terminal."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "rotfeder": {
+    "id": "rotfeder",
+    "scientificName": "Scardinius erythrophthalmus",
+    "commonNames": {
+      "de": "Rotfeder",
+      "en": "Rudd",
+      "pt-BR": "Pardelha"
+    },
+    "habitat": {
+      "de": "Pflanzenreiche stehende und langsam fließende Gewässer.",
+      "en": "Weedy standing and slowly flowing waters.",
+      "pt-BR": "Águas paradas e de fluxo lento, ricas em vegetação."
+    },
+    "maxSize": 35,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, leuchtend rote Flossen, oberständiges Maul, goldglänzende Flanken.",
+      "en": "Deep body, bright red fins, superior mouth, golden shining flanks.",
+      "pt-BR": "Corpo alto, nadadeiras vermelho-vivas, boca superior, flancos brilhantes dourados."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "doebel": {
+    "id": "doebel",
+    "scientificName": "Squalius cephalus",
+    "commonNames": {
+      "de": "Döbel",
+      "en": "Chub",
+      "pt-BR": "Bordalo"
+    },
+    "habitat": {
+      "de": "Flüsse und Bäche, unterhalb von Wehren und in Ufernähe.",
+      "en": "Rivers and streams, below weirs and near the banks.",
+      "pt-BR": "Rios e riachos, abaixo de barragens e perto das margens."
+    },
+    "maxSize": 60,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kräftiger Körper mit großem Kopf, große Schuppen, breite Schwanzflosse, dunkler Flossenrand.",
+      "en": "Stout body with large head, large scales, broad tail fin, dark fin margins.",
+      "pt-BR": "Corpo robusto com cabeça grande, escamas grandes, nadadeira caudal larga, margens das nadadeiras escuras."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "guester": {
+    "id": "guester",
+    "scientificName": "Blicca bjoerkna",
+    "commonNames": {
+      "de": "Güster",
+      "en": "Silver Bream",
+      "pt-BR": "Brema-prateada"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer mit Schlammgrund.",
+      "en": "Standing and slowly flowing waters with muddy bottom.",
+      "pt-BR": "Águas paradas e de fluxo lento com fundo lodoso."
+    },
+    "maxSize": 35,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, lange Afterflosse, rötliche Flossenspitzen bei älteren Tieren, stark schleimige Oberfläche.",
+      "en": "Deep body, long anal fin, reddish fin tips in older fish, heavily slimy surface.",
+      "pt-BR": "Corpo alto, nadadeira anal longa, pontas das nadadeiras avermelhadas em peixes mais velhos, superfície muito viscosa."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "blei": {
+    "id": "blei",
+    "scientificName": "Abramis brama",
+    "commonNames": {
+      "de": "Blei (Brasse)",
+      "en": "Common Bream",
+      "pt-BR": "Brema"
+    },
+    "habitat": {
+      "de": "Tiefe, ruhige Gewässer mit schlammigem Grund, in Schwärmen.",
+      "en": "Deep, calm waters with muddy bottom, in schools.",
+      "pt-BR": "Águas profundas e calmas com fundo lodoso, em cardumes."
+    },
+    "maxSize": 75,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Sehr hochrückiger, seitlich abgeflachter Körper, lange Afterflosse, kleines unterständiges Maul, reichlich Schleim.",
+      "en": "Very deep, laterally compressed body, long anal fin, small inferior mouth, abundant slime.",
+      "pt-BR": "Corpo muito alto e comprimido lateralmente, nadadeira anal longa, boca pequena e inferior, muco abundante."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "ukelei": {
+    "id": "ukelei",
+    "scientificName": "Alburnus alburnus",
+    "commonNames": {
+      "de": "Ukelei (Laube)",
+      "en": "Bleak",
+      "pt-BR": "Alburno"
+    },
+    "habitat": {
+      "de": "Flüsse und Seen, Freiwasser, in großen Schwärmen an der Oberfläche.",
+      "en": "Rivers and lakes, open water, in large schools near the surface.",
+      "pt-BR": "Rios e lagos, águas abertas, em grandes cardumes perto da superfície."
+    },
+    "maxSize": 25,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker silbriger Körper, oberständiges Maul, gesägter Bauchkiel, stark glänzende Silberfarbe.",
+      "en": "Slender silvery body, superior mouth, serrated belly keel, strongly shiny silver colour.",
+      "pt-BR": "Corpo esguio prateado, boca superior, quilha ventral serrilhada, cor prateada muito brilhante."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "kaulbarsch": {
+    "id": "kaulbarsch",
+    "scientificName": "Gymnocephalus cernua",
+    "commonNames": {
+      "de": "Kaulbarsch",
+      "en": "Ruffe",
+      "pt-BR": "Perca-ruiva"
+    },
+    "habitat": {
+      "de": "Größere Seen und Flüsse, bodennah in Schwärmen.",
+      "en": "Larger lakes and rivers, near the bottom in schools.",
+      "pt-BR": "Lagos e rios maiores, perto do fundo em cardumes."
+    },
+    "maxSize": 25,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Zwei zusammengewachsene Rückenflossen, große Augen, viele kleine dunkle Flecken, stachelige Flossen.",
+      "en": "Two fused dorsal fins, large eyes, many small dark spots, spiny fins.",
+      "pt-BR": "Duas nadadeiras dorsais fundidas, olhos grandes, muitas manchas escuras pequenas, nadadeiras espinhosas."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "wels": {
+    "id": "wels",
+    "scientificName": "Silurus glanis",
+    "commonNames": {
+      "de": "Wels",
+      "en": "Wels Catfish",
+      "pt-BR": "Siluro"
+    },
+    "habitat": {
+      "de": "Große Flüsse und Seen, tiefe Löcher und unter Wasserhindernissen.",
+      "en": "Large rivers and lakes, deep holes and under underwater obstacles.",
+      "pt-BR": "Grandes rios e lagos, buracos profundos e sob obstáculos subaquáticos."
+    },
+    "maxSize": 250,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter, schuppenloser Körper, riesiges Maul mit zwei langen und vier kurzen Barteln, lange Afterflosse, sehr kleine Augen.",
+      "en": "Elongated, scaleless body, huge mouth with two long and four short barbels, long anal fin, very small eyes.",
+      "pt-BR": "Corpo alongado e sem escamas, boca enorme com dois barbilhões longos e quatro curtos, nadadeira anal longa, olhos muito pequenos."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "karausche": {
+    "id": "karausche",
+    "scientificName": "Carassius carassius",
+    "commonNames": {
+      "de": "Karausche",
+      "en": "Crucian Carp",
+      "pt-BR": "Pimpão"
+    },
+    "habitat": {
+      "de": "Kleine, verkrautete Teiche und Gräben mit weichem Grund.",
+      "en": "Small, weedy ponds and ditches with soft bottom.",
+      "pt-BR": "Pequenos tanques e valas com vegetação e fundo macio."
+    },
+    "maxSize": 45,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, kleine Schuppen, keine Barteln, lange Rückenflosse, dunkler Fleck am Schwanzstiel bei Jungtieren.",
+      "en": "Deep body, small scales, no barbels, long dorsal fin, dark spot on the tail peduncle in juveniles.",
+      "pt-BR": "Corpo alto, escamas pequenas, sem barbilhões, nadadeira dorsal longa, mancha escura no pedúnculo caudal nos juvenis."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "regenbogenforelle": {
+    "id": "regenbogenforelle",
+    "scientificName": "Oncorhynchus mykiss",
+    "commonNames": {
+      "de": "Regenbogenforelle",
+      "en": "Rainbow Trout",
+      "pt-BR": "Truta-arco-íris"
+    },
+    "habitat": {
+      "de": "Gepflegte Bäche und Flüsse, häufig in Forellenteichen ausgesetzt.",
+      "en": "Managed streams and rivers, frequently stocked in trout ponds.",
+      "pt-BR": "Riachos e rios manejados, frequentemente solta em tanques de trutas."
+    },
+    "maxSize": 100,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Silbriger Körper mit rosa Schimmer, schwarze Punkte, rosa Längsbinde, Fettflosse.",
+      "en": "Silvery body with pink sheen, black spots, pink longitudinal stripe, adipose fin.",
+      "pt-BR": "Corpo prateado com brilho rosado, pontos pretos, faixa longitudinal rosa, nadadeira adiposa."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "bachsaibling": {
+    "id": "bachsaibling",
+    "scientificName": "Salvelinus fontinalis",
+    "commonNames": {
+      "de": "Bachsaibling",
+      "en": "Brook Trout",
+      "pt-BR": "Salvelino"
+    },
+    "habitat": {
+      "de": "Kalte, sauerstoffreiche Bäche und Seen.",
+      "en": "Cold, oxygen-rich streams and lakes.",
+      "pt-BR": "Riachos e lagos frios e ricos em oxigênio."
+    },
+    "maxSize": 50,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Olive bis grünlich-braune Färbung mit hellen Flecken, rote Punkte, weiß geränderte Flossen.",
+      "en": "Olive to greenish-brown colouring with pale spots, red dots, fins edged with white.",
+      "pt-BR": "Coloração verde-oliva a castanho-esverdeada com manchas claras, pontos vermelhos, nadadeiras com borda branca."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "dreistachliger-stichling": {
+    "id": "dreistachliger-stichling",
+    "scientificName": "Gasterosteus aculeatus",
+    "commonNames": {
+      "de": "Dreistachliger Stichling",
+      "en": "Three-spined Stickleback",
+      "pt-BR": "Esgana-gata"
+    },
+    "habitat": {
+      "de": "Pflanzenreiche stehende und langsam fließende Gewässer.",
+      "en": "Weedy standing and slowly flowing waters.",
+      "pt-BR": "Águas paradas e de fluxo lento, ricas em vegetação."
+    },
+    "maxSize": 10,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Seitlich abgeflachter Körper, drei Rückenstacheln, zwei Bauchstacheln, Laichmännchen mit roter Kehle.",
+      "en": "Laterally compressed body, three dorsal spines, two pelvic spines, breeding males with red throat.",
+      "pt-BR": "Corpo comprimido lateralmente, três espinhos dorsais, dois espinhos pélvicos, machos em reprodução com garganta vermelha."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "zwergwels": {
+    "id": "zwergwels",
+    "scientificName": "Ameiurus nebulosus",
+    "commonNames": {
+      "de": "Zwergwels",
+      "en": "Brown Bullhead",
+      "pt-BR": "Bagre-americano"
+    },
+    "habitat": {
+      "de": "Warme, stehende und langsam fließende Gewässer; Neozoon (invasiv).",
+      "en": "Warm standing and slowly flowing waters; non-native (invasive).",
+      "pt-BR": "Águas quentes, paradas e de fluxo lento; espécie exótica (invasora)."
+    },
+    "maxSize": 40,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schuppenloser Körper, acht Barteln, breiter Kopf, gesägte Flossenstrahlen der Rückenflosse.",
+      "en": "Scaleless body, eight barbels, broad head, serrated dorsal fin rays.",
+      "pt-BR": "Corpo sem escamas, oito barbilhões, cabeça larga, raios da nadadeira dorsal serrilhados."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "sonnenbarsch": {
+    "id": "sonnenbarsch",
+    "scientificName": "Lepomis gibbosus",
+    "commonNames": {
+      "de": "Sonnenbarsch",
+      "en": "Pumpkinseed",
+      "pt-BR": "Perca-sol"
+    },
+    "habitat": {
+      "de": "Warme, pflanzenreiche Gewässer; Neozoon (invasiv).",
+      "en": "Warm, weedy waters; non-native (invasive).",
+      "pt-BR": "Águas quentes com vegetação; espécie exótica (invasora)."
+    },
+    "maxSize": 25,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger, seitlich abgeflachter Körper, Kiemendeckel mit schwarzem Ohrfleck und rotem Rand, bunte Färbung.",
+      "en": "Deep, laterally compressed body, gill cover with black ear spot and red margin, colourful.",
+      "pt-BR": "Corpo alto e comprimido lateralmente, opérculo com mancha preta no ouvido e borda vermelha, coloração viva."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "blaubandbaerbling": {
+    "id": "blaubandbaerbling",
+    "scientificName": "Pseudorasbora parva",
+    "commonNames": {
+      "de": "Blaubandbärbling",
+      "en": "Topmouth Gudgeon",
+      "pt-BR": "Góbio-de-boca-inferior"
+    },
+    "habitat": {
+      "de": "Kleine stehende und langsam fließende Gewässer; Neozoon (invasiv).",
+      "en": "Small standing and slowly flowing waters; non-native (invasive).",
+      "pt-BR": "Pequenas águas paradas e de fluxo lento; espécie exótica (invasora)."
+    },
+    "maxSize": 10,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Schlanker Körper, große Schuppen, unterständiges Maul, dunkles Längsband auf den Flanken.",
+      "en": "Slender body, large scales, inferior mouth, dark longitudinal band on the flanks.",
+      "pt-BR": "Corpo esguio, escamas grandes, boca inferior, faixa longitudinal escura nos flancos."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "schwarzmundgrundel": {
+    "id": "schwarzmundgrundel",
+    "scientificName": "Neogobius melanostomus",
+    "commonNames": {
+      "de": "Schwarzmundgrundel",
+      "en": "Round Goby",
+      "pt-BR": "Góbio-de-boca-preta"
+    },
+    "habitat": {
+      "de": "Flüsse, Seen und Küstengewässer mit steinigem Grund; Neozoon (invasiv).",
+      "en": "Rivers, lakes and coastal waters with stony bottom; non-native (invasive).",
+      "pt-BR": "Rios, lagos e águas costeiras com fundo pedregoso; espécie exótica (invasora)."
+    },
+    "maxSize": 25,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Kräftiger Kopf, verschmolzene Bauchflossen (Saugnapf), schwarzer Fleck auf der ersten Rückenflosse.",
+      "en": "Stout head, fused pelvic fins (sucker disc), black spot on the first dorsal fin.",
+      "pt-BR": "Cabeça robusta, nadadeiras pélvicas fundidas (disco de sucção), mancha preta na primeira nadadeira dorsal."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "kamberkrebs": {
+    "id": "kamberkrebs",
+    "scientificName": "Faxonius limosus",
+    "commonNames": {
+      "de": "Kamberkrebs",
+      "en": "Spiny-cheek Crayfish",
+      "pt-BR": "Lagostim-americano"
+    },
+    "habitat": {
+      "de": "Flüsse, Seen und Teiche; Neozoon aus Nordamerika (invasiv).",
+      "en": "Rivers, lakes and ponds; non-native from North America (invasive).",
+      "pt-BR": "Rios, lagos e tanques; espécie exótica da América do Norte (invasora)."
+    },
+    "maxSize": 12,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Zehn Beine, große Scheren, zwei Dornen an den Wangen, bräunlich-grüne Färbung, kein heimischer Krebs.",
+      "en": "Ten legs, large claws, two spines on the cheeks, brownish-green colouring, not a native crayfish.",
+      "pt-BR": "Dez patas, garras grandes, dois espinhos nas bochechas, coloração castanho-esverdeada, não é um lagostim nativo."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "giebel": {
+    "id": "giebel",
+    "scientificName": "Carassius gibelio",
+    "commonNames": {
+      "de": "Giebel",
+      "en": "Prussian Carp",
+      "pt-BR": "Carpa-prussiana"
+    },
+    "habitat": {
+      "de": "Stehende und langsam fließende Gewässer mit weichem Grund.",
+      "en": "Standing and slowly flowing waters with soft bottom.",
+      "pt-BR": "Águas paradas e de fluxo lento com fundo macio."
+    },
+    "maxSize": 40,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, silbrige Färbung, keine Barteln, Bestände überwiegend weiblich (Parthenogenese).",
+      "en": "Deep body, silvery colouring, no barbels, populations mostly female (parthenogenesis).",
+      "pt-BR": "Corpo alto, coloração prateada, sem barbilhões, populações quase só de fêmeas (partenogênese)."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "zobel": {
+    "id": "zobel",
+    "scientificName": "Ballerus sapa",
+    "commonNames": {
+      "de": "Zobel",
+      "en": "White-eye Bream",
+      "pt-BR": "Brema-de-olho-branco"
+    },
+    "habitat": {
+      "de": "Große Flüsse, untere Abschnitte und Brackwasser.",
+      "en": "Large rivers, lower reaches and brackish water.",
+      "pt-BR": "Grandes rios, trechos inferiores e água salobra."
+    },
+    "maxSize": 40,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, große Augen, kleines oberständiges Maul, lange Afterflosse.",
+      "en": "Deep body, large eyes, small superior mouth, long anal fin.",
+      "pt-BR": "Corpo alto, olhos grandes, boca pequena e superior, nadadeira anal longa."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "graskarpfen": {
+    "id": "graskarpfen",
+    "scientificName": "Ctenopharyngodon idella",
+    "commonNames": {
+      "de": "Graskarpfen",
+      "en": "Grass Carp",
+      "pt-BR": "Carpa-capim"
+    },
+    "habitat": {
+      "de": "Teiche, Seen und Flüsse; Besatzfisch, ernährt sich von Wasserpflanzen.",
+      "en": "Ponds, lakes and rivers; stocked fish, feeds on aquatic plants.",
+      "pt-BR": "Tanques, lagos e rios; peixe de repovoamento, alimenta-se de plantas aquáticas."
+    },
+    "maxSize": 120,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Langgestreckter, walzenförmiger Körper, große Schuppen, keine Barteln, pflanzenfressend.",
+      "en": "Elongated, cylindrical body, large scales, no barbels, herbivorous.",
+      "pt-BR": "Corpo alongado e cilíndrico, escamas grandes, sem barbilhões, herbívoro."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  },
+  "silberkarpfen": {
+    "id": "silberkarpfen",
+    "scientificName": "Hypophthalmichthys molitrix",
+    "commonNames": {
+      "de": "Silberkarpfen",
+      "en": "Silver Carp",
+      "pt-BR": "Carpa-prateada"
+    },
+    "habitat": {
+      "de": "Teiche und Flüsse; Besatzfisch, ernährt sich von Plankton.",
+      "en": "Ponds and rivers; stocked fish, feeds on plankton.",
+      "pt-BR": "Tanques e rios; peixe de repovoamento, alimenta-se de plâncton."
+    },
+    "maxSize": 130,
+    "minCatchSize": null,
+    "closedSeason": null,
+    "distinguishingFeatures": {
+      "de": "Hochrückiger Körper, sehr kleine Schuppen, oberständiges Maul, springt bei Störungen aus dem Wasser.",
+      "en": "Deep body, very small scales, superior mouth, leaps out of the water when disturbed.",
+      "pt-BR": "Corpo alto, escamas muito pequenas, boca superior, salta para fora da água quando perturbado."
+    },
+    "imagePath": "",
+    "protectedStatus": false,
+    "category": "common"
+  }
+}
