@@ -1,0 +1,1282 @@
+{
+  "angelrute": {
+    "id": "angelrute",
+    "term": {
+      "de": "Angelrute",
+      "en": "Fishing rod",
+      "pt-BR": "Vara de pesca"
+    },
+    "definition": {
+      "de": "Das wichtigste Fanggerät beim Angeln, bestehend aus Rute und Rolle, das zum Werfen des Köders und zum Ausdrillen des Fisches dient.",
+      "en": "The main fishing gear, consisting of a rod and reel, used to cast the bait and to play a hooked fish.",
+      "pt-BR": "O principal equipamento de pesca, composto por vara e carretilha, usado para lançar a isca e para cansar o peixe fisgado."
+    },
+    "category": "equipment",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "rolle": {
+    "id": "rolle",
+    "term": {
+      "de": "Rolle",
+      "en": "Reel",
+      "pt-BR": "Carretilha"
+    },
+    "definition": {
+      "de": "Ein Teil der Angel, auf der die Schnur aufgewickelt ist. Sie ermöglicht das Auswerfen, Einholen und Ausdrillen des Fisches.",
+      "en": "The part of the fishing rod on which the line is wound. It enables casting, retrieving, and playing the fish.",
+      "pt-BR": "A parte da vara na qual a linha é enrolada. Permite lançar, recolher e cansar o peixe."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "angelrute"
+    ],
+    "seeAlso": []
+  },
+  "schnur": {
+    "id": "schnur",
+    "term": {
+      "de": "Schnur",
+      "en": "Fishing line",
+      "pt-BR": "Linha"
+    },
+    "definition": {
+      "de": "Die Angelschnur verbindet die Rolle mit dem Haken und muss je nach Angelmethode und Zielfisch ausgewählt werden.",
+      "en": "The fishing line connects the reel to the hook and must be chosen according to the fishing method and target species.",
+      "pt-BR": "A linha de pesca conecta a carretilha ao anzol e deve ser escolhida conforme o método de pesca e a espécie-alvo."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "rolle"
+    ],
+    "seeAlso": []
+  },
+  "haken": {
+    "id": "haken",
+    "term": {
+      "de": "Haken",
+      "en": "Hook",
+      "pt-BR": "Anzol"
+    },
+    "definition": {
+      "de": "Der Teil des Fanggeräts, der den Fisch am Maul fasst. Haken dürfen nur so groß sein, dass sie dem Zielfisch gerecht werden.",
+      "en": "The part of the tackle that holds the fish by the mouth. Hooks must be sized appropriately for the target species.",
+      "pt-BR": "A parte do equipamento que fisga o peixe pela boca. Os anzóis devem ser proporcionais à espécie-alvo."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "koeder"
+    ],
+    "seeAlso": []
+  },
+  "koeder": {
+    "id": "koeder",
+    "term": {
+      "de": "Köder",
+      "en": "Bait",
+      "pt-BR": "Isca"
+    },
+    "definition": {
+      "de": "Jeder Natur- oder Kunstköder, der dem Fisch als Nahrung angeboten wird, um ihn zum Anbiss zu verleiten.",
+      "en": "Any natural or artificial bait offered to the fish as food to induce a bite.",
+      "pt-BR": "Qualquer isca natural ou artificial oferecida ao peixe como alimento para provocar a mordida."
+    },
+    "category": "equipment",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "blinker": {
+    "id": "blinker",
+    "term": {
+      "de": "Blinker",
+      "en": "Spoon lure",
+      "pt-BR": "Colher"
+    },
+    "definition": {
+      "de": "Ein Kunstköder aus Metall mit rotierendem oder schwingendem Blatt, der beim Einholen durch Lichtreflexe Raubfische anlockt.",
+      "en": "A metal artificial lure with a rotating or fluttering blade that attracts predatory fish through light reflections when retrieved.",
+      "pt-BR": "Isca artificial de metal com lâmina giratória ou oscilante que atrai peixes predadores pelos reflexos de luz durante a recolhida."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "koeder",
+      "drilling"
+    ],
+    "seeAlso": []
+  },
+  "spinner": {
+    "id": "spinner",
+    "term": {
+      "de": "Spinner",
+      "en": "Spinner",
+      "pt-BR": "Spinner"
+    },
+    "definition": {
+      "de": "Ein Kunstköder, dessen rotierendes Metallblatt beim Einholen Vibrationen und Lichtblitze erzeugt, die Raubfische ansprechen.",
+      "en": "An artificial lure whose rotating metal blade creates vibrations and flashes of light while retrieving, attracting predatory fish.",
+      "pt-BR": "Isca artificial cuja lâmina metálica giratória gera vibrações e lampejos durante a recolhida, atraindo peixes predadores."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "koeder"
+    ],
+    "seeAlso": [
+      "blinker"
+    ]
+  },
+  "wobbler": {
+    "id": "wobbler",
+    "term": {
+      "de": "Wobbler",
+      "en": "Wobbler",
+      "pt-BR": "Wobbler"
+    },
+    "definition": {
+      "de": "Ein schwimmender Kunstköder, der beim Einholen seitlich pendelt und so einen verletzten oder fliehenden Fisch nachahmt.",
+      "en": "A floating artificial lure that wobbles from side to side when retrieved, imitating an injured or fleeing fish.",
+      "pt-BR": "Isca artificial flutuante que balança de um lado para o outro durante a recolhida, imitando um peixe ferido ou fugindo."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "koeder"
+    ],
+    "seeAlso": [
+      "blinker"
+    ]
+  },
+  "pose": {
+    "id": "pose",
+    "term": {
+      "de": "Pose",
+      "en": "Float",
+      "pt-BR": "Bóia"
+    },
+    "definition": {
+      "de": "Ein Schwimmkörper an der Schnur, der den Köder in der gewünschten Tiefe hält und einen Anbiss sichtbar macht.",
+      "en": "A float on the line that keeps the bait at the desired depth and makes a bite visible.",
+      "pt-BR": "Bóia na linha que mantém a isca na profundidade desejada e torna visível a mordida."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "angelrute"
+    ],
+    "seeAlso": []
+  },
+  "blei": {
+    "id": "blei",
+    "term": {
+      "de": "Blei",
+      "en": "Sinker",
+      "pt-BR": "Chumbo"
+    },
+    "definition": {
+      "de": "Das Gewicht an der Schnur, das den Köder auf den Grund bringt oder die Wurfweite vergrößert. Blei darf nicht in Gewässer gelangen.",
+      "en": "The weight on the line that takes the bait to the bottom or increases casting distance. Lead must not end up in the water.",
+      "pt-BR": "O peso na linha que leva a isca ao fundo ou aumenta a distância do lançamento. Chumbo não pode ficar na água."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "pose",
+      "angelrute"
+    ],
+    "seeAlso": []
+  },
+  "kescher": {
+    "id": "kescher",
+    "term": {
+      "de": "Kescher",
+      "en": "Landing net",
+      "pt-BR": "Puçá"
+    },
+    "definition": {
+      "de": "Ein Netz zum sicheren Landen gefangener Fische. Er schützt den Fisch vor Verletzungen beim Herausheben aus dem Wasser.",
+      "en": "A net used to safely land caught fish. It protects the fish from injury when lifting it out of the water.",
+      "pt-BR": "Rede usada para desembarcar com segurança os peixes capturados. Protege o peixe de ferimentos ao tirá-lo da água."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "landen"
+    ],
+    "seeAlso": [
+      "setzkescher"
+    ]
+  },
+  "setzkescher": {
+    "id": "setzkescher",
+    "term": {
+      "de": "Setzkescher",
+      "en": "Keep net",
+      "pt-BR": "Viveiro"
+    },
+    "definition": {
+      "de": "Ein Netzbehälter, der im Wasser hängt, um gefangene Fische bis zum Ende der Angelsession lebend aufzubewahren.",
+      "en": "A mesh container suspended in the water to keep caught fish alive until the end of the fishing session.",
+      "pt-BR": "Recipiente de rede suspenso na água para manter os peixes capturados vivos até o fim da sessão de pesca."
+    },
+    "category": "equipment",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "posenangeln": {
+    "id": "posenangeln",
+    "term": {
+      "de": "Posenangeln",
+      "en": "Float fishing",
+      "pt-BR": "Pesca com bóia"
+    },
+    "definition": {
+      "de": "Eine Angelmethode, bei der die Pose den Köder in einer bestimmten Tiefe hält und den Anbiss anzeigt. Sie eignet sich besonders für Friedfische.",
+      "en": "A fishing method in which the float holds the bait at a set depth and signals the bite. It is especially suitable for coarse fish.",
+      "pt-BR": "Método de pesca em que a bóia mantém a isca em determinada profundidade e sinaliza a mordida. Adequado sobretudo para peixes não predadores."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "pose",
+      "angelrute"
+    ],
+    "seeAlso": [
+      "anbiss"
+    ]
+  },
+  "spinnrute": {
+    "id": "spinnrute",
+    "term": {
+      "de": "Spinnrute",
+      "en": "Spinning rod",
+      "pt-BR": "Vara de arremesso"
+    },
+    "definition": {
+      "de": "Eine Angelrute für das Spinnfischen mit Kunstködern. Sie zeichnet sich durch eine sensible Spitze und gute Wurfleistung aus.",
+      "en": "A fishing rod for spinning with artificial lures. It features a sensitive tip and good casting performance.",
+      "pt-BR": "Vara para a pesca de arremesso com iscas artificiais. Caracteriza-se pela ponta sensível e bom desempenho de lançamento."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "angelrute"
+    ],
+    "seeAlso": [
+      "spinner"
+    ]
+  },
+  "fliegenrute": {
+    "id": "fliegenrute",
+    "term": {
+      "de": "Fliegenrute",
+      "en": "Fly rod",
+      "pt-BR": "Vara de mosca"
+    },
+    "definition": {
+      "de": "Eine lange, flexible Rute für das Fliegenfischen, bei der die künstliche Fliege mit dem Gewicht der Schnur geworfen wird.",
+      "en": "A long, flexible rod for fly fishing, in which the artificial fly is cast using the weight of the line.",
+      "pt-BR": "Vara longa e flexível para a pesca com mosca, na qual a mosca artificial é lançada com o peso da linha."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "angelrute"
+    ],
+    "seeAlso": [
+      "waten"
+    ]
+  },
+  "brandungsangeln": {
+    "id": "brandungsangeln",
+    "term": {
+      "de": "Brandungsangeln",
+      "en": "Surf casting",
+      "pt-BR": "Pesca de praia"
+    },
+    "definition": {
+      "de": "Das Angeln von der Küste aus, bei dem Köder mit schweren Gewichten weit ins Meer geworfen werden.",
+      "en": "Fishing from the coast, casting baited rigs far into the sea using heavy weights.",
+      "pt-BR": "Pesca a partir da costa, na qual iscas são lançadas ao mar com pesos pesados."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "angelrute",
+      "spinnrute"
+    ],
+    "seeAlso": []
+  },
+  "bissanzeiger": {
+    "id": "bissanzeiger",
+    "term": {
+      "de": "Bissanzeiger",
+      "en": "Bite indicator",
+      "pt-BR": "Indicador de mordida"
+    },
+    "definition": {
+      "de": "Ein Hilfsmittel, das den Anbiss sichtbar oder hörbar macht, etwa eine Glocke, ein elektronischer Anzeiger oder eine Quiver-Spitze.",
+      "en": "A device that makes a bite visible or audible, such as a bell, an electronic indicator, or a quiver tip.",
+      "pt-BR": "Dispositivo que torna a mordida visível ou audível, como um sino, um indicador eletrônico ou uma ponta quiver."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "pose"
+    ],
+    "seeAlso": []
+  },
+  "drilling": {
+    "id": "drilling",
+    "term": {
+      "de": "Drilling",
+      "en": "Treble hook",
+      "pt-BR": "Anzol triplo"
+    },
+    "definition": {
+      "de": "Ein Haken mit drei Spitzen, der meist an Kunstködern befestigt ist und die Hakquote bei Raubfischen erhöht.",
+      "en": "A hook with three points, usually attached to artificial lures, increasing the hook-up rate for predatory fish.",
+      "pt-BR": "Anzol com três pontas, geralmente fixado em iscas artificiais, que aumenta a taxa de fisgada em peixes predadores."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "haken"
+    ],
+    "seeAlso": []
+  },
+  "vorfach": {
+    "id": "vorfach",
+    "term": {
+      "de": "Vorfach",
+      "en": "Leader",
+      "pt-BR": "Líder"
+    },
+    "definition": {
+      "de": "Das Schnurstück zwischen Hauptschnur und Haken oder Köder. Es schützt vor Scheuern und Bissen scharfzähniger Fische.",
+      "en": "The section of line between the main line and the hook or bait. It protects against abrasion and the teeth of sharp-toothed fish.",
+      "pt-BR": "Trecho de linha entre a linha principal e o anzol ou a isca. Protege contra atrito e os dentes de peixes de dentes afiados."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "schnur",
+      "haken"
+    ],
+    "seeAlso": []
+  },
+  "schrot": {
+    "id": "schrot",
+    "term": {
+      "de": "Schrot",
+      "en": "Split shot",
+      "pt-BR": "Chumbinho"
+    },
+    "definition": {
+      "de": "Kleine Bleikügelchen mit seitlichem Einschnitt, die auf die Schnur geklemmt werden, um den Köder zu beschweren.",
+      "en": "Small lead beads with a side slit that are pinched onto the line to add weight to the bait.",
+      "pt-BR": "Pequenas esferas de chumbo com fenda lateral que são fixadas na linha para dar peso à isca."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "blei"
+    ],
+    "seeAlso": []
+  },
+  "krautfestigkeit": {
+    "id": "krautfestigkeit",
+    "term": {
+      "de": "Krautfestigkeit",
+      "en": "Weed resistance",
+      "pt-BR": "Resistência a plantas aquáticas"
+    },
+    "definition": {
+      "de": "Die Eigenschaft eines Köders, beim Einholen möglichst wenig Wasserpflanzen anzusammeln, etwa durch hakenförmig geschützte Einzeller.",
+      "en": "The property of a lure to pick up as little water weed as possible when retrieved, for example through hook-guarded single hooks.",
+      "pt-BR": "Propriedade de uma isca de recolher o mínimo possível de plantas aquáticas durante a recolhida, por exemplo com anzóis protegidos."
+    },
+    "category": "equipment",
+    "relatedTermIds": [
+      "blinker",
+      "wobbler"
+    ],
+    "seeAlso": []
+  },
+  "raubfisch": {
+    "id": "raubfisch",
+    "term": {
+      "de": "Raubfisch",
+      "en": "Predatory fish",
+      "pt-BR": "Peixe predador"
+    },
+    "definition": {
+      "de": "Ein Fisch, der sich überwiegend von anderen Fischen oder größeren Tieren ernährt, z. B. Hecht, Zander oder Barsch.",
+      "en": "A fish that feeds mainly on other fish or larger animals, e.g. pike, zander, or perch.",
+      "pt-BR": "Peixe que se alimenta predominantemente de outros peixes ou animais maiores, como o lúcio, o lúcio-perca ou a perca."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "friedfisch": {
+    "id": "friedfisch",
+    "term": {
+      "de": "Friedfisch",
+      "en": "Coarse fish",
+      "pt-BR": "Peixe não predador"
+    },
+    "definition": {
+      "de": "Ein Fisch, der sich von Pflanzen, Plankton und Kleintieren ernährt, z. B. Karpfen, Brassen oder Rotauge.",
+      "en": "A fish that feeds on plants, plankton, and small invertebrates, e.g. carp, bream, or roach.",
+      "pt-BR": "Peixe que se alimenta de plantas, plâncton e pequenos invertebrados, como a carpa, a sardinha-de-água-doce ou a barata."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "raubfisch"
+    ]
+  },
+  "laich": {
+    "id": "laich",
+    "term": {
+      "de": "Laich",
+      "en": "Spawn",
+      "pt-BR": "Desova"
+    },
+    "definition": {
+      "de": "Die Eier, die von Fischen abgelegt werden. Der Laich wird an Pflanzen, Steinen oder im Kies abgesetzt.",
+      "en": "The eggs laid by fish. The spawn is deposited on plants, stones, or in gravel.",
+      "pt-BR": "Os ovos depositados pelos peixes. A desova é depositada em plantas, pedras ou cascalho."
+    },
+    "category": "biology",
+    "relatedTermIds": [
+      "brut"
+    ],
+    "seeAlso": [
+      "laichzeit"
+    ]
+  },
+  "laichzeit": {
+    "id": "laichzeit",
+    "term": {
+      "de": "Laichzeit",
+      "en": "Spawning season",
+      "pt-BR": "Época de desova"
+    },
+    "definition": {
+      "de": "Der Zeitraum, in dem eine Fischart laicht. In dieser Zeit gelten oft Schonzeiten, um die Fortpflanzung zu schützen.",
+      "en": "The period during which a fish species spawns. Closed seasons often apply during this time to protect reproduction.",
+      "pt-BR": "O período em que uma espécie de peixe desova. Nesse período costumam valer épocas de defeso para proteger a reprodução."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "schonzeit"
+    ]
+  },
+  "brut": {
+    "id": "brut",
+    "term": {
+      "de": "Brut",
+      "en": "Fry",
+      "pt-BR": "Alevinos"
+    },
+    "definition": {
+      "de": "Die frisch geschlüpften Jungfische, die zunächst von ihrem Dottersack leben, bevor sie aktiv Nahrung aufnehmen.",
+      "en": "Newly hatched young fish that first live off their yolk sac before actively feeding.",
+      "pt-BR": "Alevinos recém-eclodidos que vivem primeiro do saco vitelino antes de se alimentar ativamente."
+    },
+    "category": "biology",
+    "relatedTermIds": [
+      "aufzucht"
+    ],
+    "seeAlso": []
+  },
+  "aufzucht": {
+    "id": "aufzucht",
+    "term": {
+      "de": "Aufzucht",
+      "en": "Rearing",
+      "pt-BR": "Alevinagem"
+    },
+    "definition": {
+      "de": "Die Pflege und Heranziehung von Jungfischen bis zur Besatzgröße, meist in Teichwirtschaften zur Stützung des Fischbestands.",
+      "en": "The care and raising of young fish up to stocking size, usually in pond farms to support fish stocks.",
+      "pt-BR": "O cuidado e a criação de peixes jovens até o tamanho de estocagem, geralmente em pisciculturas para sustentar os estoques."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "hege"
+    ]
+  },
+  "futterfisch": {
+    "id": "futterfisch",
+    "term": {
+      "de": "Futterfisch",
+      "en": "Forage fish",
+      "pt-BR": "Peixe-forragem"
+    },
+    "definition": {
+      "de": "Ein Fisch, der als Nahrung für Raubfische dient, etwa Ukelei, Rotfeder oder kleine Weißfische.",
+      "en": "A fish that serves as food for predatory fish, such as bleak, rudd, or small whitefish.",
+      "pt-BR": "Peixe que serve de alimento para peixes predadores, como o peixe-rei, o ruivo ou pequenos peixes brancos."
+    },
+    "category": "biology",
+    "relatedTermIds": [
+      "raubfisch"
+    ],
+    "seeAlso": []
+  },
+  "kaltwasserfisch": {
+    "id": "kaltwasserfisch",
+    "term": {
+      "de": "Kaltwasserfisch",
+      "en": "Coldwater fish",
+      "pt-BR": "Peixe de água fria"
+    },
+    "definition": {
+      "de": "Ein Fisch, der kühle, sauerstoffreiche Gewässer bevorzugt, z. B. Forelle, Äsche oder Lachs.",
+      "en": "A fish that prefers cool, well-oxygenated waters, e.g. trout, grayling, or salmon.",
+      "pt-BR": "Peixe que prefere águas frias e bem oxigenadas, como a truta, o grayling ou o salmão."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "warmwasserfisch"
+    ]
+  },
+  "warmwasserfisch": {
+    "id": "warmwasserfisch",
+    "term": {
+      "de": "Warmwasserfisch",
+      "en": "Warmwater fish",
+      "pt-BR": "Peixe de água quente"
+    },
+    "definition": {
+      "de": "Ein Fisch, der wärmere Gewässer bevorzugt, z. B. Karpfen, Hecht oder Wels.",
+      "en": "A fish that prefers warmer waters, e.g. carp, pike, or catfish.",
+      "pt-BR": "Peixe que prefere águas mais quentes, como a carpa, o lúcio ou o bagre."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "schwarm": {
+    "id": "schwarm",
+    "term": {
+      "de": "Schwarm",
+      "en": "Shoal",
+      "pt-BR": "Cardume"
+    },
+    "definition": {
+      "de": "Eine Gruppe gleichartiger Fische, die gemeinsam zieht. Schwarmfische wie Rotauge oder Brassen suchen Schutz in der Gruppe.",
+      "en": "A group of fish of the same species that move together. Schooling fish such as roach or bream find protection in the group.",
+      "pt-BR": "Grupo de peixes da mesma espécie que se desloca em conjunto. Peixes de cardume, como a barata ou a sardinha-de-água-doce, buscam proteção no grupo."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "schuppen": {
+    "id": "schuppen",
+    "term": {
+      "de": "Schuppen",
+      "en": "Scales",
+      "pt-BR": "Escamas"
+    },
+    "definition": {
+      "de": "Die knöchernen Platten auf der Haut der Fische, die den Körper schützen. Ihre Form hilft bei der Bestimmung der Art.",
+      "en": "The bony plates on the skin of fish that protect the body. Their shape helps identify the species.",
+      "pt-BR": "As placas ósseas na pele dos peixes que protegem o corpo. Sua forma ajuda na identificação da espécie."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "schuppen-entfernen"
+    ]
+  },
+  "flossen": {
+    "id": "flossen",
+    "term": {
+      "de": "Flossen",
+      "en": "Fins",
+      "pt-BR": "Nadadeiras"
+    },
+    "definition": {
+      "de": "Die Bewegungs- und Steuerorgane der Fische, die zum Schwimmen, Bremsen und Stabilisieren dienen.",
+      "en": "The organs fish use for movement and steering, used for swimming, braking, and stabilizing.",
+      "pt-BR": "Os órgãos de locomoção e direção dos peixes, usados para nadar, frear e se estabilizar."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "kiemen": {
+    "id": "kiemen",
+    "term": {
+      "de": "Kiemen",
+      "en": "Gills",
+      "pt-BR": "Brânquias"
+    },
+    "definition": {
+      "de": "Die Atmungsorgane der Fische, mit denen sie den im Wasser gelösten Sauerstoff aufnehmen.",
+      "en": "The respiratory organs of fish, through which they take up oxygen dissolved in the water.",
+      "pt-BR": "Os órgãos respiratórios dos peixes, pelos quais absorvem o oxigênio dissolvido na água."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "seitenlinie": {
+    "id": "seitenlinie",
+    "term": {
+      "de": "Seitenlinie",
+      "en": "Lateral line",
+      "pt-BR": "Linha lateral"
+    },
+    "definition": {
+      "de": "Ein Sinnesorgan an der Körperseite der Fische, das Druckunterschiede und Bewegungen im Wasser wahrnimmt.",
+      "en": "A sensory organ along the side of a fish's body that detects pressure changes and movement in the water.",
+      "pt-BR": "Órgão sensorial ao longo do corpo dos peixes que detecta variações de pressão e movimento na água."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "barteln": {
+    "id": "barteln",
+    "term": {
+      "de": "Barteln",
+      "en": "Barbels",
+      "pt-BR": "Barbilhões"
+    },
+    "definition": {
+      "de": "Tastorgane am Maul mancher Fische wie Karpfen oder Wels, mit denen sie am Gewässergrund Nahrung aufspüren.",
+      "en": "Tactile organs around the mouth of some fish, such as carp or catfish, used to locate food on the bottom.",
+      "pt-BR": "Órgãos táteis na boca de alguns peixes, como carpa ou bagre, usados para localizar alimento no fundo."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "schwimmblase": {
+    "id": "schwimmblase",
+    "term": {
+      "de": "Schwimmblase",
+      "en": "Swim bladder",
+      "pt-BR": "Bexiga natatória"
+    },
+    "definition": {
+      "de": "Ein mit Gas gefülltes Organ, das dem Fisch das Schweben in verschiedenen Wassertiefen ohne Energieaufwand ermöglicht.",
+      "en": "A gas-filled organ that allows a fish to hover at different depths without expending energy.",
+      "pt-BR": "Órgão cheio de gás que permite ao peixe pairar em diferentes profundidades sem gastar energia."
+    },
+    "category": "biology",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "fischereischein": {
+    "id": "fischereischein",
+    "term": {
+      "de": "Fischereischein",
+      "en": "Fishing license",
+      "pt-BR": "Licença de pesca"
+    },
+    "definition": {
+      "de": "Offizieller Nachweis der erfolgreich abgelegten Anglerprüfung, der in Brandenburg zum Angeln auf Raubfische berechtigt.",
+      "en": "Official proof of having passed the angler exam, which in Brandenburg entitles the holder to fish for predatory fish.",
+      "pt-BR": "Comprovante oficial de aprovação no exame de pescador, que em Brandemburgo autoriza a pesca de peixes predadores."
+    },
+    "category": "legal",
+    "relatedTermIds": [
+      "anglerpruefung"
+    ],
+    "seeAlso": [
+      "fischereiabgabe"
+    ]
+  },
+  "anglerpruefung": {
+    "id": "anglerpruefung",
+    "term": {
+      "de": "Anglerprüfung",
+      "en": "Angler exam",
+      "pt-BR": "Exame de pescador"
+    },
+    "definition": {
+      "de": "Die staatliche Prüfung, die Kenntnisse in Fischkunde, Gerätekunde, Fischbehandlung und Rechtsvorschriften nachweist und zum Fischereischein führt.",
+      "en": "The state exam that verifies knowledge of fish science, tackle, fish handling, and regulations and leads to the fishing license.",
+      "pt-BR": "Exame estadual que comprova conhecimentos de ictiologia, equipamentos, manejo do pescado e normas legais e confere a licença de pesca."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "fischereiabgabe"
+    ]
+  },
+  "angelkarte": {
+    "id": "angelkarte",
+    "term": {
+      "de": "Angelkarte",
+      "en": "Fishing permit",
+      "pt-BR": "Autorização de pesca"
+    },
+    "definition": {
+      "de": "Erlaubnis des Gewässereigentümers, an einem bestimmten Gewässer zu angeln. Sie wird zusätzlich zum Fischereischein benötigt.",
+      "en": "Permission from the water owner to fish at a specific water body. It is required in addition to the fishing license.",
+      "pt-BR": "Autorização do proprietário da água para pescar em um corpo d'água específico. É exigida além da licença de pesca."
+    },
+    "category": "legal",
+    "relatedTermIds": [
+      "fischereischein"
+    ],
+    "seeAlso": [
+      "vereinsgewaesser",
+      "pachtgewaesser"
+    ]
+  },
+  "fischereiabgabe": {
+    "id": "fischereiabgabe",
+    "term": {
+      "de": "Fischereiabgabe",
+      "en": "Fishing levy",
+      "pt-BR": "Taxa de pesca"
+    },
+    "definition": {
+      "de": "Eine jährliche Abgabe, die Angler in Brandenburg entrichten. Sie fließt in Hege, Fischbestandsbewirtschaftung und Kontrollen.",
+      "en": "An annual levy paid by anglers in Brandenburg. It funds fishery management, stock maintenance, and controls.",
+      "pt-BR": "Taxa anual paga pelos pescadores em Brandemburgo. É destinada à gestão pesqueira, manutenção dos estoques e fiscalização."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "schonzeit": {
+    "id": "schonzeit",
+    "term": {
+      "de": "Schonzeit",
+      "en": "Closed season",
+      "pt-BR": "Época de defeso"
+    },
+    "definition": {
+      "de": "Zeitraum, in dem bestimmte Fischarten nicht beangelt werden dürfen, um ihren Bestand zu schützen.",
+      "en": "A period during which certain fish species may not be fished in order to protect their stocks.",
+      "pt-BR": "Período em que determinadas espécies de peixes não podem ser pescadas para proteger seus estoques."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "mindestmass"
+    ]
+  },
+  "mindestmass": {
+    "id": "mindestmass",
+    "term": {
+      "de": "Mindestmaß",
+      "en": "Minimum size",
+      "pt-BR": "Tamanho mínimo"
+    },
+    "definition": {
+      "de": "Die gesetzlich festgelegte Mindestgröße, die ein Fisch beim Fang erreicht haben muss, um entnommen werden zu dürfen.",
+      "en": "The legally defined minimum size a fish must have reached at capture to be legally kept.",
+      "pt-BR": "O tamanho mínimo legal que um peixe deve ter alcançado na captura para poder ser retido."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "untermass"
+    ]
+  },
+  "untermass": {
+    "id": "untermass",
+    "term": {
+      "de": "Untermaß",
+      "en": "Undersized",
+      "pt-BR": "Abaixo do tamanho mínimo"
+    },
+    "definition": {
+      "de": "Ein Fisch, der das gesetzliche Mindestmaß noch nicht erreicht hat. Er muss schonend zurückgesetzt werden.",
+      "en": "A fish that has not yet reached the legal minimum size. It must be carefully returned to the water.",
+      "pt-BR": "Peixe que ainda não atingiu o tamanho mínimo legal. Deve ser devolvido à água com cuidado."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "anlandeverbot"
+    ]
+  },
+  "gewaesserordnung": {
+    "id": "gewaesserordnung",
+    "term": {
+      "de": "Gewässerordnung",
+      "en": "Water regulations",
+      "pt-BR": "Regulamento da água"
+    },
+    "definition": {
+      "de": "Die Regeln des Gewässerpächters oder -eigentümers, die die Angelzeiten, erlaubte Geräte und Fangregeln für ein Gewässer festlegen.",
+      "en": "The rules of the water lessee or owner that set fishing times, permitted tackle, and catch rules for a water body.",
+      "pt-BR": "As regras do arrendatário ou proprietário da água que definem horários de pesca, equipamentos permitidos e regras de captura."
+    },
+    "category": "legal",
+    "relatedTermIds": [
+      "angelkarte"
+    ],
+    "seeAlso": [
+      "vereinsgewaesser"
+    ]
+  },
+  "hegeplan": {
+    "id": "hegeplan",
+    "term": {
+      "de": "Hegeplan",
+      "en": "Fishery management plan",
+      "pt-BR": "Plano de gestão pesqueira"
+    },
+    "definition": {
+      "de": "Ein Plan zur Pflege und Entwicklung des Fischbestands eines Gewässers, der Besatz, Entnahme und Lebensraumverbesserung festlegt.",
+      "en": "A plan for the care and development of a water body's fish stock, covering stocking, removal, and habitat improvement.",
+      "pt-BR": "Plano de cuidado e desenvolvimento do estoque pesqueiro de um corpo d'água, que define repovoamento, retirada e melhoria do habitat."
+    },
+    "category": "legal",
+    "relatedTermIds": [
+      "hege",
+      "aufzucht"
+    ],
+    "seeAlso": []
+  },
+  "hege": {
+    "id": "hege",
+    "term": {
+      "de": "Hege",
+      "en": "Fishery management",
+      "pt-BR": "Manejo pesqueiro"
+    },
+    "definition": {
+      "de": "Die verantwortungsvolle Pflege eines Gewässers und seines Fischbestands, einschließlich Besatz, Bestandskontrolle und Lebensraumschutz.",
+      "en": "The responsible care of a water body and its fish stock, including stocking, stock monitoring, and habitat protection.",
+      "pt-BR": "O cuidado responsável de um corpo d'água e de seu estoque pesqueiro, incluindo repovoamento, monitoramento e proteção do habitat."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "fischereiabgabe"
+    ]
+  },
+  "friedfischangeln": {
+    "id": "friedfischangeln",
+    "term": {
+      "de": "Friedfischangeln",
+      "en": "Coarse fishing without license",
+      "pt-BR": "Pesca de peixes não predadores"
+    },
+    "definition": {
+      "de": "In Brandenburg darf in bestimmten Vereins- und Pachtgewässern mit einer Angelkarte ohne Fischereischein auf Friedfische geangelt werden.",
+      "en": "In Brandenburg, coarse fishing with a permit but without a fishing license is allowed in certain club and leased waters.",
+      "pt-BR": "Em Brandemburgo, a pesca de peixes não predadores com autorização, mas sem licença de pesca, é permitida em certas águas de clubes e arrendadas."
+    },
+    "category": "legal",
+    "relatedTermIds": [
+      "friedfisch"
+    ],
+    "seeAlso": [
+      "angelkarte",
+      "fischereischein"
+    ]
+  },
+  "nachtangelverbot": {
+    "id": "nachtangelverbot",
+    "term": {
+      "de": "Nachtangelverbot",
+      "en": "Night fishing ban",
+      "pt-BR": "Proibição de pesca noturna"
+    },
+    "definition": {
+      "de": "Das Verbot, in der Zeit zwischen Sonnenuntergang und Sonnenaufgang zu angeln, sofern keine besondere Erlaubnis vorliegt.",
+      "en": "The ban on fishing between sunset and sunrise unless special permission has been granted.",
+      "pt-BR": "A proibição de pescar entre o pôr e o nascer do sol, salvo autorização especial."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "schonzeit"
+    ]
+  },
+  "vereinsgewaesser": {
+    "id": "vereinsgewaesser",
+    "term": {
+      "de": "Vereinsgewässer",
+      "en": "Club waters",
+      "pt-BR": "Águas de clube"
+    },
+    "definition": {
+      "de": "Gewässer, die von einem Angelverein bewirtschaftet und verpachtet werden. Das Angeln dort erfordert Mitgliedschaft oder eine Tageskarte.",
+      "en": "Waters managed and leased by an angling club. Fishing there requires membership or a day ticket.",
+      "pt-BR": "Águas geridas e arrendadas por um clube de pesca. Pescar ali exige filiação ou cartão diário."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "pachtgewaesser"
+    ]
+  },
+  "pachtgewaesser": {
+    "id": "pachtgewaesser",
+    "term": {
+      "de": "Pachtgewässer",
+      "en": "Leased waters",
+      "pt-BR": "Águas arrendadas"
+    },
+    "definition": {
+      "de": "Gewässer, die von einem Verein oder Privatpersonen vom Eigentümer gepachtet und bewirtschaftet werden.",
+      "en": "Waters leased and managed by a club or private individuals from the owner.",
+      "pt-BR": "Águas arrendadas e geridas por um clube ou particulares junto ao proprietário."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "fangverbot": {
+    "id": "fangverbot",
+    "term": {
+      "de": "Fangverbot",
+      "en": "Fishing ban",
+      "pt-BR": "Proibição de pesca"
+    },
+    "definition": {
+      "de": "Ein vollständiges Verbot, in einem Gewässer zu angeln, etwa zum Schutz gefährdeter Arten oder in Fischschutzgebieten.",
+      "en": "A complete ban on fishing in a water body, for example to protect endangered species or in fish sanctuaries.",
+      "pt-BR": "Proibição total de pescar em um corpo d'água, por exemplo para proteger espécies ameaçadas ou em santuários de peixes."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "anlandeverbot",
+      "schonzeit"
+    ]
+  },
+  "anlandeverbot": {
+    "id": "anlandeverbot",
+    "term": {
+      "de": "Anlandeverbot",
+      "en": "Landing ban",
+      "pt-BR": "Proibição de retenção"
+    },
+    "definition": {
+      "de": "Das Verbot, gefangene Fische zu behalten oder an Land zu bringen, etwa wenn sie das Mindestmaß unterschreiten.",
+      "en": "The ban on keeping or bringing caught fish ashore, for example when they are below the minimum size.",
+      "pt-BR": "A proibição de reter ou levar à terra peixes capturados, por exemplo quando estão abaixo do tamanho mínimo."
+    },
+    "category": "legal",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "anbiss": {
+    "id": "anbiss",
+    "term": {
+      "de": "Anbiss",
+      "en": "Bite",
+      "pt-BR": "Mordida"
+    },
+    "definition": {
+      "de": "Der Moment, in dem ein Fisch den Köder aufnimmt. Er wird durch die Pose, den Bissanzeiger oder die Schnur sichtbar.",
+      "en": "The moment a fish takes the bait. It becomes visible through the float, the bite indicator, or the line.",
+      "pt-BR": "O momento em que o peixe pega a isca. Torna-se visível pela bóia, pelo indicador de mordida ou pela linha."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "anhieb"
+    ]
+  },
+  "ausheben": {
+    "id": "ausheben",
+    "term": {
+      "de": "Ausheben",
+      "en": "Lifting out",
+      "pt-BR": "Erguer o peixe"
+    },
+    "definition": {
+      "de": "Das Herausheben eines gefangenen Fisches aus dem Wasser, am besten mit dem Kescher, um Verletzungen zu vermeiden.",
+      "en": "Lifting a caught fish out of the water, ideally with a landing net, to avoid injury.",
+      "pt-BR": "Retirar da água um peixe capturado, de preferência com o puçá, para evitar ferimentos."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "anhieb": {
+    "id": "anhieb",
+    "term": {
+      "de": "Anhieb",
+      "en": "Hook set",
+      "pt-BR": "Fisgada"
+    },
+    "definition": {
+      "de": "Die ruckartige Bewegung der Rute beim Anbiss, mit der der Haken im Fischmaul festgehakt wird.",
+      "en": "The sharp movement of the rod on a bite that sets the hook firmly in the fish's mouth.",
+      "pt-BR": "O movimento brusco da vara no momento da mordida, que crava o anzol na boca do peixe."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "ausheben"
+    ]
+  },
+  "drillen": {
+    "id": "drillen",
+    "term": {
+      "de": "Drillen",
+      "en": "Playing a fish",
+      "pt-BR": "Cansar o peixe"
+    },
+    "definition": {
+      "de": "Das kontrollierte Ermüden eines gefangenen Fisches an der Schnur, bis er sich mit dem Kescher landen lässt.",
+      "en": "Controlledly tiring a hooked fish on the line until it can be landed with the net.",
+      "pt-BR": "Cansar de forma controlada um peixe fisgado na linha até que possa ser desembarcado com o puçá."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "ausdrillen"
+    ]
+  },
+  "ausdrillen": {
+    "id": "ausdrillen",
+    "term": {
+      "de": "Ausdrillen",
+      "en": "Playing out",
+      "pt-BR": "Cansar até a exaustão"
+    },
+    "definition": {
+      "de": "Das vollständige Ermüden eines Fisches, bis er kraftlos an der Oberfläche liegt und sicher gelandet werden kann.",
+      "en": "Fully tiring a fish until it lies exhausted at the surface and can be safely landed.",
+      "pt-BR": "Cansar completamente um peixe até que fique exausto na superfície e possa ser desembarcado com segurança."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "landen"
+    ]
+  },
+  "landen": {
+    "id": "landen",
+    "term": {
+      "de": "Landen",
+      "en": "Landing",
+      "pt-BR": "Desembarcar"
+    },
+    "definition": {
+      "de": "Das sichere An-Land-Bringen eines gefangenen Fisches, in der Regel mit dem Kescher, ohne ihn zu verletzen.",
+      "en": "Safely bringing a caught fish to land, usually with a landing net, without injuring it.",
+      "pt-BR": "Trazer com segurança um peixe capturado para terra, geralmente com o puçá, sem feri-lo."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "ausheben",
+      "abhaken"
+    ]
+  },
+  "abhaken": {
+    "id": "abhaken",
+    "term": {
+      "de": "Abhaken",
+      "en": "Unhooking",
+      "pt-BR": "Remover o anzol"
+    },
+    "definition": {
+      "de": "Das Entfernen des Hakens aus dem Fischmaul. Es muss schonend und mit geeignetem Werkzeug erfolgen, um den Fisch nicht zu verletzen.",
+      "en": "Removing the hook from the fish's mouth. It must be done gently and with suitable tools to avoid injuring the fish.",
+      "pt-BR": "Remover o anzol da boca do peixe. Deve ser feito com cuidado e ferramentas adequadas para não ferir o peixe."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "betauben": {
+    "id": "betauben",
+    "term": {
+      "de": "Betäuben",
+      "en": "Stunning",
+      "pt-BR": "Atordoar"
+    },
+    "definition": {
+      "de": "Das schlagartige Betäuben eines Fisches vor dem Töten, um ihm unnötige Schmerzen zu ersparen, etwa mit einem Betäubungsschlag.",
+      "en": "Instantly stunning a fish before killing it to spare it unnecessary pain, for example with a blow to the head.",
+      "pt-BR": "Atordoar instantaneamente um peixe antes de abatê-lo para poupá-lo de dor desnecessária, por exemplo com um golpe na cabeça."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "abhaken",
+      "ausnehmen"
+    ]
+  },
+  "ausnehmen": {
+    "id": "ausnehmen",
+    "term": {
+      "de": "Ausnehmen",
+      "en": "Gutting",
+      "pt-BR": "Eviscerar"
+    },
+    "definition": {
+      "de": "Das Entfernen der inneren Organe eines gefangenen Fisches. Es sollte möglichst rasch nach dem Fang erfolgen, um die Qualität zu erhalten.",
+      "en": "Removing the internal organs of a caught fish. It should be done as soon as possible after capture to preserve quality.",
+      "pt-BR": "Remover os órgãos internos de um peixe capturado. Deve ser feito o quanto antes após a captura para preservar a qualidade."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "schuppen-entfernen"
+    ]
+  },
+  "schuppen-entfernen": {
+    "id": "schuppen-entfernen",
+    "term": {
+      "de": "Schuppen entfernen",
+      "en": "Scaling",
+      "pt-BR": "Escamar"
+    },
+    "definition": {
+      "de": "Das Entfernen der Schuppen eines Fisches vor der Zubereitung, meist mit einem Schupper.",
+      "en": "Removing the scales of a fish before preparation, usually with a scaler.",
+      "pt-BR": "Remover as escamas de um peixe antes do preparo, geralmente com um raspador de escamas."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "anfuettern": {
+    "id": "anfuettern",
+    "term": {
+      "de": "Anfüttern",
+      "en": "Groundbaiting",
+      "pt-BR": "Alimentar o local"
+    },
+    "definition": {
+      "de": "Das Ausbringen von Futter, um Fische an einer Angelstelle zu sammeln und zum Fressen zu animieren.",
+      "en": "Spreading feed to attract fish to a fishing spot and encourage them to feed.",
+      "pt-BR": "Espalhar alimento para atrair peixes a um ponto de pesca e estimulá-los a se alimentar."
+    },
+    "category": "technique",
+    "relatedTermIds": [
+      "koeder"
+    ],
+    "seeAlso": [
+      "posenangeln"
+    ]
+  },
+  "auffrischen": {
+    "id": "auffrischen",
+    "term": {
+      "de": "Auffrischen",
+      "en": "Catching on",
+      "pt-BR": "Nova mordida"
+    },
+    "definition": {
+      "de": "Das erneute Anbeißen eines Fisches nach einem verpassten Anhieb, etwa bei vorsichtigem Fressen des Köders.",
+      "en": "A fish biting again after a missed strike, for example when it feeds cautiously on the bait.",
+      "pt-BR": "O peixe morder novamente após uma fisgada perdida, por exemplo quando se alimenta com cautela da isca."
+    },
+    "category": "technique",
+    "relatedTermIds": [
+      "anbiss"
+    ],
+    "seeAlso": []
+  },
+  "catch-and-release": {
+    "id": "catch-and-release",
+    "term": {
+      "de": "Catch & Release",
+      "en": "Catch and release",
+      "pt-BR": "Pesque e solte"
+    },
+    "definition": {
+      "de": "Das Fangen und schonende Zurücksetzen eines Fisches. Der Fisch muss so behandelt werden, dass er den Rückstoß überlebt.",
+      "en": "Catching and carefully releasing a fish. The fish must be handled so that it survives the release.",
+      "pt-BR": "Capturar e devolver com cuidado um peixe. O peixe deve ser manuseado de modo a sobreviver à soltura."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "abhaken"
+    ]
+  },
+  "tothaken": {
+    "id": "tothaken",
+    "term": {
+      "de": "Tothaken",
+      "en": "Dead bait",
+      "pt-BR": "Isca morta"
+    },
+    "definition": {
+      "de": "Ein toter Köderfisch, der meist mit einem Grundblei am Gewässergrund angeboten wird, um große Raubfische zu fangen.",
+      "en": "A dead bait fish, usually presented on the bottom with a lead, to catch large predatory fish.",
+      "pt-BR": "Isca morta, geralmente apresentada no fundo com um chumbo, para capturar grandes peixes predadores."
+    },
+    "category": "technique",
+    "relatedTermIds": [
+      "koeder"
+    ],
+    "seeAlso": [
+      "lebendkoeder"
+    ]
+  },
+  "lebendkoeder": {
+    "id": "lebendkoeder",
+    "term": {
+      "de": "Lebendköder",
+      "en": "Live bait",
+      "pt-BR": "Isca viva"
+    },
+    "definition": {
+      "de": "Ein lebender Köderfisch, der an einem Haken befestigt wird. Er darf nur nach den Vorschriften der Gewässerordnung verwendet werden.",
+      "en": "A live bait fish attached to a hook. It may only be used in accordance with the water regulations.",
+      "pt-BR": "Isca viva fixada em um anzol. Só pode ser usada de acordo com as normas da regulamentação da água."
+    },
+    "category": "technique",
+    "relatedTermIds": [
+      "koeder"
+    ],
+    "seeAlso": []
+  },
+  "waten": {
+    "id": "waten",
+    "term": {
+      "de": "Waten",
+      "en": "Wading",
+      "pt-BR": "Vadeação"
+    },
+    "definition": {
+      "de": "Das Gehen im Wasser beim Angeln, meist mit Wathose, um Stellen zu erreichen, die vom Ufer aus nicht beangelbar sind.",
+      "en": "Walking in the water while fishing, usually in waders, to reach spots that cannot be fished from the bank.",
+      "pt-BR": "Caminhar na água durante a pesca, geralmente com botas de vadeação, para alcançar pontos que não podem ser pescados da margem."
+    },
+    "category": "technique",
+    "relatedTermIds": [
+      "uferzone"
+    ],
+    "seeAlso": []
+  },
+  "uferzone": {
+    "id": "uferzone",
+    "term": {
+      "de": "Uferzone",
+      "en": "Bank zone",
+      "pt-BR": "Zona marginal"
+    },
+    "definition": {
+      "de": "Der flache Randbereich eines Gewässers, in dem viele Fische Nahrung suchen und der sich besonders zum Angeln eignet.",
+      "en": "The shallow edge zone of a water body where many fish look for food and which is especially suited to fishing.",
+      "pt-BR": "A faixa rasa da borda de um corpo d'água, onde muitos peixes procuram alimento e que é especialmente adequada à pesca."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": []
+  },
+  "stroemungskante": {
+    "id": "stroemungskante",
+    "term": {
+      "de": "Strömungskante",
+      "en": "Current edge",
+      "pt-BR": "Borda da correnteza"
+    },
+    "definition": {
+      "de": "Die Grenzlinie zwischen ruhigem und fließendem Wasser, an der sich Fische sammeln, weil hier Nahrung angespült wird.",
+      "en": "The boundary line between calm and flowing water where fish gather because food is washed in.",
+      "pt-BR": "A linha de fronteira entre água calma e correnteza, onde os peixes se reúnem porque alimento é trazido pela água."
+    },
+    "category": "technique",
+    "relatedTermIds": [],
+    "seeAlso": [
+      "uferzone"
+    ]
+  }
+}
