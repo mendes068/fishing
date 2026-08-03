@@ -1,0 +1,16 @@
+{
+  "title": "Dashboard",
+  "progress": "Fortschritt",
+  "accuracy": "Genauigkeit",
+  "streak": "Serie",
+  "lastExam": "Letzte Prüfung",
+  "noExams": "Noch keine Prüfungen absolviert.",
+  "continueStudying": "Weiterlernen",
+  "startExam": "Prüfung starten",
+  "weakCategories": "Schwache Kategorien",
+  "empty": {
+    "title": "Noch nichts hier",
+    "message": "Beginne mit dem Lernen, um deinen Fortschritt zu sehen."
+  },
+  "startStudying": "Mit dem Lernen beginnen"
+}

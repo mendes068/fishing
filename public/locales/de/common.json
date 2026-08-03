@@ -1,0 +1,33 @@
+{
+  "app": { "name": "Fischereischein-Studium" },
+  "nav": {
+    "dashboard": "Dashboard",
+    "study": "Lernen",
+    "exam": "Prüfung",
+    "categories": "Kategorien",
+    "stats": "Statistiken",
+    "search": "Suche",
+    "favorites": "Favoriten",
+    "notes": "Notizen",
+    "flashcards": "Karteikarten",
+    "encyclopedia": "Fischlexikon",
+    "glossary": "Glossar",
+    "import": "Import",
+    "settings": "Einstellungen"
+  },
+  "theme": { "toggle": "Design wechseln", "light": "Hell", "dark": "Dunkel" },
+  "lang": { "label": "Sprache" },
+  "loading": "Wird geladen...",
+  "back": "Zurück",
+  "next": "Weiter",
+  "previous": "Zurück",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "confirm": "Bestätigen",
+  "search": "Suchen",
+  "all": "Alle",
+  "yes": "Ja",
+  "no": "Nein",
+  "close": "Schließen",
+  "reset": "Zurücksetzen"
+}

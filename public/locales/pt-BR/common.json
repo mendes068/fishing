@@ -1,0 +1,33 @@
+{
+  "app": { "name": "Estudo da Licença de Pesca" },
+  "nav": {
+    "dashboard": "Painel",
+    "study": "Estudar",
+    "exam": "Prova",
+    "categories": "Categorias",
+    "stats": "Estatísticas",
+    "search": "Buscar",
+    "favorites": "Favoritos",
+    "notes": "Anotações",
+    "flashcards": "Cartões de estudo",
+    "encyclopedia": "Enciclopédia de Peixes",
+    "glossary": "Glossário",
+    "import": "Importar",
+    "settings": "Configurações"
+  },
+  "theme": { "toggle": "Alternar tema", "light": "Claro", "dark": "Escuro" },
+  "lang": { "label": "Idioma" },
+  "loading": "Carregando...",
+  "back": "Voltar",
+  "next": "Avançar",
+  "previous": "Anterior",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "search": "Buscar",
+  "all": "Todas",
+  "yes": "Sim",
+  "no": "Não",
+  "close": "Fechar",
+  "reset": "Redefinir"
+}

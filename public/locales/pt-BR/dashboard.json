@@ -1,0 +1,16 @@
+{
+  "title": "Painel",
+  "progress": "Progresso",
+  "accuracy": "Precisão",
+  "streak": "Sequência",
+  "lastExam": "Última prova",
+  "noExams": "Nenhuma prova realizada ainda.",
+  "continueStudying": "Continuar estudando",
+  "startExam": "Iniciar prova",
+  "weakCategories": "Categorias fracas",
+  "empty": {
+    "title": "Nada por aqui ainda",
+    "message": "Comece a estudar para ver seu progresso."
+  },
+  "startStudying": "Começar a estudar"
+}

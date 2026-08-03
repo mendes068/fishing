@@ -1,0 +1,10 @@
+{
+  "generic": "Etwas ist schiefgelaufen.",
+  "notFound": {
+    "title": "Nicht gefunden",
+    "message": "Die gesuchte Seite oder der gesuchte Eintrag wurde nicht gefunden."
+  },
+  "unexpected": "Ein unerwarteter Fehler ist aufgetreten.",
+  "retry": "Erneut versuchen",
+  "storageFull": "Der Speicher ist voll. Bitte geben Sie Speicherplatz frei."
+}

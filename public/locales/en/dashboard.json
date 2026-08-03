@@ -1,0 +1,16 @@
+{
+  "title": "Dashboard",
+  "progress": "Progress",
+  "accuracy": "Accuracy",
+  "streak": "Streak",
+  "lastExam": "Last exam",
+  "noExams": "No exams taken yet.",
+  "continueStudying": "Continue studying",
+  "startExam": "Start exam",
+  "weakCategories": "Weak categories",
+  "empty": {
+    "title": "Nothing here yet",
+    "message": "Start studying to see your progress."
+  },
+  "startStudying": "Start studying"
+}

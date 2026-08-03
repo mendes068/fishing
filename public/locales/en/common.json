@@ -1,0 +1,33 @@
+{
+  "app": { "name": "Fishing License Study" },
+  "nav": {
+    "dashboard": "Dashboard",
+    "study": "Study",
+    "exam": "Exam",
+    "categories": "Categories",
+    "stats": "Statistics",
+    "search": "Search",
+    "favorites": "Favorites",
+    "notes": "Notes",
+    "flashcards": "Flashcards",
+    "encyclopedia": "Fish Encyclopedia",
+    "glossary": "Glossary",
+    "import": "Import",
+    "settings": "Settings"
+  },
+  "theme": { "toggle": "Toggle theme", "light": "Light", "dark": "Dark" },
+  "lang": { "label": "Language" },
+  "loading": "Loading...",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "search": "Search",
+  "all": "All",
+  "yes": "Yes",
+  "no": "No",
+  "close": "Close",
+  "reset": "Reset"
+}
