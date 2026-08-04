@@ -1,3 +1,16 @@
 {
-  "title": "TODO"
+  "title": "Anotações",
+  "empty": "Nenhuma anotação ainda",
+  "emptyMessage": "Adicione anotações às questões enquanto estuda.",
+  "goToStudy": "Ir para Estudo",
+  "addNote": "Adicionar anotação",
+  "editNote": "Editar anotação",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "delete": "Excluir",
+  "preview": "Pré-visualização",
+  "edit": "Editar",
+  "searchPlaceholder": "Buscar anotações...",
+  "noteForQuestion": "Anotação para questão {{id}}",
+  "noNotes": "Nenhuma anotação"
 }

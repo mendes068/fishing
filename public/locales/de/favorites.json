@@ -1,3 +1,12 @@
 {
-  "title": "TODO"
+  "title": "Favoriten",
+  "empty": "Noch keine Favoriten",
+  "emptyMessage": "Markiere Fragen während des Lernens mit dem Stern, um sie hier zu sammeln.",
+  "goToStudy": "Zum Lernen",
+  "remove": "Aus Favoriten entfernen",
+  "count": "{{count}} Favoriten",
+  "searchPlaceholder": "Favoriten durchsuchen...",
+  "allCategories": "Alle Kategorien",
+  "categoryLabel": "Kategorie",
+  "filteredEmpty": "Keine Favoriten passen zu deinen Filtern."
 }

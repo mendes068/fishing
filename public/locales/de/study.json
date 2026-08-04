@@ -16,5 +16,7 @@
   "incorrect": "Leider falsch.",
   "explanation": "Erklärung",
   "favoriteAdd": "Zu Favoriten hinzufügen",
-  "favoriteRemove": "Aus Favoriten entfernen"
+  "favoriteRemove": "Aus Favoriten entfernen",
+  "noteAdd": "Notiz bearbeiten",
+  "noteRemove": "Notiz entfernen"
 }

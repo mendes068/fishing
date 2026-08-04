@@ -1,3 +1,26 @@
 {
-  "title": "TODO"
+  "title": "Flashcards",
+  "front": "Front",
+  "back": "Back",
+  "flipHint": "Click or press Space to flip",
+  "blackout": "Blackout",
+  "wrong": "Wrong",
+  "almost": "Almost",
+  "hard": "Hard",
+  "good": "Good",
+  "easy": "Easy",
+  "reviewedToday": "Reviewed today: {{count}}",
+  "dueToday": "Due today: {{count}}",
+  "moreDue": "{{count}} more cards due later",
+  "nextReview": "Next review: {{date}}",
+  "allCaughtUp": "All caught up!",
+  "noCards": "No flashcards available",
+  "studyStreak": "Study streak: {{days}} days",
+  "qualityHint": "Rate your knowledge (0–5)",
+  "answer": "Answer",
+  "explanationLabel": "Explanation",
+  "totalCards": "Total: {{count}} cards",
+  "progress": "Progress",
+  "questionCount": "Card {{current}} of {{total}}",
+  "categoryLabel": "Category"
 }

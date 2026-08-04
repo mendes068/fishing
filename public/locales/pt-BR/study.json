@@ -16,5 +16,7 @@
   "incorrect": "Incorreto.",
   "explanation": "Explicação",
   "favoriteAdd": "Adicionar aos favoritos",
-  "favoriteRemove": "Remover dos favoritos"
+  "favoriteRemove": "Remover dos favoritos",
+  "noteAdd": "Editar anotação",
+  "noteRemove": "Remover anotação"
 }

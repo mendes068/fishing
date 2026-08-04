@@ -1,3 +1,16 @@
 {
-  "title": "TODO"
+  "title": "Notizen",
+  "empty": "Noch keine Notizen",
+  "emptyMessage": "Füge beim Lernen Notizen zu den Fragen hinzu.",
+  "goToStudy": "Zum Lernen",
+  "addNote": "Notiz hinzufügen",
+  "editNote": "Notiz bearbeiten",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "delete": "Löschen",
+  "preview": "Vorschau",
+  "edit": "Bearbeiten",
+  "searchPlaceholder": "Notizen durchsuchen...",
+  "noteForQuestion": "Notiz für Frage {{id}}",
+  "noNotes": "Keine Notizen"
 }

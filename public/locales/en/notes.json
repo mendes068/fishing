@@ -1,3 +1,16 @@
 {
-  "title": "TODO"
+  "title": "Notes",
+  "empty": "No notes yet",
+  "emptyMessage": "Add notes to questions while studying.",
+  "goToStudy": "Go to Study",
+  "addNote": "Add note",
+  "editNote": "Edit note",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "preview": "Preview",
+  "edit": "Edit",
+  "searchPlaceholder": "Search notes...",
+  "noteForQuestion": "Note for question {{id}}",
+  "noNotes": "No notes"
 }

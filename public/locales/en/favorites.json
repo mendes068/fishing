@@ -1,3 +1,12 @@
 {
-  "title": "TODO"
+  "title": "Favorites",
+  "empty": "No favorites yet",
+  "emptyMessage": "Star questions while studying to collect them here.",
+  "goToStudy": "Go to Study",
+  "remove": "Remove from favorites",
+  "count": "{{count}} favorites",
+  "searchPlaceholder": "Search favorites...",
+  "allCategories": "All categories",
+  "categoryLabel": "Category",
+  "filteredEmpty": "No favorites match your filters."
 }

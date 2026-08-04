@@ -28,6 +28,7 @@ const Favorites = lazy(() => import('@/pages/favorites'))
 const Notes = lazy(() => import('@/pages/notes'))
 const Flashcards = lazy(() => import('@/pages/flashcards'))
 const Encyclopedia = lazy(() => import('@/pages/encyclopedia'))
+const EncyclopediaDetail = lazy(() => import('@/pages/encyclopedia/[id]'))
 const Glossary = lazy(() => import('@/pages/glossary'))
 const Import = lazy(() => import('@/pages/import'))
 const Settings = lazy(() => import('@/pages/settings'))
@@ -125,6 +126,15 @@ export const router = createBrowserRouter(
           element: (
             <SuspensePage>
               <Encyclopedia />
+            </SuspensePage>
+          ),
+          errorElement: <ErrorBoundary />,
+        },
+        {
+          path: 'encyclopedia/:id',
+          element: (
+            <SuspensePage>
+              <EncyclopediaDetail />
             </SuspensePage>
           ),
           errorElement: <ErrorBoundary />,

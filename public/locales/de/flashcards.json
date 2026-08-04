@@ -1,3 +1,26 @@
 {
-  "title": "TODO"
+  "title": "Karteikarten",
+  "front": "Vorderseite",
+  "back": "Rückseite",
+  "flipHint": "Zum Umdrehen klicken oder Leertaste drücken",
+  "blackout": "Totalausfall",
+  "wrong": "Falsch",
+  "almost": "Fast richtig",
+  "hard": "Schwer",
+  "good": "Gut",
+  "easy": "Einfach",
+  "reviewedToday": "Heute wiederholt: {{count}}",
+  "dueToday": "Heute fällig: {{count}}",
+  "moreDue": "{{count}} weitere Karten später fällig",
+  "nextReview": "Nächste Wiederholung: {{date}}",
+  "allCaughtUp": "Alle Karten erledigt!",
+  "noCards": "Keine Karteikarten verfügbar",
+  "studyStreak": "Lernserie: {{days}} Tage",
+  "qualityHint": "Bewerte dein Wissen (0–5)",
+  "answer": "Antwort",
+  "explanationLabel": "Erklärung",
+  "totalCards": "Gesamt: {{count}} Karten",
+  "progress": "Fortschritt",
+  "questionCount": "Karte {{current}} von {{total}}",
+  "categoryLabel": "Kategorie"
 }

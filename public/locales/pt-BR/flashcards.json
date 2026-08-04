@@ -1,3 +1,26 @@
 {
-  "title": "TODO"
+  "title": "Flashcards",
+  "front": "Frente",
+  "back": "Verso",
+  "flipHint": "Clique ou pressione Espaço para virar",
+  "blackout": "Esquecimento total",
+  "wrong": "Errado",
+  "almost": "Quase",
+  "hard": "Difícil",
+  "good": "Bom",
+  "easy": "Fácil",
+  "reviewedToday": "Revisados hoje: {{count}}",
+  "dueToday": "Vencendo hoje: {{count}}",
+  "moreDue": "{{count}} mais cartões pendentes",
+  "nextReview": "Próxima revisão: {{date}}",
+  "allCaughtUp": "Tudo em dia!",
+  "noCards": "Nenhum flashcard disponível",
+  "studyStreak": "Sequência de estudos: {{days}} dias",
+  "qualityHint": "Avalie seu conhecimento (0–5)",
+  "answer": "Resposta",
+  "explanationLabel": "Explicação",
+  "totalCards": "Total: {{count}} cartões",
+  "progress": "Progresso",
+  "questionCount": "Cartão {{current}} de {{total}}",
+  "categoryLabel": "Categoria"
 }
