@@ -1,3 +1,21 @@
 {
-  "title": "TODO"
+  "title": "Import Questions",
+  "dropzone": "Drop a JSON file here or click to browse",
+  "browse": "Browse files",
+  "orDrop": "or drop a JSON file here",
+  "processing": "Processing…",
+  "validQuestions": "{{count}} questions valid",
+  "errorsFound": "{{count}} errors found",
+  "newQuestions": "New",
+  "updatedQuestions": "Updated",
+  "importConfirm": "Import",
+  "cancel": "Cancel",
+  "importSuccess": "{{count}} questions imported ({{new}} new, {{updated}} updated)",
+  "importedCount": "Imported: {{count}}",
+  "noErrors": "No errors",
+  "invalidJson": "Invalid JSON",
+  "questionIndex": "Question #{{index}}",
+  "fileTooLarge": "File is too large (max 5 MB).",
+  "tryAgain": "Try again",
+  "selectFile": "Select a JSON file"
 }

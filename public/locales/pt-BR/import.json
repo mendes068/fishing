@@ -1,3 +1,21 @@
 {
-  "title": "TODO"
+  "title": "Importar perguntas",
+  "dropzone": "Arraste um arquivo JSON aqui ou clique para procurar",
+  "browse": "Procurar arquivos",
+  "orDrop": "ou solte um arquivo JSON aqui",
+  "processing": "Processando…",
+  "validQuestions": "{{count}} perguntas válidas",
+  "errorsFound": "{{count}} erros encontrados",
+  "newQuestions": "Novas",
+  "updatedQuestions": "Atualizadas",
+  "importConfirm": "Importar",
+  "cancel": "Cancelar",
+  "importSuccess": "{{count}} perguntas importadas ({{new}} novas, {{updated}} atualizadas)",
+  "importedCount": "Importadas: {{count}}",
+  "noErrors": "Sem erros",
+  "invalidJson": "JSON inválido",
+  "questionIndex": "Pergunta #{{index}}",
+  "fileTooLarge": "O arquivo é muito grande (máx. 5 MB).",
+  "tryAgain": "Tentar novamente",
+  "selectFile": "Selecionar arquivo JSON"
 }
