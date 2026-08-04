@@ -1,3 +1,20 @@
 {
-  "title": "TODO"
+  "title": "Lernmodus",
+  "modeLabel": "Modus",
+  "categoryLabel": "Kategorie",
+  "questionCounter": "Frage {{current}} von {{total}}",
+  "showExplanation": "Erklärung anzeigen",
+  "favoritesOnly": "Nur Favoriten",
+  "incorrectOnly": "Nur falsch beantwortete",
+  "sequential": "Der Reihe nach",
+  "random": "Zufällig",
+  "allCategories": "Alle Kategorien",
+  "noQuestions": "Keine Fragen für diesen Filter gefunden.",
+  "loading": "Fragen werden geladen...",
+  "resetFilters": "Filter zurücksetzen",
+  "correct": "Richtig!",
+  "incorrect": "Leider falsch.",
+  "explanation": "Erklärung",
+  "favoriteAdd": "Zu Favoriten hinzufügen",
+  "favoriteRemove": "Aus Favoriten entfernen"
 }

@@ -66,6 +66,56 @@ export interface DashboardResources {
   weakCategories: string
   empty: { title: string; message: string }
   startStudying: string
+  reviewWeakAreas: string
+  studiedOf: string
+  scoreOf: string
+}
+
+export interface StudyResources {
+  title: string
+  modeLabel: string
+  categoryLabel: string
+  questionCounter: string
+  showExplanation: string
+  favoritesOnly: string
+  incorrectOnly: string
+  sequential: string
+  random: string
+  allCategories: string
+  noQuestions: string
+  loading: string
+  resetFilters: string
+  correct: string
+  incorrect: string
+  explanation: string
+  favoriteAdd: string
+  favoriteRemove: string
+}
+
+export interface CategoriesResources {
+  title: string
+  names: {
+    fischkunde_und_hege: string
+    pflege_der_fischgewaesser: string
+    fanggeraete_und_deren_gebrauch: string
+    behandlung_der_gefangenen_fische: string
+    einschlaegige_rechtsvorschriften: string
+  }
+  descriptions: {
+    fischkunde_und_hege: string
+    pflege_der_fischgewaesser: string
+    fanggeraete_und_deren_gebrauch: string
+    behandlung_der_gefangenen_fische: string
+    einschlaegige_rechtsvorschriften: string
+  }
+  answeredOf: string
+  accuracy: string
+  studyCategory: string
+  noProgress: string
+  questionsTotal: string
+  noQuestions: string
+  correctLabel: string
+  answeredLabel: string
 }
 
 declare module 'i18next' {
@@ -75,9 +125,9 @@ declare module 'i18next' {
       common: CommonResources
       errors: ErrorsResources
       dashboard: DashboardResources
-      study: Record<string, unknown>
+      study: StudyResources
       exam: Record<string, unknown>
-      categories: Record<string, unknown>
+      categories: CategoriesResources
       stats: Record<string, unknown>
       search: Record<string, unknown>
       favorites: Record<string, unknown>

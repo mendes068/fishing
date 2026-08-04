@@ -1,3 +1,20 @@
 {
-  "title": "TODO"
+  "title": "Modo Estudo",
+  "modeLabel": "Modo",
+  "categoryLabel": "Categoria",
+  "questionCounter": "Questão {{current}} de {{total}}",
+  "showExplanation": "Mostrar explicação",
+  "favoritesOnly": "Apenas favoritos",
+  "incorrectOnly": "Apenas erradas",
+  "sequential": "Sequencial",
+  "random": "Aleatório",
+  "allCategories": "Todas as categorias",
+  "noQuestions": "Nenhuma questão encontrada para este filtro.",
+  "loading": "Carregando questões...",
+  "resetFilters": "Redefinir filtros",
+  "correct": "Correto!",
+  "incorrect": "Incorreto.",
+  "explanation": "Explicação",
+  "favoriteAdd": "Adicionar aos favoritos",
+  "favoriteRemove": "Remover dos favoritos"
 }

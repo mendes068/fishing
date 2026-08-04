@@ -10,13 +10,13 @@ export const CATEGORY_ORDER: QuestionCategory[] = [
 ]
 
 /** i18n key suffix for each category name (e.g. `categories:names.fischkunde_und_hege`). */
-export const CATEGORY_NAME_KEYS: Record<QuestionCategory, string> = {
+export const CATEGORY_NAME_KEYS = {
   fischkunde_und_hege: 'names.fischkunde_und_hege',
   pflege_der_fischgewaesser: 'names.pflege_der_fischgewaesser',
   fanggeraete_und_deren_gebrauch: 'names.fanggeraete_und_deren_gebrauch',
   behandlung_der_gefangenen_fische: 'names.behandlung_der_gefangenen_fische',
   einschlaegige_rechtsvorschriften: 'names.einschlaegige_rechtsvorschriften',
-}
+} as const
 
 /** i18n key suffix for each category description (e.g. `categories:descriptions.fischkunde_und_hege`). */
 export const CATEGORY_DESC_KEYS: Record<QuestionCategory, string> = {

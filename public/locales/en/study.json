@@ -1,3 +1,20 @@
 {
-  "title": "TODO"
+  "title": "Study Mode",
+  "modeLabel": "Mode",
+  "categoryLabel": "Category",
+  "questionCounter": "Question {{current}} of {{total}}",
+  "showExplanation": "Show explanation",
+  "favoritesOnly": "Favorites only",
+  "incorrectOnly": "Incorrect answers only",
+  "sequential": "Sequential",
+  "random": "Random",
+  "allCategories": "All categories",
+  "noQuestions": "No questions found for this filter.",
+  "loading": "Loading questions...",
+  "resetFilters": "Reset filters",
+  "correct": "Correct!",
+  "incorrect": "Incorrect.",
+  "explanation": "Explanation",
+  "favoriteAdd": "Add to favorites",
+  "favoriteRemove": "Remove from favorites"
 }
