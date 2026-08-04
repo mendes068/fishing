@@ -1,3 +1,25 @@
 {
-  "title": "TODO"
+  "title": "Prüfungskategorien",
+  "names": {
+    "fischkunde_und_hege": "Fischkunde und Hege",
+    "pflege_der_fischgewaesser": "Pflege der Fischgewässer",
+    "fanggeraete_und_deren_gebrauch": "Fanggeräte und deren Gebrauch",
+    "behandlung_der_gefangenen_fische": "Behandlung der gefangenen Fische",
+    "einschlaegige_rechtsvorschriften": "Einschlägige Rechtsvorschriften"
+  },
+  "descriptions": {
+    "fischkunde_und_hege": "Anatomie, Artenkenntnis, Biologie und Hege der Fische.",
+    "pflege_der_fischgewaesser": "Gewässerqualität, Lebensraum und Pflege der Fischgewässer.",
+    "fanggeraete_und_deren_gebrauch": "Ruten, Rollen, Köder und der rechtmäßige Einsatz von Fanggeräten.",
+    "behandlung_der_gefangenen_fische": "Tierschutzgerechte Tötung, Lagerung und Transport gefangener Fische.",
+    "einschlaegige_rechtsvorschriften": "Fischereigesetz, Schonzeiten und Mindestmaße."
+  },
+  "answeredOf": "{{answered}} / {{total}}",
+  "accuracy": "Genauigkeit",
+  "studyCategory": "Diese Kategorie lernen",
+  "noProgress": "Du hast noch keine Fragen beantwortet. Starte mit dem Lernen, um deinen Fortschritt zu sehen!",
+  "questionsTotal": "{{count}} Fragen",
+  "noQuestions": "Keine Fragen geladen",
+  "correctLabel": "Richtig",
+  "answeredLabel": "Beantwortet"
 }

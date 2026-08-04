@@ -1,3 +1,25 @@
 {
-  "title": "TODO"
+  "title": "Categorias do Exame",
+  "names": {
+    "fischkunde_und_hege": "Biologia e Conservação dos Peixes",
+    "pflege_der_fischgewaesser": "Gestão de Corpos d'Água",
+    "fanggeraete_und_deren_gebrauch": "Equipamentos de Pesca e seu Uso",
+    "behandlung_der_gefangenen_fische": "Manuseio dos Peixes Capturados",
+    "einschlaegige_rechtsvorschriften": "Legislação Aplicável"
+  },
+  "descriptions": {
+    "fischkunde_und_hege": "Anatomia, identificação de espécies, biologia e conservação dos peixes.",
+    "pflege_der_fischgewaesser": "Qualidade da água, habitat e gestão das águas de pesca.",
+    "fanggeraete_und_deren_gebrauch": "Varas, molinetes, iscas e o uso legal dos equipamentos de pesca.",
+    "behandlung_der_gefangenen_fische": "Abate humanitário, armazenamento e transporte dos peixes capturados.",
+    "einschlaegige_rechtsvorschriften": "Lei de pesca, períodos de defeso e tamanhos mínimos."
+  },
+  "answeredOf": "{{answered}} / {{total}}",
+  "accuracy": "Precisão",
+  "studyCategory": "Estudar esta categoria",
+  "noProgress": "Você ainda não respondeu nenhuma pergunta. Comece a estudar para ver seu progresso!",
+  "questionsTotal": "{{count}} perguntas",
+  "noQuestions": "Nenhuma pergunta carregada",
+  "correctLabel": "Corretas",
+  "answeredLabel": "Respondidas"
 }

@@ -1,3 +1,25 @@
 {
-  "title": "TODO"
+  "title": "Exam Categories",
+  "names": {
+    "fischkunde_und_hege": "Fish Biology and Conservation",
+    "pflege_der_fischgewaesser": "Waterbody Management",
+    "fanggeraete_und_deren_gebrauch": "Fishing Gear and Its Use",
+    "behandlung_der_gefangenen_fische": "Handling of Caught Fish",
+    "einschlaegige_rechtsvorschriften": "Relevant Legislation"
+  },
+  "descriptions": {
+    "fischkunde_und_hege": "Anatomy, species identification, biology and conservation of fish.",
+    "pflege_der_fischgewaesser": "Water quality, habitat and management of fishing waters.",
+    "fanggeraete_und_deren_gebrauch": "Rods, reels, lures and the lawful use of fishing gear.",
+    "behandlung_der_gefangenen_fische": "Humane killing, storage and transport of caught fish.",
+    "einschlaegige_rechtsvorschriften": "Fisheries law, closed seasons and minimum size limits."
+  },
+  "answeredOf": "{{answered}} / {{total}}",
+  "accuracy": "Accuracy",
+  "studyCategory": "Study this category",
+  "noProgress": "You haven't answered any questions yet. Start studying to see your progress!",
+  "questionsTotal": "{{count}} questions",
+  "noQuestions": "No questions loaded",
+  "correctLabel": "Correct",
+  "answeredLabel": "Answered"
 }
