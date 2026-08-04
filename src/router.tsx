@@ -6,7 +6,7 @@ import { AppLayout } from '@/components/layout'
 import { PageLoading } from '@/components/loading-spinner'
 
 /**
- * All routes are mounted under the Vite `base` path (`/fishing-license-study/`)
+ * All routes are mounted under the Vite `base` path (`/fishing/`)
  * so the app works on GitHub Pages. `import.meta.env.BASE_URL` carries a
  * trailing slash, which `createBrowserRouter` accepts for `basename`.
  */

@@ -6,7 +6,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/fishing-license-study/',
+  base: '/fishing/',
   plugins: [
     react(),
     tailwindcss(),
@@ -20,30 +20,30 @@ export default defineConfig({
           'Study for the Brandenburg fishing license exam (Fischereischein) with questions, flashcards, and a fish encyclopedia',
         lang: 'de',
         display: 'standalone',
-        scope: '/fishing-license-study/',
-        start_url: '/fishing-license-study/',
+        scope: '/fishing/',
+        start_url: '/fishing/',
         theme_color: '#863bff',
         background_color: '#ffffff',
         categories: ['education'],
         icons: [
           {
-            src: '/fishing-license-study/icons/icon-192.png',
+            src: '/fishing/icons/icon-192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/fishing-license-study/icons/icon-512.png',
+            src: '/fishing/icons/icon-512.png',
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: '/fishing-license-study/icons/maskable-192.png',
+            src: '/fishing/icons/maskable-192.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'maskable',
           },
           {
-            src: '/fishing-license-study/icons/maskable-512.png',
+            src: '/fishing/icons/maskable-512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
