@@ -20,6 +20,12 @@
   },
   "theme": { "toggle": "Toggle theme", "light": "Light", "dark": "Dark" },
   "lang": { "label": "Language" },
+  "pwa": {
+    "offlineReady": "App is ready to work offline",
+    "newVersion": "New version available",
+    "refresh": "Refresh",
+    "dismiss": "Dismiss"
+  },
   "loading": "Loading...",
   "back": "Back",
   "next": "Next",

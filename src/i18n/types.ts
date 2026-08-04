@@ -31,6 +31,12 @@ export interface CommonResources {
   }
   theme: { toggle: string; light: string; dark: string }
   lang: { label: string }
+  pwa: {
+    offlineReady: string
+    newVersion: string
+    refresh: string
+    dismiss: string
+  }
   loading: string
   back: string
   next: string

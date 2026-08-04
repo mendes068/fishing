@@ -5,6 +5,7 @@ import { Anchor } from 'lucide-react'
 
 import { Sidebar } from '@/components/navigation/sidebar'
 import { MobileNav } from '@/components/navigation/mobile-nav'
+import { UpdateBanner } from '@/components/update-banner'
 
 /**
  * Full responsive app shell:
@@ -42,6 +43,9 @@ export function AppLayout() {
           <Outlet />
         </main>
       </div>
+
+      {/* PWA update / offline-ready notification */}
+      <UpdateBanner />
     </div>
   )
 }

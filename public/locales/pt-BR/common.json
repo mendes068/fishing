@@ -20,6 +20,12 @@
   },
   "theme": { "toggle": "Alternar tema", "light": "Claro", "dark": "Escuro" },
   "lang": { "label": "Idioma" },
+  "pwa": {
+    "offlineReady": "O aplicativo está pronto para funcionar offline",
+    "newVersion": "Nova versão disponível",
+    "refresh": "Atualizar",
+    "dismiss": "Dispensar"
+  },
   "loading": "Carregando...",
   "back": "Voltar",
   "next": "Avançar",

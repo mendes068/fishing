@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Full-bleed brand background. The fish glyph stays inside the central
+       80% safe zone so this same artwork is valid for "any" and "maskable". -->
+  <rect width="512" height="512" fill="#863bff"/>
+  <!-- Tail fin -->
+  <path d="M 158 256 L 84 196 L 84 316 Z" fill="#ffffff"/>
+  <!-- Dorsal fin -->
+  <path d="M 232 186 L 250 132 L 306 174 Z" fill="#ffffff"/>
+  <!-- Pectoral fin -->
+  <path d="M 232 326 L 252 380 L 300 336 Z" fill="#ffffff"/>
+  <!-- Body -->
+  <ellipse cx="262" cy="256" rx="118" ry="74" fill="#ffffff"/>
+  <!-- Eye (background-colored cutout) -->
+  <circle cx="318" cy="234" r="10" fill="#863bff"/>
+</svg>
