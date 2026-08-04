@@ -112,6 +112,19 @@ export default function Dashboard() {
     [results, language],
   )
 
+  const progressPercent = Math.round((totalStudied / totalQuestions) * 100)
+
+  // Category name lookup (avoids dynamic-key i18next type issues)
+  const categoryLabelMap = useMemo(() => {
+    const map = {} as Record<QuestionCategory, string>
+    map.fischkunde_und_hege = tc('names.fischkunde_und_hege') as string
+    map.pflege_der_fischgewaesser = tc('names.pflege_der_fischgewaesser') as string
+    map.fanggeraete_und_deren_gebrauch = tc('names.fanggeraete_und_deren_gebrauch') as string
+    map.behandlung_der_gefangenen_fische = tc('names.behandlung_der_gefangenen_fische') as string
+    map.einschlaegige_rechtsvorschriften = tc('names.einschlaegige_rechtsvorschriften') as string
+    return map
+  }, [tc])
+
   const lastExam = history[0] ?? null
   const weakestCategory = weakCategories.length > 0 ? weakCategories[0].category : null
 
@@ -174,19 +187,6 @@ export default function Dashboard() {
   }
 
   // ── Main dashboard ──────────────────────────────────────────────────────
-
-  const progressPercent = Math.round((totalStudied / totalQuestions) * 100)
-
-  // Category name lookup (avoids dynamic-key i18next type issues)
-  const categoryLabelMap = useMemo(() => {
-    const map = {} as Record<QuestionCategory, string>
-    map.fischkunde_und_hege = tc('names.fischkunde_und_hege') as string
-    map.pflege_der_fischgewaesser = tc('names.pflege_der_fischgewaesser') as string
-    map.fanggeraete_und_deren_gebrauch = tc('names.fanggeraete_und_deren_gebrauch') as string
-    map.behandlung_der_gefangenen_fische = tc('names.behandlung_der_gefangenen_fische') as string
-    map.einschlaegige_rechtsvorschriften = tc('names.einschlaegige_rechtsvorschriften') as string
-    return map
-  }, [tc])
 
   return (
     <div className="space-y-6">
