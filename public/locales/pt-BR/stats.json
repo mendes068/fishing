@@ -1,3 +1,20 @@
 {
-  "title": "TODO"
+  "title": "Estatísticas",
+  "totalStudied": "Total Estudado",
+  "overallAccuracy": "Precisão Geral",
+  "currentStreak": "Sequência Atual",
+  "questionsReviewed": "Perguntas Respondidas",
+  "categoryPerformance": "Desempenho por Categoria",
+  "accuracyOverTime": "Precisão ao Longo do Tempo",
+  "streakCalendar": "Sequência de Estudos",
+  "accuracyLabel": "Precisão",
+  "days_one": "dia",
+  "days_other": "dias",
+  "last7Days": "Últimos 7 Dias",
+  "last30Days": "Últimos 30 Dias",
+  "allTime": "Todo o Período",
+  "empty": "Sem Dados",
+  "emptyMessage": "Comece a estudar para ver suas estatísticas aqui.",
+  "goToStudy": "Ir para Estudo",
+  "noData": "Sem dados disponíveis"
 }

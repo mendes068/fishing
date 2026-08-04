@@ -1,3 +1,20 @@
 {
-  "title": "TODO"
+  "title": "Statistiken",
+  "totalStudied": "Insgesamt gelernt",
+  "overallAccuracy": "Gesamtgenauigkeit",
+  "currentStreak": "Aktuelle Serie",
+  "questionsReviewed": "Fragen beantwortet",
+  "categoryPerformance": "Kategorie-Leistung",
+  "accuracyOverTime": "Genauigkeit im Zeitverlauf",
+  "streakCalendar": "Lernserie",
+  "accuracyLabel": "Genauigkeit",
+  "days_one": "Tag",
+  "days_other": "Tage",
+  "last7Days": "Letzte 7 Tage",
+  "last30Days": "Letzte 30 Tage",
+  "allTime": "Gesamter Zeitraum",
+  "empty": "Noch keine Daten",
+  "emptyMessage": "Beginne mit dem Lernen, um deine Statistiken hier zu sehen.",
+  "goToStudy": "Zum Lernen",
+  "noData": "Keine Daten verfügbar"
 }

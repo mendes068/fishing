@@ -124,6 +124,49 @@ export interface NotesResources {
   noNotes: string
 }
 
+export interface StatsResources {
+  title: string
+  totalStudied: string
+  overallAccuracy: string
+  currentStreak: string
+  questionsReviewed: string
+  categoryPerformance: string
+  accuracyOverTime: string
+  streakCalendar: string
+  accuracyLabel: string
+  days_one: string
+  days_other: string
+  last7Days: string
+  last30Days: string
+  allTime: string
+  empty: string
+  emptyMessage: string
+  goToStudy: string
+  noData: string
+}
+
+export interface ImportResources {
+  title: string
+  dropzone: string
+  browse: string
+  orDrop: string
+  processing: string
+  validQuestions: string
+  errorsFound: string
+  newQuestions: string
+  updatedQuestions: string
+  importConfirm: string
+  cancel: string
+  importSuccess: string
+  importedCount: string
+  noErrors: string
+  invalidJson: string
+  questionIndex: string
+  fileTooLarge: string
+  tryAgain: string
+  selectFile: string
+}
+
 export interface CategoriesResources {
   title: string
   names: {
@@ -160,14 +203,14 @@ declare module 'i18next' {
       study: StudyResources
       exam: Record<string, unknown>
       categories: CategoriesResources
-      stats: Record<string, unknown>
+      stats: StatsResources
       search: Record<string, unknown>
       favorites: FavoritesResources
       notes: NotesResources
       flashcards: Record<string, unknown>
       encyclopedia: Record<string, unknown>
       glossary: Record<string, unknown>
-      import: Record<string, unknown>
+      import: ImportResources
       export: Record<string, unknown>
       settings: Record<string, unknown>
       ai: Record<string, unknown>

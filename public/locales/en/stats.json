@@ -1,3 +1,20 @@
 {
-  "title": "TODO"
+  "title": "Statistics",
+  "totalStudied": "Total Studied",
+  "overallAccuracy": "Overall Accuracy",
+  "currentStreak": "Current Streak",
+  "questionsReviewed": "Questions Reviewed",
+  "categoryPerformance": "Category Performance",
+  "accuracyOverTime": "Accuracy Over Time",
+  "streakCalendar": "Study Streak",
+  "accuracyLabel": "Accuracy",
+  "days_one": "day",
+  "days_other": "days",
+  "last7Days": "Last 7 Days",
+  "last30Days": "Last 30 Days",
+  "allTime": "All Time",
+  "empty": "No Data Yet",
+  "emptyMessage": "Start studying to see your statistics here.",
+  "goToStudy": "Go to Study",
+  "noData": "No data available"
 }
