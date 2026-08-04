@@ -1,3 +1,13 @@
 {
-  "title": "TODO"
+  "title": "Glossary",
+  "searchPlaceholder": "Search terms or definitions…",
+  "filterAll": "All Categories",
+  "filterEquipment": "Equipment",
+  "filterBiology": "Biology",
+  "filterLegal": "Legal",
+  "filterTechnique": "Technique",
+  "definition": "Definition",
+  "seeAlso": "See Also",
+  "noResults": "No matching terms found.",
+  "loading": "Loading glossary…"
 }

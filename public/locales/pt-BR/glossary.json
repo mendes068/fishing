@@ -1,3 +1,13 @@
 {
-  "title": "TODO"
+  "title": "Glossário",
+  "searchPlaceholder": "Pesquisar termos ou definições…",
+  "filterAll": "Todas as Categorias",
+  "filterEquipment": "Equipamento",
+  "filterBiology": "Biologia",
+  "filterLegal": "Legislação",
+  "filterTechnique": "Técnica",
+  "definition": "Definição",
+  "seeAlso": "Veja Também",
+  "noResults": "Nenhum termo correspondente encontrado.",
+  "loading": "Carregando glossário…"
 }

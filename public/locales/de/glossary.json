@@ -1,3 +1,13 @@
 {
-  "title": "TODO"
+  "title": "Glossar",
+  "searchPlaceholder": "Begriff oder Definition durchsuchen…",
+  "filterAll": "Alle Kategorien",
+  "filterEquipment": "Ausrüstung",
+  "filterBiology": "Biologie",
+  "filterLegal": "Recht",
+  "filterTechnique": "Technik",
+  "definition": "Definition",
+  "seeAlso": "Siehe auch",
+  "noResults": "Keine passenden Begriffe gefunden.",
+  "loading": "Glossar wird geladen…"
 }
