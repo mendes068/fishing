@@ -7,7 +7,7 @@
   "focusSuggestion": "Empfehlung für den Lernfokus",
   "noWeakAreas": "Weiter so! Es wurden keine Schwachstellen erkannt.",
   "focusOn": "Konzentriere dich auf {{category}} — deine Genauigkeit beträgt",
-  "accuracyPercent": "{{percent}}% dort.",
+  "accuracyPercent": "{{percent}}%.",
   "weakAreasTitle": "Empfohlener Schwerpunkt",
   "mnemonicLabel": "Merkhilfe:"
 }

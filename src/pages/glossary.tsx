@@ -26,12 +26,12 @@ import { LoadingSpinner } from '@/components/loading-spinner'
 
 type GlossaryCategory = GlossaryTerm['category']
 
-const CATEGORY_KEYS: Record<GlossaryCategory, string> = {
+const CATEGORY_KEYS = {
   equipment: 'filterEquipment',
   biology: 'filterBiology',
   legal: 'filterLegal',
   technique: 'filterTechnique',
-}
+} as const
 
 function normalize(value: string): string {
   return value
@@ -153,6 +153,7 @@ function TermCard({
 
 export default function Glossary() {
   const { t } = useTranslation('glossary')
+  const { t: tCommon } = useTranslation()
   const language = useSettingsStore((s) => s.language)
   const glossary = useDataStore((s) => s.glossary)
   const loading = useDataStore((s) => s.loading)
@@ -314,7 +315,7 @@ export default function Glossary() {
               type="button"
               data-testid="glossary-search-clear"
               onClick={() => setQuery('')}
-              aria-label={t('close')}
+              aria-label={tCommon('close')}
               className="absolute top-1/2 right-2 -translate-y-1/2 rounded-full p-1 text-muted-foreground hover:bg-muted hover:text-foreground"
             >
               <X className="size-3.5" />

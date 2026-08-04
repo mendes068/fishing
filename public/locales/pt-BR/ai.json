@@ -6,8 +6,8 @@
   "mnemonicInvolve": "perguntas frequentemente envolvem",
   "focusSuggestion": "Sugestão de foco",
   "noWeakAreas": "Continue estudando! Nenhuma área fraca detectada.",
-  "focusOn": "Concentre-se em {{category}} — sua precisão é",
-  "accuracyPercent": "{{percent}}% lá.",
+  "focusOn": "Concentre-se em {{category}} — sua precisão é de",
+  "accuracyPercent": "{{percent}}%.",
   "weakAreasTitle": "Área de foco sugerida",
   "mnemonicLabel": "Mnemônico:"
 }

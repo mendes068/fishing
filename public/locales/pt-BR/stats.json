@@ -8,6 +8,8 @@
   "accuracyOverTime": "Precisão ao Longo do Tempo",
   "streakCalendar": "Sequência de Estudos",
   "accuracyLabel": "Precisão",
+  "chartRadarLabel": "Gráfico de radar da precisão por categoria",
+  "chartLineLabel": "Gráfico de linha da precisão ao longo do tempo",
   "days_one": "dia",
   "days_other": "dias",
   "last7Days": "Últimos 7 Dias",

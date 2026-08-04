@@ -18,6 +18,7 @@
     "expand": "Expand sidebar",
     "collapse": "Collapse sidebar"
   },
+  "a11y": { "skipToContent": "Skip to content" },
   "theme": { "toggle": "Toggle theme", "light": "Light", "dark": "Dark" },
   "lang": { "label": "Language" },
   "pwa": {

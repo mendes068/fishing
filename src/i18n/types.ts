@@ -3,10 +3,10 @@ import 'i18next'
 /**
  * Type augmentation for i18next translation keys.
  *
- * Fully-typed namespaces (common, errors, dashboard) get explicit interfaces so
- * `t('common:app.name')` is checked at compile time. Placeholder namespaces
- * (filled in Task 30) are typed as `Record<string, unknown>` for now — keys are
- * accepted but not deeply validated until their JSON files are completed.
+ * All 17 namespaces (common, dashboard, study, exam, categories, stats,
+ * search, favorites, notes, flashcards, encyclopedia, glossary, import,
+ * export, settings, errors, ai) are fully typed so `t('key')` is checked at
+ * compile time across every namespace.
  */
 
 export interface CommonResources {
@@ -30,6 +30,7 @@ export interface CommonResources {
     collapse: string
   }
   theme: { toggle: string; light: string; dark: string }
+  a11y: { skipToContent: string }
   lang: { label: string }
   pwa: {
     offlineReady: string
@@ -140,6 +141,8 @@ export interface StatsResources {
   accuracyOverTime: string
   streakCalendar: string
   accuracyLabel: string
+  chartRadarLabel: string
+  chartLineLabel: string
   days_one: string
   days_other: string
   last7Days: string
@@ -226,6 +229,177 @@ export interface CategoriesResources {
   answeredLabel: string
 }
 
+export interface ExamResources {
+  title: string
+  rules: {
+    title: string
+    intro: string
+    questionCount: string
+    categories: string
+    duration: string
+    passCriteria: string
+    shuffled: string
+    autoSubmit: string
+  }
+  startExam: string
+  question: string
+  of: string
+  answered: string
+  unanswered: string
+  submitExam: string
+  confirmSubmit: {
+    title: string
+    description: string
+    yesSubmit: string
+    cancel: string
+  }
+  timeRemaining: string
+  oneMinuteWarning: string
+  timeUp: string
+  result: {
+    passed: string
+    failed: string
+    score: string
+    categoryBreakdown: string
+    timeUsed: string
+    reviewAnswers: string
+    backToDashboard: string
+    passCriteria: string
+  }
+  resume: {
+    title: string
+    prompt: string
+    resume: string
+    abandon: string
+  }
+  languageLocked: string
+  noQuestions: string
+  backWarning: string
+  navigator: {
+    current: string
+    answered: string
+    unanswered: string
+    label: string
+  }
+  review: {
+    title: string
+    correct: string
+    incorrect: string
+    yourAnswer: string
+    correctAnswer: string
+    notAnswered: string
+    explanation: string
+  }
+}
+
+export interface SearchResources {
+  title: string
+  searchPlaceholder: string
+  clear: string
+  resultsFor: string
+  resultsCount: string
+  questions: string
+  fishSpecies: string
+  glossaryTerms: string
+  noResults: string
+  noResultsFor: string
+  noResultsSuggestion: string
+  hint: string
+  searchHint: string
+  loading: string
+}
+
+export interface FlashcardsResources {
+  title: string
+  front: string
+  back: string
+  flipHint: string
+  blackout: string
+  wrong: string
+  almost: string
+  hard: string
+  good: string
+  easy: string
+  reviewedToday: string
+  dueToday: string
+  moreDue: string
+  nextReview: string
+  allCaughtUp: string
+  noCards: string
+  studyStreak: string
+  qualityHint: string
+  answer: string
+  explanationLabel: string
+  totalCards: string
+  progress: string
+  questionCount: string
+  categoryLabel: string
+}
+
+export interface EncyclopediaResources {
+  title: string
+  searchPlaceholder: string
+  filterAll: string
+  filterProtected: string
+  filterCommon: string
+  scientificName: string
+  commonNames: string
+  habitat: string
+  maxSize: string
+  minCatchSize: string
+  noMinSize: string
+  closedSeason: string
+  noClosedSeason: string
+  distinguishingFeatures: string
+  protected: string
+  common: string
+  relatedQuestions: string
+  noRelatedQuestions: string
+  notFound: string
+  back: string
+  sortByName: string
+  sortByScientific: string
+  alphabetical: string
+  noResults: string
+  imagePlaceholder: string
+  details: string
+  sizeUnit: string
+  seasonFormat: string
+  category: string
+  speciesCount: string
+  speciesCount_zero: string
+  speciesCount_one: string
+  speciesCount_other: string
+}
+
+export interface GlossaryResources {
+  title: string
+  searchPlaceholder: string
+  filterAll: string
+  filterEquipment: string
+  filterBiology: string
+  filterLegal: string
+  filterTechnique: string
+  definition: string
+  seeAlso: string
+  noResults: string
+  loading: string
+}
+
+export interface AiResources {
+  title: string
+  correctAnswerIs: string
+  categoryHint: string
+  mnemonicPrefix: string
+  mnemonicInvolve: string
+  focusSuggestion: string
+  noWeakAreas: string
+  focusOn: string
+  accuracyPercent: string
+  weakAreasTitle: string
+  mnemonicLabel: string
+}
+
 declare module 'i18next' {
   interface CustomTypeOptions {
     defaultNS: 'common'
@@ -234,19 +408,19 @@ declare module 'i18next' {
       errors: ErrorsResources
       dashboard: DashboardResources
       study: StudyResources
-      exam: Record<string, unknown>
+      exam: ExamResources
       categories: CategoriesResources
       stats: StatsResources
-      search: Record<string, unknown>
+      search: SearchResources
       favorites: FavoritesResources
       notes: NotesResources
-      flashcards: Record<string, unknown>
-      encyclopedia: Record<string, unknown>
-      glossary: Record<string, unknown>
+      flashcards: FlashcardsResources
+      encyclopedia: EncyclopediaResources
+      glossary: GlossaryResources
       import: ImportResources
       export: ExportResources
       settings: SettingsResources
-      ai: Record<string, unknown>
+      ai: AiResources
     }
   }
 }

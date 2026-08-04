@@ -7,7 +7,7 @@
   "focusSuggestion": "Focus suggestion",
   "noWeakAreas": "Keep studying! No weak areas detected.",
   "focusOn": "Focus on {{category}} — your accuracy is",
-  "accuracyPercent": "{{percent}}% there.",
+  "accuracyPercent": "{{percent}}%.",
   "weakAreasTitle": "Suggested focus area",
   "mnemonicLabel": "Mnemonic:"
 }

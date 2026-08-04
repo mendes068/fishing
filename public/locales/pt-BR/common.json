@@ -18,6 +18,7 @@
     "expand": "Expandir barra lateral",
     "collapse": "Recolher barra lateral"
   },
+  "a11y": { "skipToContent": "Pular para o conteúdo" },
   "theme": { "toggle": "Alternar tema", "light": "Claro", "dark": "Escuro" },
   "lang": { "label": "Idioma" },
   "pwa": {

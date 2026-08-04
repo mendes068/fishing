@@ -18,6 +18,7 @@
     "expand": "Seitenleiste erweitern",
     "collapse": "Seitenleiste einklappen"
   },
+  "a11y": { "skipToContent": "Zum Inhalt springen" },
   "theme": { "toggle": "Design wechseln", "light": "Hell", "dark": "Dunkel" },
   "lang": { "label": "Sprache" },
   "pwa": {

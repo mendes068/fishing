@@ -8,6 +8,8 @@
   "accuracyOverTime": "Genauigkeit im Zeitverlauf",
   "streakCalendar": "Lernserie",
   "accuracyLabel": "Genauigkeit",
+  "chartRadarLabel": "Radardiagramm: Genauigkeit nach Kategorie",
+  "chartLineLabel": "Liniendiagramm: Genauigkeit im Zeitverlauf",
   "days_one": "Tag",
   "days_other": "Tage",
   "last7Days": "Letzte 7 Tage",

@@ -3,6 +3,7 @@
   "searchPlaceholder": "Buscar perguntas, espécies de peixes e termos …",
   "clear": "Limpar busca",
   "resultsFor": "Resultados para \"{{query}}\"",
+  "resultsCount": "{{count}} resultados",
   "questions": "Perguntas",
   "fishSpecies": "Espécies de Peixes",
   "glossaryTerms": "Termos do Glossário",

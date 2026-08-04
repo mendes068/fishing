@@ -3,6 +3,7 @@
   "searchPlaceholder": "Fragen, Fischarten und Begriffe durchsuchen …",
   "clear": "Suche löschen",
   "resultsFor": "Ergebnisse für „{{query}}“",
+  "resultsCount": "{{count}} Ergebnisse",
   "questions": "Fragen",
   "fishSpecies": "Fischarten",
   "glossaryTerms": "Glossarbegriffe",

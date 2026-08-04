@@ -8,6 +8,8 @@
   "accuracyOverTime": "Accuracy Over Time",
   "streakCalendar": "Study Streak",
   "accuracyLabel": "Accuracy",
+  "chartRadarLabel": "Radar chart of accuracy by category",
+  "chartLineLabel": "Line chart of accuracy over time",
   "days_one": "day",
   "days_other": "days",
   "last7Days": "Last 7 Days",

@@ -3,6 +3,7 @@
   "searchPlaceholder": "Search questions, fish species and terms …",
   "clear": "Clear search",
   "resultsFor": "Results for \"{{query}}\"",
+  "resultsCount": "{{count}} results",
   "questions": "Questions",
   "fishSpecies": "Fish Species",
   "glossaryTerms": "Glossary Terms",
