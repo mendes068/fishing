@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useSearchParams } from 'react-router'
 import { StarIcon, StickyNote } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
@@ -45,13 +46,14 @@ function fisherYatesShuffle<T>(arr: readonly T[]): T[] {
   return shuffled
 }
 
-type ExtendedMode = 'sequential' | 'random' | 'favorites' | 'incorrect'
+type ExtendedMode = 'sequential' | 'random' | 'favorites' | 'incorrect' | 'weak'
 
 const MODE_VALUES: ExtendedMode[] = [
   'sequential',
   'random',
   'favorites',
   'incorrect',
+  'weak',
 ]
 
 // ---------------------------------------------------------------------------
@@ -108,6 +110,51 @@ export default function Study() {
     }
   }, [isLoaded, loadAll])
 
+  // --- Query param reading on mount ----------------------------------------
+  const [searchParams] = useSearchParams()
+
+  useEffect(() => {
+    const modeParam = searchParams.get('mode')
+    if (modeParam === 'weak') {
+      setExtendedMode('weak' satisfies ExtendedMode)
+    } else if (modeParam === 'random') {
+      setExtendedMode('random')
+    } else if (modeParam === 'favorites') {
+      setExtendedMode('favorites')
+    } else if (modeParam === 'incorrect') {
+      setExtendedMode('incorrect')
+    }
+    const categoryParam = searchParams.get('category')
+    if (categoryParam) {
+      setCategoryFilter(categoryParam as QuestionCategory | 'all')
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // --- Weak category target computation ------------------------------------
+  const weakTargetCategories = useMemo<QuestionCategory[]>(() => {
+    if (extendedMode !== 'weak') return []
+    const wc = useProgressStore.getState().getWeakCategories()
+    if (wc.length === 0) return []
+
+    // Count unanswered questions per weak category
+    const unanswered = new Map<QuestionCategory, number>()
+    if (allQuestions) {
+      for (const id of Object.keys(allQuestions)) {
+        if (!results[id]) {
+          const cat = allQuestions[id]?.category
+          if (cat) unanswered.set(cat, (unanswered.get(cat) ?? 0) + 1)
+        }
+      }
+    }
+
+    const cats: QuestionCategory[] = [wc[0].category]
+    if (wc.length >= 2 && (unanswered.get(wc[0].category) ?? 0) < 10) {
+      cats.push(wc[1].category)
+    }
+    return cats
+  }, [extendedMode, allQuestions, results])
+
   // --- Derive filtered / ordered question list -----------------------------
   const derivedOrder = useMemo(() => {
     if (!allQuestions) return []
@@ -126,6 +173,14 @@ export default function Study() {
       case 'incorrect':
         ids = ids.filter((id) => results[id]?.correct === false)
         break
+      case 'weak':
+        if (weakTargetCategories.length > 0) {
+          ids = ids.filter((id) => {
+            const cat = allQuestions[id]?.category
+            return cat ? weakTargetCategories.includes(cat) : false
+          })
+        }
+        break
       case 'random':
         ids = fisherYatesShuffle(ids)
         break
@@ -135,7 +190,7 @@ export default function Study() {
     }
 
     return ids
-  }, [allQuestions, categoryFilter, extendedMode, favoriteIds, results])
+  }, [allQuestions, categoryFilter, extendedMode, favoriteIds, results, weakTargetCategories])
 
   // --- Sync derived order into the question store --------------------------
   useEffect(() => {
@@ -181,9 +236,14 @@ export default function Study() {
 
   const handleModeChange = useCallback(
     (value: string | null) => {
-      if (value) setExtendedMode(value as ExtendedMode)
+      if (!value) return
+      const newMode = value as ExtendedMode
+      if (extendedMode === 'weak' && newMode !== 'weak') {
+        setCategoryFilter('all')
+      }
+      setExtendedMode(newMode)
     },
-    [],
+    [extendedMode],
   )
 
   const handleCategoryChange = useCallback((value: string | null) => {
@@ -296,19 +356,23 @@ export default function Study() {
                     ? t('random')
                     : extendedMode === 'favorites'
                       ? t('favoritesOnly')
-                      : t('incorrectOnly')}
+                      : extendedMode === 'incorrect'
+                        ? t('incorrectOnly')
+                        : t('weakMode')}
               </SelectValue>
             </SelectTrigger>
             <SelectContent>
               {MODE_VALUES.map((m) => (
-                <SelectItem key={m} value={m}>
+                <SelectItem key={m} value={m} data-testid={`mode-${m}`}>
                   {m === 'sequential'
                     ? t('sequential')
                     : m === 'random'
                       ? t('random')
                       : m === 'favorites'
                         ? t('favoritesOnly')
-                        : t('incorrectOnly')}
+                        : m === 'incorrect'
+                          ? t('incorrectOnly')
+                          : t('weakMode')}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -323,10 +387,22 @@ export default function Study() {
           >
             {t('categoryLabel')}
           </label>
-          <Select value={categoryFilter} onValueChange={handleCategoryChange}>
+          <Select
+            value={
+              extendedMode === 'weak'
+                ? 'weak'
+                : categoryFilter
+            }
+            onValueChange={handleCategoryChange}
+            disabled={extendedMode === 'weak'}
+          >
             <SelectTrigger id="category-select-trigger" data-testid="category-select" size="sm">
               <SelectValue>
-                {categoryLabelMap[categoryFilter]}
+                {extendedMode === 'weak'
+                  ? weakTargetCategories.length > 0
+                    ? weakTargetCategories.map((cat) => categoryLabelMap[cat]).join(', ')
+                    : t('weakMode')
+                  : categoryLabelMap[categoryFilter]}
               </SelectValue>
             </SelectTrigger>
             <SelectContent>

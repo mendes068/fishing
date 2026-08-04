@@ -20,5 +20,7 @@
   "noteAdd": "Notiz bearbeiten",
   "noteRemove": "Notiz entfernen",
   "compareLabel": "Vergleichen mit",
-  "compareOff": "Aus"
+  "compareOff": "Aus",
+  "weakMode": "Schwache Kategorien",
+  "weakModeDescription": "Konzentriert sich auf die Kategorien, in denen Sie die meisten Fehler machen"
 }

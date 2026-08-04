@@ -101,6 +101,8 @@ export interface StudyResources {
   noteRemove: string
   compareLabel: string
   compareOff: string
+  weakMode: string
+  weakModeDescription: string
 }
 
 export interface FavoritesResources {

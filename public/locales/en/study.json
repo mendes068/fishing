@@ -20,5 +20,7 @@
   "noteAdd": "Edit note",
   "noteRemove": "Remove note",
   "compareLabel": "Compare with",
-  "compareOff": "Off"
+  "compareOff": "Off",
+  "weakMode": "Weak Categories",
+  "weakModeDescription": "Focus on categories where you make the most mistakes"
 }

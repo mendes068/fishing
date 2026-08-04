@@ -20,5 +20,7 @@
   "noteAdd": "Editar anotação",
   "noteRemove": "Remover anotação",
   "compareLabel": "Comparar com",
-  "compareOff": "Desligado"
+  "compareOff": "Desligado",
+  "weakMode": "Categorias Fracas",
+  "weakModeDescription": "Foca nas categorias onde você comete mais erros"
 }
