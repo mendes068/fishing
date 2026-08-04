@@ -90,6 +90,38 @@ export interface StudyResources {
   explanation: string
   favoriteAdd: string
   favoriteRemove: string
+  noteAdd: string
+  noteRemove: string
+}
+
+export interface FavoritesResources {
+  title: string
+  empty: string
+  emptyMessage: string
+  goToStudy: string
+  remove: string
+  count: string
+  searchPlaceholder: string
+  allCategories: string
+  categoryLabel: string
+  filteredEmpty: string
+}
+
+export interface NotesResources {
+  title: string
+  empty: string
+  emptyMessage: string
+  goToStudy: string
+  addNote: string
+  editNote: string
+  save: string
+  cancel: string
+  delete: string
+  preview: string
+  edit: string
+  searchPlaceholder: string
+  noteForQuestion: string
+  noNotes: string
 }
 
 export interface CategoriesResources {
@@ -130,8 +162,8 @@ declare module 'i18next' {
       categories: CategoriesResources
       stats: Record<string, unknown>
       search: Record<string, unknown>
-      favorites: Record<string, unknown>
-      notes: Record<string, unknown>
+      favorites: FavoritesResources
+      notes: NotesResources
       flashcards: Record<string, unknown>
       encyclopedia: Record<string, unknown>
       glossary: Record<string, unknown>

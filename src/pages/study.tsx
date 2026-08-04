@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { StarIcon } from 'lucide-react'
+import { StarIcon, StickyNote } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -11,6 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
+import { NoteEditor } from '@/components/notes/note-editor'
 import { PageLoading } from '@/components/loading-spinner'
 import {
   Select,
@@ -23,6 +24,7 @@ import { cn } from '@/lib/utils'
 import { CATEGORY_ORDER } from '@/lib/categories'
 import { useDataStore } from '@/store/data.store'
 import { useFavoritesStore } from '@/store/favorites.store'
+import { useNotesStore } from '@/store/notes.store'
 import { useProgressStore } from '@/store/progress.store'
 import { useQuestionStore } from '@/store/question.store'
 import { useSettingsStore } from '@/store/settings.store'
@@ -76,12 +78,13 @@ export default function Study() {
   const prev = useQuestionStore((s) => s.prev)
   const markAnswered = useQuestionStore((s) => s.markAnswered)
 
-  // --- Progress & favorites ------------------------------------------------
+  // --- Progress, favorites, notes -------------------------------------------
   const recordAnswer = useProgressStore((s) => s.recordAnswer)
   const results = useProgressStore((s) => s.results)
   const favoriteIds = useFavoritesStore((s) => s.favoriteIds)
   const toggleFavorite = useFavoritesStore((s) => s.toggleFavorite)
   const isFavorite = useFavoritesStore((s) => s.isFavorite)
+  const getNote = useNotesStore((s) => s.getNote)
 
   // --- Settings ------------------------------------------------------------
   const language = useSettingsStore((s) => s.language)
@@ -93,6 +96,7 @@ export default function Study() {
   const [answerOrder, setAnswerOrder] = useState<number[] | null>(null)
   /** Which display index the user clicked (null = not yet answered). */
   const [selectedDisplayIndex, setSelectedDisplayIndex] = useState<number | null>(null)
+  const [noteDialogOpen, setNoteDialogOpen] = useState(false)
 
   // --- Data loading ---------------------------------------------------------
   useEffect(() => {
@@ -192,6 +196,10 @@ export default function Study() {
     if (currentId) toggleFavorite(currentId)
   }, [currentId, toggleFavorite])
 
+  const handleOpenNote = useCallback(() => {
+    if (currentId) setNoteDialogOpen(true)
+  }, [currentId])
+
   // --- Derived UI values ---------------------------------------------------
 
   const total = derivedOrder.length
@@ -199,6 +207,7 @@ export default function Study() {
   const hasPrev = total > 0
   const hasNext = total > 0
   const favoriteActive = currentId ? isFavorite(currentId) : false
+  const hasNote = currentId ? (getNote(currentId).trim().length > 0) : false
 
   const getAnswerClass = (displayIndex: number): string => {
     if (selectedDisplayIndex === null || answerOrder === null) {
@@ -334,6 +343,21 @@ export default function Study() {
                 {currentQuestion.questionText[language] ??
                   currentQuestion.questionText.de}
               </CardTitle>
+              {/* Note toggle */}
+              <button
+                type="button"
+                onClick={handleOpenNote}
+                data-testid="note-toggle"
+                className="shrink-0 rounded-md p-1 text-muted-foreground hover:text-blue-500 transition-colors"
+                aria-label={t('noteAdd')}
+              >
+                <StickyNote
+                  className={cn(
+                    'size-5',
+                    hasNote && 'fill-blue-400 text-blue-400',
+                  )}
+                />
+              </button>
               {/* Favorite toggle */}
               <button
                 type="button"
@@ -428,6 +452,15 @@ export default function Study() {
           {tCommon('next')}
         </Button>
       </div>
+
+      {/* Note editor dialog */}
+      {currentId && (
+        <NoteEditor
+          questionId={currentId}
+          open={noteDialogOpen}
+          onOpenChange={setNoteDialogOpen}
+        />
+      )}
     </div>
   )
 }
