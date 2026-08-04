@@ -350,9 +350,7 @@ export default function Dashboard() {
         {weakestCategory && (
           <Button
             variant="outline"
-            onClick={() =>
-              navigate(`/study?category=${weakestCategory}`)
-            }
+            onClick={() => navigate('/study?mode=weak')}
           >
             <Target className="size-4" />
             {t('reviewWeakAreas')}
