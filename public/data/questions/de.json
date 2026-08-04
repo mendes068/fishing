@@ -90,7 +90,7 @@
     ],
     "fishRefs": [
       "hecht",
-      "forelle",
+      "bachforelle",
       "barsch"
     ]
   },
@@ -274,8 +274,8 @@
       "artenbestimmung"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-007": {
@@ -413,7 +413,7 @@
     ],
     "fishRefs": [
       "hecht",
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-010": {
@@ -683,7 +683,7 @@
       "fliesgewaesser"
     ],
     "fishRefs": [
-      "asche"
+      "aesche"
     ]
   },
   "bbg-016": {
@@ -951,7 +951,7 @@
       "artenbestimmung"
     ],
     "fishRefs": [
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-022": {
@@ -1311,7 +1311,7 @@
       "friedfisch"
     ],
     "fishRefs": [
-      "guster"
+      "guester"
     ]
   },
   "bbg-030": {
@@ -1356,7 +1356,7 @@
       "friedfisch"
     ],
     "fishRefs": [
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-031": {
@@ -1495,7 +1495,7 @@
     "fishRefs": [
       "karpfen",
       "schleie",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-034": {
@@ -1586,7 +1586,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-036": {
@@ -1632,7 +1632,7 @@
     ],
     "fishRefs": [
       "zander",
-      "plotze",
+      "ploetze",
       "ukelei"
     ]
   },
@@ -1678,7 +1678,7 @@
       "schwarmfisch"
     ],
     "fishRefs": [
-      "plotze",
+      "ploetze",
       "ukelei",
       "rotfeder"
     ]
@@ -1954,8 +1954,8 @@
       "artenbestimmung"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-044": {
@@ -2367,7 +2367,7 @@
     "fishRefs": [
       "karpfen",
       "schleie",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-053": {
@@ -2965,7 +2965,7 @@
       "ph-wert"
     ],
     "fishRefs": [
-      "forelle",
+      "bachforelle",
       "hecht"
     ]
   },
@@ -3479,7 +3479,7 @@
     "fishRefs": [
       "hecht",
       "zander",
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-077": {
@@ -3662,8 +3662,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche",
+      "bachforelle",
+      "aesche",
       "barbe"
     ]
   },
@@ -3709,8 +3709,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche",
+      "bachforelle",
+      "aesche",
       "zander"
     ]
   },
@@ -3756,8 +3756,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-083": {
@@ -3802,8 +3802,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche",
+      "bachforelle",
+      "aesche",
       "barbe"
     ]
   },
@@ -3849,8 +3849,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche",
+      "bachforelle",
+      "aesche",
       "hecht"
     ]
   },
@@ -3896,8 +3896,8 @@
       "temperatur"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-086": {
@@ -3944,8 +3944,8 @@
     "fishRefs": [
       "karpfen",
       "wels",
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-087": {
@@ -4179,7 +4179,7 @@
     "fishRefs": [
       "karpfen",
       "barsch",
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-092": {
@@ -4225,7 +4225,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze",
+      "ploetze",
       "ukelei"
     ]
   },
@@ -4271,8 +4271,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-094": {
@@ -4317,7 +4317,7 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
+      "bachforelle",
       "hecht",
       "zander"
     ]
@@ -4364,8 +4364,8 @@
       "temperatur"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-096": {
@@ -4550,7 +4550,7 @@
     "fishRefs": [
       "hecht",
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-100": {
@@ -4642,7 +4642,7 @@
     ],
     "fishRefs": [
       "hecht",
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-102": {
@@ -4824,7 +4824,7 @@
       "sauerstoff"
     ],
     "fishRefs": [
-      "forelle",
+      "bachforelle",
       "karpfen"
     ]
   },
@@ -4916,7 +4916,7 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
+      "bachforelle",
       "zander"
     ]
   },
@@ -5008,8 +5008,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-110": {
@@ -5103,7 +5103,7 @@
     "fishRefs": [
       "karpfen",
       "hecht",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-112": {
@@ -5193,8 +5193,8 @@
       "wasserqualitaet"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-114": {
@@ -5286,8 +5286,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-116": {
@@ -5332,8 +5332,8 @@
       "oekologie"
     ],
     "fishRefs": [
-      "asche",
-      "forelle"
+      "aesche",
+      "bachforelle"
     ]
   },
   "bbg-117": {
@@ -5425,8 +5425,8 @@
     ],
     "fishRefs": [
       "hecht",
-      "asche",
-      "forelle"
+      "aesche",
+      "bachforelle"
     ]
   },
   "bbg-119": {
@@ -5472,7 +5472,7 @@
     ],
     "fishRefs": [
       "hecht",
-      "forelle",
+      "bachforelle",
       "zander"
     ]
   },
@@ -5611,8 +5611,8 @@
       "geraete"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-123": {
@@ -6215,7 +6215,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-136": {
@@ -6260,7 +6260,7 @@
       "montage"
     ],
     "fishRefs": [
-      "plotze",
+      "ploetze",
       "karpfen"
     ]
   },
@@ -6306,7 +6306,7 @@
       "montage"
     ],
     "fishRefs": [
-      "plotze",
+      "ploetze",
       "karpfen",
       "rotfeder"
     ]
@@ -6493,7 +6493,7 @@
     ],
     "fishRefs": [
       "barsch",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-142": {
@@ -6537,7 +6537,7 @@
       "technik"
     ],
     "fishRefs": [
-      "plotze",
+      "ploetze",
       "barsch"
     ]
   },
@@ -6676,7 +6676,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-146": {
@@ -6954,7 +6954,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-152": {
@@ -7000,7 +7000,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-153": {
@@ -7320,7 +7320,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-160": {
@@ -7366,7 +7366,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-161": {
@@ -7641,8 +7641,8 @@
       "technik"
     ],
     "fishRefs": [
-      "forelle",
-      "asche"
+      "bachforelle",
+      "aesche"
     ]
   },
   "bbg-167": {
@@ -7780,7 +7780,7 @@
     "fishRefs": [
       "hecht",
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-170": {
@@ -7964,7 +7964,7 @@
     ],
     "fishRefs": [
       "karpfen",
-      "plotze"
+      "ploetze"
     ]
   },
   "bbg-174": {
@@ -8054,7 +8054,7 @@
       "montage"
     ],
     "fishRefs": [
-      "plotze",
+      "ploetze",
       "karpfen"
     ]
   },
@@ -13117,7 +13117,7 @@
       "recht"
     ],
     "fishRefs": [
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-286": {
@@ -13162,7 +13162,7 @@
       "recht"
     ],
     "fishRefs": [
-      "forelle"
+      "bachforelle"
     ]
   },
   "bbg-287": {
