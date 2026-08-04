@@ -1,3 +1,62 @@
 {
-  "title": "TODO"
+  "title": "Official Exam Simulation",
+  "rules": {
+    "title": "Exam Rules",
+    "intro": "This simulation mirrors the official Brandenburg fishing exam.",
+    "questionCount": "60 questions (12 per category)",
+    "categories": "5 categories",
+    "duration": "2 hour time limit",
+    "passCriteria": "To pass: at least 45 out of 60 correct AND at least 6 per category",
+    "shuffled": "Answers are randomly shuffled",
+    "autoSubmit": "Auto-submit when time expires"
+  },
+  "startExam": "Start Exam",
+  "question": "Question",
+  "of": "of",
+  "answered": "answered",
+  "unanswered": "unanswered",
+  "submitExam": "Submit Exam",
+  "confirmSubmit": {
+    "title": "Submit Exam?",
+    "description": "You have answered {answered} of {total} questions. Unanswered questions will be marked incorrect. Are you sure you want to submit?",
+    "yesSubmit": "Yes, submit",
+    "cancel": "Cancel"
+  },
+  "timeRemaining": "Time Remaining",
+  "oneMinuteWarning": "1 minute remaining! Please review your answers.",
+  "timeUp": "Time is up! Your exam has been submitted automatically.",
+  "result": {
+    "passed": "PASSED",
+    "failed": "FAILED",
+    "score": "Score",
+    "categoryBreakdown": "Category Breakdown",
+    "timeUsed": "Time Used",
+    "reviewAnswers": "Review Answers",
+    "backToDashboard": "Back to Dashboard",
+    "passCriteria": "Minimum 45/60 overall and ≥6 per category"
+  },
+  "resume": {
+    "title": "Resume Exam?",
+    "prompt": "You have an exam in progress. Would you like to resume or abandon it?",
+    "resume": "Resume",
+    "abandon": "Abandon"
+  },
+  "languageLocked": "Language switching locked during exam",
+  "noQuestions": "No questions available. Please load data first.",
+  "backWarning": "Leaving this page will discard your exam in progress. Continue?",
+  "navigator": {
+    "current": "Current",
+    "answered": "Answered",
+    "unanswered": "Unanswered",
+    "label": "Question Navigator"
+  },
+  "review": {
+    "title": "Exam Review",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "notAnswered": "Not answered",
+    "explanation": "Explanation"
+  }
 }

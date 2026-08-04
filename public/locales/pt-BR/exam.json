@@ -1,3 +1,62 @@
 {
-  "title": "TODO"
+  "title": "Simulado Oficial",
+  "rules": {
+    "title": "Regras do Exame",
+    "intro": "Esta simulação reproduz o exame oficial de pesca de Brandemburgo.",
+    "questionCount": "60 perguntas (12 por categoria)",
+    "categories": "5 categorias",
+    "duration": "Tempo limite de 2 horas",
+    "passCriteria": "Para aprovação: mínimo de 45 de 60 corretas E mínimo de 6 por categoria",
+    "shuffled": "As respostas são embaralhadas aleatoriamente",
+    "autoSubmit": "Envio automático ao término do tempo"
+  },
+  "startExam": "Iniciar Prova",
+  "question": "Pergunta",
+  "of": "de",
+  "answered": "respondidas",
+  "unanswered": "não respondidas",
+  "submitExam": "Entregar Prova",
+  "confirmSubmit": {
+    "title": "Entregar Prova?",
+    "description": "Você respondeu {answered} de {total} perguntas. Perguntas não respondidas serão marcadas como erradas. Deseja realmente entregar?",
+    "yesSubmit": "Sim, entregar",
+    "cancel": "Cancelar"
+  },
+  "timeRemaining": "Tempo Restante",
+  "oneMinuteWarning": "Falta 1 minuto! Por favor revise suas respostas.",
+  "timeUp": "Tempo esgotado! Sua prova foi enviada automaticamente.",
+  "result": {
+    "passed": "APROVADO",
+    "failed": "REPROVADO",
+    "score": "Resultado",
+    "categoryBreakdown": "Detalhamento por Categoria",
+    "timeUsed": "Tempo Utilizado",
+    "reviewAnswers": "Revisar Respostas",
+    "backToDashboard": "Voltar ao Painel",
+    "passCriteria": "Mínimo de 45/60 no total e ≥6 por categoria"
+  },
+  "resume": {
+    "title": "Retomar Prova?",
+    "prompt": "Você tem uma prova em andamento. Deseja retomá-la ou abandoná-la?",
+    "resume": "Retomar",
+    "abandon": "Abandonar"
+  },
+  "languageLocked": "Troca de idioma bloqueada durante a prova",
+  "noQuestions": "Nenhuma pergunta disponível. Carregue os dados primeiro.",
+  "backWarning": "Sair desta página descartará sua prova em andamento. Continuar?",
+  "navigator": {
+    "current": "Atual",
+    "answered": "Respondida",
+    "unanswered": "Não respondida",
+    "label": "Navegador de Perguntas"
+  },
+  "review": {
+    "title": "Revisão da Prova",
+    "correct": "Correta",
+    "incorrect": "Incorreta",
+    "yourAnswer": "Sua resposta",
+    "correctAnswer": "Resposta correta",
+    "notAnswered": "Não respondida",
+    "explanation": "Explicação"
+  }
 }

@@ -1,3 +1,62 @@
 {
-  "title": "TODO"
+  "title": "Offizielle Prüfungssimulation",
+  "rules": {
+    "title": "Prüfungsordnung",
+    "intro": "Diese Simulation entspricht der offiziellen Brandenburgischen Fischerprüfung.",
+    "questionCount": "60 Fragen (12 pro Kategorie)",
+    "categories": "5 Kategorien",
+    "duration": "2 Stunden Zeitlimit",
+    "passCriteria": "Zum Bestehen: mindestens 45 von 60 Fragen richtig UND mindestens 6 pro Kategorie",
+    "shuffled": "Antworten werden zufällig gemischt",
+    "autoSubmit": "Automatische Abgabe bei Zeitablauf"
+  },
+  "startExam": "Prüfung starten",
+  "question": "Frage",
+  "of": "von",
+  "answered": "beantwortet",
+  "unanswered": "unbeantwortet",
+  "submitExam": "Prüfung abgeben",
+  "confirmSubmit": {
+    "title": "Prüfung abgeben?",
+    "description": "Sie haben {answered} von {total} Fragen beantwortet. Unbeantwortete Fragen werden als falsch gewertet. Möchten Sie wirklich abgeben?",
+    "yesSubmit": "Ja, abgeben",
+    "cancel": "Abbrechen"
+  },
+  "timeRemaining": "Verbleibende Zeit",
+  "oneMinuteWarning": "Noch 1 Minute! Bitte prüfen Sie Ihre Antworten.",
+  "timeUp": "Die Zeit ist abgelaufen! Ihre Prüfung wurde automatisch abgegeben.",
+  "result": {
+    "passed": "BESTANDEN",
+    "failed": "NICHT BESTANDEN",
+    "score": "Ergebnis",
+    "categoryBreakdown": "Aufschlüsselung nach Kategorien",
+    "timeUsed": "Benötigte Zeit",
+    "reviewAnswers": "Antworten anzeigen",
+    "backToDashboard": "Zurück zum Dashboard",
+    "passCriteria": "Mindestens 45/60 gesamt und ≥6 pro Kategorie"
+  },
+  "resume": {
+    "title": "Prüfung fortsetzen?",
+    "prompt": "Sie haben eine laufende Prüfung. Möchten Sie diese fortsetzen oder abbrechen?",
+    "resume": "Fortsetzen",
+    "abandon": "Abbrechen"
+  },
+  "languageLocked": "Sprachwechsel während der Prüfung gesperrt",
+  "noQuestions": "Keine Fragen verfügbar. Bitte laden Sie zuerst die Daten.",
+  "backWarning": "Wenn Sie diese Seite verlassen, wird Ihre laufende Prüfung verworfen. Fortfahren?",
+  "navigator": {
+    "current": "Aktuell",
+    "answered": "Beantwortet",
+    "unanswered": "Nicht beantwortet",
+    "label": "Fragen-Navigator"
+  },
+  "review": {
+    "title": "Prüfungsauswertung",
+    "correct": "Richtig",
+    "incorrect": "Falsch",
+    "yourAnswer": "Ihre Antwort",
+    "correctAnswer": "Richtige Antwort",
+    "notAnswered": "Nicht beantwortet",
+    "explanation": "Erklärung"
+  }
 }
