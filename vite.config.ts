@@ -65,4 +65,37 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  build: {
+    rolldownOptions: {
+      output: {
+        // Vendor splitting via Rolldown `codeSplitting` (Vite 8 removed object-form
+        // `manualChunks`). Chart.js / react-chartjs-2 intentionally NOT listed:
+        // they stay in the lazy /stats route chunk.
+        codeSplitting: {
+          groups: [
+            {
+              name: 'react',
+              test: /node_modules[\\/](react|react-dom|scheduler)[\\/]/,
+              priority: 40,
+            },
+            {
+              name: 'router',
+              test: /node_modules[\\/]react-router[\\/]/,
+              priority: 35,
+            },
+            {
+              name: 'state',
+              test: /node_modules[\\/]zustand[\\/]/,
+              priority: 30,
+            },
+            {
+              name: 'i18n',
+              test: /node_modules[\\/](i18next|react-i18next|i18next-http-backend|i18next-browser-languagedetector)[\\/]/,
+              priority: 25,
+            },
+          ],
+        },
+      },
+    },
+  },
 })
