@@ -9,7 +9,8 @@ export interface ActiveExam {
   expiresAt: number
 }
 
-const EXAM_DURATION_MS = 90 * 60 * 1000 // 90 minutes
+// Official Brandenburg exam duration: 2 hours (120 min)
+const EXAM_DURATION_MS = 120 * 60 * 1000
 
 const CATEGORIES: QuestionCategory[] = [
   'fischkunde_und_hege',
