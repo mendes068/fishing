@@ -18,5 +18,7 @@
   "favoriteAdd": "Adicionar aos favoritos",
   "favoriteRemove": "Remover dos favoritos",
   "noteAdd": "Editar anotação",
-  "noteRemove": "Remover anotação"
+  "noteRemove": "Remover anotação",
+  "compareLabel": "Comparar com",
+  "compareOff": "Desligado"
 }

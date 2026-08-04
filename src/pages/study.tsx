@@ -29,7 +29,7 @@ import { useProgressStore } from '@/store/progress.store'
 import { useQuestionStore } from '@/store/question.store'
 import { useSettingsStore } from '@/store/settings.store'
 import { mnemonicProvider, questionExplanationProvider } from '@/lib/ai'
-import type { QuestionCategory } from '@/types'
+import type { Language, QuestionCategory } from '@/types'
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -99,6 +99,7 @@ export default function Study() {
   /** Which display index the user clicked (null = not yet answered). */
   const [selectedDisplayIndex, setSelectedDisplayIndex] = useState<number | null>(null)
   const [noteDialogOpen, setNoteDialogOpen] = useState(false)
+  const [compareLanguage, setCompareLanguage] = useState<Language | null>(null)
 
   // --- Data loading ---------------------------------------------------------
   useEffect(() => {
@@ -187,6 +188,10 @@ export default function Study() {
 
   const handleCategoryChange = useCallback((value: string | null) => {
     if (value) setCategoryFilter(value as QuestionCategory | 'all')
+  }, [])
+
+  const handleCompareChange = useCallback((value: string | null) => {
+    setCompareLanguage(value === 'off' ? null : (value as Language))
   }, [])
 
   const handleResetFilters = useCallback(() => {
@@ -334,6 +339,38 @@ export default function Study() {
             </SelectContent>
           </Select>
         </div>
+
+        {/* Compare language selector */}
+        <div className="flex items-center gap-2">
+          <label
+            htmlFor="compare-select-trigger"
+            className="text-sm font-medium whitespace-nowrap"
+          >
+            {t('compareLabel')}
+          </label>
+          <Select
+            value={compareLanguage ?? 'off'}
+            onValueChange={handleCompareChange}
+          >
+            <SelectTrigger id="compare-select-trigger" data-testid="compare-select" size="sm">
+              <SelectValue>
+                {compareLanguage === null
+                  ? t('compareOff')
+                  : compareLanguage === 'de'
+                    ? 'Deutsch'
+                    : compareLanguage === 'en'
+                      ? 'English'
+                      : 'Português'}
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="off">{t('compareOff')}</SelectItem>
+              <SelectItem value="de">Deutsch</SelectItem>
+              <SelectItem value="en">English</SelectItem>
+              <SelectItem value="pt-BR">Português</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
       </div>
 
       {/* --- Question card --- */}
@@ -342,8 +379,16 @@ export default function Study() {
           <CardHeader>
             <div className="flex items-start justify-between gap-2">
               <CardTitle className="text-lg leading-relaxed">
-                {currentQuestion.questionText[language] ??
-                  currentQuestion.questionText.de}
+                <div>
+                  {currentQuestion.questionText[language] ??
+                    currentQuestion.questionText.de}
+                </div>
+                {compareLanguage && (
+                  <div className="mt-1 text-sm font-normal text-muted-foreground">
+                    {currentQuestion.questionText[compareLanguage] ??
+                      currentQuestion.questionText.de}
+                  </div>
+                )}
               </CardTitle>
               {/* Note toggle */}
               <button
@@ -406,6 +451,13 @@ export default function Study() {
                     {String.fromCharCode(65 + displayIdx)}.
                   </span>{' '}
                   {answerText}
+                  {compareLanguage && (
+                    <p className="mt-0.5 border-t border-dashed pt-1 text-xs text-muted-foreground">
+                      {currentQuestion.answers[originalIdx]?.text[
+                        compareLanguage
+                      ] ?? currentQuestion.answers[originalIdx]?.text.de ?? ''}
+                    </p>
+                  )}
                 </button>
               )
             })}
@@ -431,6 +483,13 @@ export default function Study() {
                   language,
                 )}
               </p>
+              {compareLanguage && (
+                <p className="text-xs text-muted-foreground">
+                  <span className="font-medium">{t('explanation')}: </span>
+                  {currentQuestion.explanation[compareLanguage] ??
+                    currentQuestion.explanation.de}
+                </p>
+              )}
               <p className="text-xs text-muted-foreground" data-testid="mnemonic">
                 <span className="font-medium">{tAi('mnemonicLabel')}: </span>
                 {mnemonicProvider.generateMnemonic(currentQuestion, language)}

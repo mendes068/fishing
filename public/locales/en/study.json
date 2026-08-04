@@ -18,5 +18,7 @@
   "favoriteAdd": "Add to favorites",
   "favoriteRemove": "Remove from favorites",
   "noteAdd": "Edit note",
-  "noteRemove": "Remove note"
+  "noteRemove": "Remove note",
+  "compareLabel": "Compare with",
+  "compareOff": "Off"
 }

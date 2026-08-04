@@ -18,5 +18,7 @@
   "favoriteAdd": "Zu Favoriten hinzufügen",
   "favoriteRemove": "Aus Favoriten entfernen",
   "noteAdd": "Notiz bearbeiten",
-  "noteRemove": "Notiz entfernen"
+  "noteRemove": "Notiz entfernen",
+  "compareLabel": "Vergleichen mit",
+  "compareOff": "Aus"
 }

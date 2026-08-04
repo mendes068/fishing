@@ -99,6 +99,8 @@ export interface StudyResources {
   favoriteRemove: string
   noteAdd: string
   noteRemove: string
+  compareLabel: string
+  compareOff: string
 }
 
 export interface FavoritesResources {
