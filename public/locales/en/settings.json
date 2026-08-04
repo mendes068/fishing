@@ -1,3 +1,6 @@
 {
-  "title": "TODO"
+  "title": "Settings",
+  "themeLabel": "Theme",
+  "languageLabel": "Language",
+  "dailyReviewCapLabel": "Daily flashcard review cap"
 }

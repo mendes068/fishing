@@ -1,3 +1,6 @@
 {
-  "title": "TODO"
+  "title": "Configurações",
+  "themeLabel": "Tema",
+  "languageLabel": "Idioma",
+  "dailyReviewCapLabel": "Limite diário de revisão de flashcards"
 }

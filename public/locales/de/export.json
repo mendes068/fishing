@@ -1,3 +1,19 @@
 {
-  "title": "TODO"
+  "title": "Daten exportieren",
+  "description": "Wähle aus, welche Daten du als JSON-Datei exportieren möchtest. Die Datei kannst du später über die Import-Seite wiederherstellen.",
+  "section": {
+    "notes": "Notizen",
+    "favorites": "Favoriten",
+    "statistics": "Statistiken",
+    "progress": "Lernfortschritt",
+    "examHistory": "Prüfungsverlauf",
+    "flashcards": "Karteikarten",
+    "settings": "Einstellungen"
+  },
+  "exportAll": "Alle Daten auswählen",
+  "export": "Exportieren",
+  "noData": "Keine Daten zum Exportieren",
+  "exporting": "Wird exportiert …",
+  "done": "Export abgeschlossen",
+  "filename": "Dateiname"
 }

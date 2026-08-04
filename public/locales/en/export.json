@@ -1,3 +1,19 @@
 {
-  "title": "TODO"
+  "title": "Export data",
+  "description": "Choose which data you want to export as a JSON file. You can restore this file later from the import page.",
+  "section": {
+    "notes": "Notes",
+    "favorites": "Favorites",
+    "statistics": "Statistics",
+    "progress": "Progress",
+    "examHistory": "Exam history",
+    "flashcards": "Flashcards",
+    "settings": "Settings"
+  },
+  "exportAll": "Select all data",
+  "export": "Export",
+  "noData": "No data to export",
+  "exporting": "Exporting…",
+  "done": "Export complete",
+  "filename": "File name"
 }

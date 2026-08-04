@@ -167,6 +167,33 @@ export interface ImportResources {
   selectFile: string
 }
 
+export interface ExportResources {
+  title: string
+  description: string
+  section: {
+    notes: string
+    favorites: string
+    statistics: string
+    progress: string
+    examHistory: string
+    flashcards: string
+    settings: string
+  }
+  exportAll: string
+  export: string
+  noData: string
+  exporting: string
+  done: string
+  filename: string
+}
+
+export interface SettingsResources {
+  title: string
+  themeLabel: string
+  languageLabel: string
+  dailyReviewCapLabel: string
+}
+
 export interface CategoriesResources {
   title: string
   names: {
@@ -211,8 +238,8 @@ declare module 'i18next' {
       encyclopedia: Record<string, unknown>
       glossary: Record<string, unknown>
       import: ImportResources
-      export: Record<string, unknown>
-      settings: Record<string, unknown>
+      export: ExportResources
+      settings: SettingsResources
       ai: Record<string, unknown>
     }
   }

@@ -1,3 +1,6 @@
 {
-  "title": "TODO"
+  "title": "Einstellungen",
+  "themeLabel": "Design",
+  "languageLabel": "Sprache",
+  "dailyReviewCapLabel": "Tägliches Karteikarten-Limit"
 }

@@ -1,3 +1,19 @@
 {
-  "title": "TODO"
+  "title": "Exportar dados",
+  "description": "Escolha quais dados você deseja exportar como um arquivo JSON. Você pode restaurar este arquivo mais tarde pela página de importação.",
+  "section": {
+    "notes": "Notas",
+    "favorites": "Favoritos",
+    "statistics": "Estatísticas",
+    "progress": "Progresso",
+    "examHistory": "Histórico de provas",
+    "flashcards": "Flashcards",
+    "settings": "Configurações"
+  },
+  "exportAll": "Selecionar todos os dados",
+  "export": "Exportar",
+  "noData": "Nenhum dado para exportar",
+  "exporting": "Exportando…",
+  "done": "Exportação concluída",
+  "filename": "Nome do arquivo"
 }
