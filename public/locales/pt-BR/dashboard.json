@@ -12,5 +12,8 @@
     "title": "Nada por aqui ainda",
     "message": "Comece a estudar para ver seu progresso."
   },
-  "startStudying": "Começar a estudar"
+  "startStudying": "Começar a estudar",
+  "reviewWeakAreas": "Revisar áreas fracas",
+  "studiedOf": "{{studied}} / {{total}}",
+  "scoreOf": "{{correct}} / {{total}}"
 }

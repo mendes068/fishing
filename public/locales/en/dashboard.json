@@ -12,5 +12,8 @@
     "title": "Nothing here yet",
     "message": "Start studying to see your progress."
   },
-  "startStudying": "Start studying"
+  "startStudying": "Start studying",
+  "reviewWeakAreas": "Review weak areas",
+  "studiedOf": "{{studied}} / {{total}}",
+  "scoreOf": "{{correct}} / {{total}}"
 }

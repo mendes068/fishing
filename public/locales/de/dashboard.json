@@ -12,5 +12,8 @@
     "title": "Noch nichts hier",
     "message": "Beginne mit dem Lernen, um deinen Fortschritt zu sehen."
   },
-  "startStudying": "Mit dem Lernen beginnen"
+  "startStudying": "Mit dem Lernen beginnen",
+  "reviewWeakAreas": "Schwache Bereiche wiederholen",
+  "studiedOf": "{{studied}} / {{total}}",
+  "scoreOf": "{{correct}} / {{total}}"
 }
