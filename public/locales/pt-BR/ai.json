@@ -1,3 +1,13 @@
 {
-  "title": "TODO"
+  "title": "Assistente de IA",
+  "correctAnswerIs": "A resposta correta é",
+  "categoryHint": "Revise os conceitos-chave desta categoria para reforçar seu entendimento.",
+  "mnemonicPrefix": "Lembre-se:",
+  "mnemonicInvolve": "perguntas frequentemente envolvem",
+  "focusSuggestion": "Sugestão de foco",
+  "noWeakAreas": "Continue estudando! Nenhuma área fraca detectada.",
+  "focusOn": "Concentre-se em {{category}} — sua precisão é",
+  "accuracyPercent": "{{percent}}% lá.",
+  "weakAreasTitle": "Área de foco sugerida",
+  "mnemonicLabel": "Mnemônico:"
 }

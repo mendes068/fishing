@@ -21,7 +21,8 @@ import { Button } from '@/components/ui/button'
 import { LoadingSpinner } from '@/components/loading-spinner'
 import { syncStoresFromStorage } from '@/lib/cross-tab'
 import { CATEGORY_ORDER } from '@/lib/categories'
-import { useProgressStore, useExamStore, useDataStore } from '@/store'
+import { learningAssistant } from '@/lib/ai'
+import { useProgressStore, useExamStore, useDataStore, useSettingsStore } from '@/store'
 import type { QuestionCategory } from '@/types'
 
 declare global {
@@ -36,6 +37,7 @@ export default function Dashboard() {
   const { t: tc } = useTranslation('categories')
   const { t: terr } = useTranslation('errors')
   const { t: tCommon } = useTranslation()
+  const { t: tAi } = useTranslation('ai')
   const navigate = useNavigate()
 
   if (window.__THROW_IN_DASHBOARD__) {
@@ -53,6 +55,7 @@ export default function Dashboard() {
 
   const results = useProgressStore((s) => s.results)
   const studyStreak = useProgressStore((s) => s.studyStreak)
+  const language = useSettingsStore((s) => s.language)
 
   // ── Exam store ──────────────────────────────────────────────────────────
 
@@ -103,6 +106,11 @@ export default function Dashboard() {
       }))
       .sort((a, b) => a.accuracy - b.accuracy)
   }, [results])
+
+  const focusSuggestion = useMemo(
+    () => learningAssistant.suggestFocus(learningAssistant.analyzeWeaknesses({ results }), language),
+    [results, language],
+  )
 
   const lastExam = history[0] ?? null
   const weakestCategory = weakCategories.length > 0 ? weakCategories[0].category : null
@@ -306,6 +314,25 @@ export default function Dashboard() {
                 </div>
               </div>
             ))}
+          </CardContent>
+        </Card>
+      )}
+
+      {/* AI focus suggestion */}
+      {weakCategories.length > 0 && (
+        <Card data-testid="ai-focus-card">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-sm font-medium">
+              {tAi('weakAreasTitle')}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-xs text-muted-foreground">
+              {tAi('focusSuggestion')}
+            </p>
+            <p className="mt-1 text-sm" data-testid="focus-suggestion">
+              {focusSuggestion}
+            </p>
           </CardContent>
         </Card>
       )}

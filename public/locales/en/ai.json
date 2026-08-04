@@ -1,3 +1,13 @@
 {
-  "title": "TODO"
+  "title": "AI Assistant",
+  "correctAnswerIs": "The correct answer is",
+  "categoryHint": "Review this category’s key concepts to strengthen your understanding.",
+  "mnemonicPrefix": "Remember:",
+  "mnemonicInvolve": "questions often involve",
+  "focusSuggestion": "Focus suggestion",
+  "noWeakAreas": "Keep studying! No weak areas detected.",
+  "focusOn": "Focus on {{category}} — your accuracy is",
+  "accuracyPercent": "{{percent}}% there.",
+  "weakAreasTitle": "Suggested focus area",
+  "mnemonicLabel": "Mnemonic:"
 }

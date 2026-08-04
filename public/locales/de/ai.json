@@ -1,3 +1,13 @@
 {
-  "title": "TODO"
+  "title": "KI-Assistent",
+  "correctAnswerIs": "Die richtige Antwort ist",
+  "categoryHint": "Wiederhole die Kernkonzepte dieser Kategorie, um dein Verständnis zu festigen.",
+  "mnemonicPrefix": "Merke:",
+  "mnemonicInvolve": "Fragen betreffen oft",
+  "focusSuggestion": "Empfehlung für den Lernfokus",
+  "noWeakAreas": "Weiter so! Es wurden keine Schwachstellen erkannt.",
+  "focusOn": "Konzentriere dich auf {{category}} — deine Genauigkeit beträgt",
+  "accuracyPercent": "{{percent}}% dort.",
+  "weakAreasTitle": "Empfohlener Schwerpunkt",
+  "mnemonicLabel": "Merkhilfe:"
 }

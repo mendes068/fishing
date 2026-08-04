@@ -28,6 +28,7 @@ import { useNotesStore } from '@/store/notes.store'
 import { useProgressStore } from '@/store/progress.store'
 import { useQuestionStore } from '@/store/question.store'
 import { useSettingsStore } from '@/store/settings.store'
+import { mnemonicProvider, questionExplanationProvider } from '@/lib/ai'
 import type { QuestionCategory } from '@/types'
 
 // ---------------------------------------------------------------------------
@@ -61,6 +62,7 @@ export default function Study() {
   const { t } = useTranslation('study')
   const { t: tc } = useTranslation('categories')
   const { t: tCommon } = useTranslation()
+  const { t: tAi } = useTranslation('ai')
 
   // --- Data store ----------------------------------------------------------
   const allQuestions = useDataStore((s) => s.questions)
@@ -420,8 +422,15 @@ export default function Study() {
               </p>
               <p className="text-sm text-muted-foreground">
                 <span className="font-medium">{t('explanation')}: </span>
-                {currentQuestion.explanation[language] ??
-                  currentQuestion.explanation.de}
+                {questionExplanationProvider.explain(
+                  currentQuestion,
+                  selectedDisplayIndex,
+                  language,
+                )}
+              </p>
+              <p className="text-xs text-muted-foreground" data-testid="mnemonic">
+                <span className="font-medium">{tAi('mnemonicLabel')}: </span>
+                {mnemonicProvider.generateMnemonic(currentQuestion, language)}
               </p>
             </CardFooter>
           )}

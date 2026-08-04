@@ -15,6 +15,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, Di
 import { PageLoading } from '@/components/loading-spinner'
 import { selectExamQuestions, shuffleAnswerIndices, mapDisplayToData } from '@/lib/exam-select'
 import { CATEGORY_ORDER, CATEGORY_NAME_KEYS } from '@/lib/categories'
+import { questionExplanationProvider } from '@/lib/ai'
 import { cn } from '@/lib/utils'
 import type { ExamHistoryEntry, Language, Question, QuestionCategory } from '@/types'
 
@@ -807,13 +808,12 @@ function ReviewPhase({ examResult, questions, answers, shuffles }: ReviewPhasePr
                 })}
               </CardContent>
 
-              {q.explanation[lang] && (
-                <CardFooter className="flex-col items-start">
-                  <p className="text-xs text-muted-foreground">
-                    <strong>{t('review.explanation')}:</strong> {q.explanation[lang]}
-                  </p>
-                </CardFooter>
-              )}
+              <CardFooter className="flex-col items-start">
+                <p className="text-xs text-muted-foreground">
+                  <strong>{t('review.explanation')}:</strong>{' '}
+                  {questionExplanationProvider.explain(q, chosen ?? null, lang)}
+                </p>
+              </CardFooter>
             </Card>
           )
         })}
