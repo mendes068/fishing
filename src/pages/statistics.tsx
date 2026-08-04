@@ -390,6 +390,24 @@ export default function Statistics() {
     },
   }
 
+  // ── Screen-reader text summaries for the canvas charts ───────────────────
+
+  const radarSummary = useMemo(
+    () =>
+      CATEGORY_ORDER.map(
+        (cat) => `${categoryLabelMap[cat]}: ${categoryAccuracyData[cat]}%`,
+      ).join(', '),
+    [categoryLabelMap, categoryAccuracyData],
+  )
+
+  const lineSummary = useMemo(
+    () =>
+      dailyAccuracyLabels
+        .map((label, i) => `${label}: ${dailyAccuracyValues[i]}%`)
+        .join(', '),
+    [dailyAccuracyLabels, dailyAccuracyValues],
+  )
+
   // ── Empty state ──────────────────────────────────────────────────────────
 
   if (totalStudied === 0) {
@@ -539,7 +557,10 @@ export default function Statistics() {
           </CardHeader>
           <CardContent data-testid="chart-radar" className="flex justify-center">
             <div className="w-full max-w-sm">
-              <Radar data={radarData} options={radarOptions} />
+              <div role="img" aria-label={t('chartRadarLabel')}>
+                <Radar data={radarData} options={radarOptions} />
+              </div>
+              <p className="sr-only">{radarSummary}</p>
             </div>
           </CardContent>
         </Card>
@@ -555,7 +576,12 @@ export default function Statistics() {
                 {t('noData')}
               </div>
             ) : (
-              <Line data={lineData} options={lineOptions} />
+              <div role="img" aria-label={t('chartLineLabel')}>
+                <Line data={lineData} options={lineOptions} />
+              </div>
+            )}
+            {dailyAccuracyLabels.length > 0 && (
+              <p className="sr-only">{lineSummary}</p>
             )}
           </CardContent>
         </Card>
@@ -617,6 +643,12 @@ export default function Statistics() {
                           ? 'bg-transparent'
                           : intensityClass(cell.count)
                       }`}
+                      role={cell.dateKey ? 'img' : undefined}
+                      aria-label={
+                        cell.dateKey
+                          ? `${cell.dateKey}: ${cell.count} ${t('questionsReviewed').toLowerCase()}`
+                          : undefined
+                      }
                       title={
                         cell.dateKey
                           ? `${cell.dateKey}: ${cell.count} ${t('questionsReviewed').toLowerCase()}`

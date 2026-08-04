@@ -291,17 +291,21 @@ export default function Flashcards() {
       <div
         className="cursor-pointer select-none"
         onClick={handleFlip}
-        onKeyDown={(e) => {
-          if (e.key === ' ' || e.key === 'Enter') {
-            e.preventDefault()
-            handleFlip()
-          }
-        }}
-        role="button"
-        tabIndex={0}
-        aria-label={flipped ? t('back') : t('front')}
+        onKeyDown={
+          flipped
+            ? undefined
+            : (e) => {
+                if (e.key === 'Enter') {
+                  e.preventDefault()
+                  handleFlip()
+                }
+              }
+        }
+        role={flipped ? undefined : 'button'}
+        tabIndex={flipped ? undefined : 0}
+        aria-label={flipped ? undefined : t('front')}
       >
-        <Card className="min-h-[320px] transition-all duration-300">
+        <Card className="min-h-[320px] transition-all duration-300" aria-live="polite">
           <CardHeader>
             <div className="flex items-start justify-between gap-2">
               <CardTitle className="text-lg leading-relaxed">

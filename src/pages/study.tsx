@@ -413,7 +413,10 @@ export default function Study() {
 
           {/* Explanation (shown after answer) */}
           {selectedDisplayIndex !== null && answerOrder !== null && (
-            <CardFooter className="flex-col items-start gap-2">
+            <CardFooter
+              aria-live="polite"
+              className="flex-col items-start gap-2"
+            >
               <p className="text-sm font-semibold">
                 {answerOrder[selectedDisplayIndex] ===
                 currentQuestion.correctAnswerIndex

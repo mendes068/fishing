@@ -63,6 +63,7 @@ export default function Exam() {
   const examQuestionsRef = useRef<Question[]>([])
   const examAnswersRef = useRef<Record<string, number>>({})
   const answerShufflesRef = useRef<Record<string, number[]>>({})
+  const resumeConfirmRef = useRef<HTMLButtonElement>(null)
 
   function getCategoryName(cat: QuestionCategory): string {
     return tcat(CATEGORY_NAME_KEYS[cat])
@@ -254,7 +255,10 @@ export default function Exam() {
   if (showResumeDialog && currentExam) {
     return (
       <Dialog open onOpenChange={() => {}}>
-        <DialogContent showCloseButton={false}>
+        <DialogContent
+          showCloseButton={false}
+          initialFocus={() => resumeConfirmRef.current}
+        >
           <DialogHeader>
             <DialogTitle>{t('resume.title')}</DialogTitle>
             <DialogDescription>{t('resume.prompt')}</DialogDescription>
@@ -263,7 +267,7 @@ export default function Exam() {
             <Button variant="outline" onClick={handleAbandon}>
               {t('resume.abandon')}
             </Button>
-            <Button onClick={handleResume}>
+            <Button onClick={handleResume} ref={resumeConfirmRef}>
               {t('resume.resume')}
             </Button>
           </DialogFooter>
@@ -371,7 +375,7 @@ export default function Exam() {
         <Card>
           <CardHeader>
             <CardTitle>{t('result.score')}</CardTitle>
-            <CardDescription>
+            <CardDescription aria-live="polite" aria-atomic="true">
               {examResult.correctAnswers} / {examResult.totalQuestions}
             </CardDescription>
           </CardHeader>
@@ -481,6 +485,8 @@ export default function Exam() {
             )}
           />
           <span
+            aria-live="polite"
+            aria-atomic="true"
             className={cn(
               'font-mono text-lg font-bold tabular-nums',
               showTimeWarning ? 'text-red-500' : '',
@@ -502,7 +508,10 @@ export default function Exam() {
       </div>
 
       {showTimeWarning && (
-        <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-3 text-center text-sm font-medium text-amber-600 dark:text-amber-400">
+        <div
+          role="status"
+          className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-3 text-center text-sm font-medium text-amber-600 dark:text-amber-400"
+        >
           <AlertTriangle className="mr-2 inline h-4 w-4" />
           {t('oneMinuteWarning')}
         </div>

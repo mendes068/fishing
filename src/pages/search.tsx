@@ -377,8 +377,15 @@ export default function Search() {
         </div>
       ) : totalResults > 0 ? (
         <div className="flex flex-col gap-8">
-          <p className="text-sm text-muted-foreground">
+          <p
+            className="text-sm text-muted-foreground"
+            aria-live="polite"
+            aria-atomic="true"
+          >
             {t('resultsFor', { query: debouncedQuery })}
+          </p>
+          <p className="sr-only" role="status" aria-live="polite">
+            {t('resultsCount', { count: totalResults })}
           </p>
           {results.question.length > 0 && (
             <ResultGroup
