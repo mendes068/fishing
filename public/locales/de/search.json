@@ -1,3 +1,15 @@
 {
-  "title": "TODO"
+  "title": "Suche",
+  "searchPlaceholder": "Fragen, Fischarten und Begriffe durchsuchen …",
+  "clear": "Suche löschen",
+  "resultsFor": "Ergebnisse für „{{query}}“",
+  "questions": "Fragen",
+  "fishSpecies": "Fischarten",
+  "glossaryTerms": "Glossarbegriffe",
+  "noResults": "Keine Ergebnisse",
+  "noResultsFor": "Keine Ergebnisse für „{{query}}“",
+  "noResultsSuggestion": "Versuche es mit einem anderen Begriff oder einem Teil eines Wortes.",
+  "hint": "Suche nach Fragen, Fischarten oder Glossarbegriffen. Die Suche funktioniert in allen Sprachen – „Hecht“ und „pike“ finden denselben Eintrag.",
+  "searchHint": "Tastenkürzel: Strg+K / Cmd+K",
+  "loading": "Wird geladen …"
 }

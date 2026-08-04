@@ -1,3 +1,15 @@
 {
-  "title": "TODO"
+  "title": "Search",
+  "searchPlaceholder": "Search questions, fish species and terms …",
+  "clear": "Clear search",
+  "resultsFor": "Results for \"{{query}}\"",
+  "questions": "Questions",
+  "fishSpecies": "Fish Species",
+  "glossaryTerms": "Glossary Terms",
+  "noResults": "No results",
+  "noResultsFor": "No results for \"{{query}}\"",
+  "noResultsSuggestion": "Try a different term or part of a word.",
+  "hint": "Search for questions, fish species or glossary terms. Search works across all languages – \"pike\" and \"Hecht\" find the same entry.",
+  "searchHint": "Shortcut: Ctrl+K / Cmd+K",
+  "loading": "Loading …"
 }

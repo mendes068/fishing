@@ -1,3 +1,15 @@
 {
-  "title": "TODO"
+  "title": "Busca",
+  "searchPlaceholder": "Buscar perguntas, espécies de peixes e termos …",
+  "clear": "Limpar busca",
+  "resultsFor": "Resultados para \"{{query}}\"",
+  "questions": "Perguntas",
+  "fishSpecies": "Espécies de Peixes",
+  "glossaryTerms": "Termos do Glossário",
+  "noResults": "Nenhum resultado",
+  "noResultsFor": "Nenhum resultado para \"{{query}}\"",
+  "noResultsSuggestion": "Tente outro termo ou parte de uma palavra.",
+  "hint": "Busque por perguntas, espécies de peixes ou termos do glossário. A busca funciona em todos os idiomas – \"pike\" e \"Hecht\" encontram a mesma entrada.",
+  "searchHint": "Atalho: Ctrl+K / Cmd+K",
+  "loading": "Carregando …"
 }
