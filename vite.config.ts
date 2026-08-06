@@ -11,7 +11,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
       includeAssets: ['pwa-icon.svg', 'favicon.svg'],
       manifest: {
         name: 'Brandenburg Fishing Exam Study',
@@ -56,7 +56,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,json}'],
       },
       devOptions: {
-        enabled: true,
+        enabled: false,
       },
     }),
   ],

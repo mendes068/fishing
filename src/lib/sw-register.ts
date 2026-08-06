@@ -2,9 +2,9 @@ import { useRegisterSW } from 'virtual:pwa-register/react'
 
 /**
  * Central service-worker registration via workbox-window (vite-plugin-pwa's
- * `virtual:pwa-register/react`). With `registerType: 'autoUpdate'` the SW
- * self-updates on next load; this hook exposes the `needRefresh` flag so the
- * app can show a "new version available — refresh" banner via UpdateBanner.
+ * `virtual:pwa-register/react`). Uses `registerType: 'prompt'` so the app
+ * controls when to apply updates — the UpdateBanner shows a "new version
+ * available" message with Refresh / Dismiss buttons.
  */
 export function useServiceWorkerRegistration() {
   return useRegisterSW({

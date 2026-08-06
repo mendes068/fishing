@@ -34,7 +34,17 @@ export const useQuestionStore = create<QuestionState>()(
       categoryFilter: 'all',
       answeredIds: [],
       setQuestions: (questions) => set({ questions }),
-      setOrder: (order) => set({ order, currentIndex: 0 }),
+      setOrder: (order) =>
+        set((s) => {
+          if (s.order === order) return {}
+          const sameContent =
+            s.order.length === order.length &&
+            s.order.every((id, i) => id === order[i])
+          return {
+            order,
+            currentIndex: sameContent ? s.currentIndex : 0,
+          }
+        }),
       shuffle: () =>
         set((s) => {
           const arr = [...s.order]
@@ -77,7 +87,6 @@ export const useQuestionStore = create<QuestionState>()(
       partialize: (s) => ({
         mode: s.mode,
         categoryFilter: s.categoryFilter,
-        currentIndex: s.currentIndex,
       }),
     },
   ),

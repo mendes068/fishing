@@ -197,7 +197,14 @@ export default function Study() {
     if (allQuestions) {
       setQuestions(allQuestions)
     }
-    setOrder(derivedOrder)
+
+    const storeOrder = useQuestionStore.getState().order
+    const sameContent =
+      storeOrder.length === derivedOrder.length &&
+      storeOrder.every((id, i) => id === derivedOrder[i])
+    if (!sameContent) {
+      setOrder(derivedOrder)
+    }
   }, [allQuestions, derivedOrder, setQuestions, setOrder])
 
   // --- Current question (reactive) -----------------------------------------

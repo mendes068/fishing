@@ -14,8 +14,11 @@ import { Button } from '@/components/ui/button'
  */
 export function UpdateBanner() {
   const { t } = useTranslation()
-  const { offlineReady, needRefresh, updateServiceWorker } =
-    useServiceWorkerRegistration()
+  const {
+    offlineReady: [offlineReady],
+    needRefresh: [needRefresh, setNeedRefresh],
+    updateServiceWorker,
+  } = useServiceWorkerRegistration()
 
   const show = offlineReady || needRefresh
 
@@ -41,7 +44,7 @@ export function UpdateBanner() {
             <Button
               size="sm"
               variant="ghost"
-              onClick={() => updateServiceWorker(false)}
+              onClick={() => setNeedRefresh(false)}
             >
               {t('pwa.dismiss')}
             </Button>

@@ -79,7 +79,7 @@ describe('store persistence smoke test', () => {
     const parsed = JSON.parse(raw!)
     expect(parsed.state.mode).toBe('random')
     expect(parsed.state.categoryFilter).toBe('pflege_der_fischgewaesser')
-    expect(parsed.state.currentIndex).toBe(0) // wraps around len 1
+    expect(parsed.state.currentIndex).toBeUndefined()
     expect(parsed.state.questions).toBeUndefined()
     expect(parsed.state.order).toBeUndefined()
     expect(parsed.state.answeredIds).toBeUndefined()
